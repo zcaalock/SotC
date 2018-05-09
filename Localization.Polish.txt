@@ -1,5 +1,5 @@
 .,Polish
-quest.name,Pieśń wybrzerza
+quest.name,Pieśń wybrzeża
 quest.description,Rozwiąż zagadkę zaginięcia Johna. 
 quest.authors,zcaalock
 Token01_boy_body.button1,{action}Zbadaj
@@ -8,10 +8,10 @@ TokenInvestigators.text,Tu zaczynacie
 Event04_investigators.button1,Kontynuuj
 Event01_show_cave_enter_tile.button1,Kontynuuj
 Event04_investigators.text,Wchodzicie przedzierając się przez chaszcze.
-Event03_take_watch.text,Widzisz ładny grawerowany zegarek. Możesz go dokładnie zbadać używając menu inwentarza.
+Event03_take_watch.text,Widzisz ładny grawerowany zegarek. Możesz go dokładnie zbadać używając menu inwentarza.\n(Otrzymujesz 1 wskazówkę {clue}) 
 Event03_take_watch.button1,Kontynuuj
 Tokencave_shelter_show.text,Korytarz ciągnie się dalej w kierunku wschodnim. 
-Token01_boy_body.text,W tym miejscu odnaleziono zwłoki chłopca. Z raportu koronera wynika, że chłopiec umarł na skutek spaleania części potylicznej czaski. Chłopiec był ubranyw strój, który przypomina te z czasów wojny secesyjnej. Wiek chłopca to ok. 10 lat, czyli taki jak poszukiwanego Johna. Tożsamość martwego chłopca nie została potwierdzona, nikt nie zgłosił zaginięcia kolejnego chłopca w tej okolicy. Po obejrzeinu sceny rzuca ci się w oczy coś błyszczącego w słońcu. \n
+Token01_boy_body.text,W tym miejscu odnaleziono zwłoki chłopca. Po obejrzeinu sceny rzuca ci się w oczy coś błyszczącego w słońcu. \n
 Eventshow_cave_enter_token.text,W oddali widzicie wejście wykute w skałach. Wygląda jak jakiś stara kopalnia.
 TokenInvestigators.button1,Kontynuuj
 Tokencave_shelter_show.button1,Odkryj
@@ -103,8 +103,7 @@ Eventmessage_from_past.button1,Kontynuuj
 Eventmessage_from_past_1.text,"Z trudnością odczytujesz wiadomość: ""K..dykol.k to od..ytas. uratu. .as"". Nie masz pojęcia co to ma znaczyć."
 Eventmessage_from_past_1.button1,Kontynuuj
 Tokenend_game_alone.button1,{action}Wyjdź
-Eventend_game_alone.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświeciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca. Do końca życia sobie nie wybaczyłeś tego, że ich tam zostawiłeś.
-Eventend_game_alone.button1,Kontynuuj
+Eventend_game_03_alone.button1,Kontynuuj
 Eventgo_to_future_.button3,Czekaj na resztę
 Event_back_in_future_all.text,Niezgrabnie wychodzicie w tym samym cuchnącym miejscu w kopalni do którego weszliście kilka godzin temu. Dookoła są rozrzucone śmieci
 Event_back_in_future_all.button1,Kontynuuj
@@ -146,8 +145,8 @@ Eventpast_mine_tunel_right_items_show.text,Na ziemi widzisz ciągnące się wsz�
 Eventpast_mine_tunel_right_items_show.button1,Kontynuuj
 Tokenpast_mine_right_tunnel_dynamite.text,Plontanina dziwnych cienkich lin.
 Tokenpast_mine_right_tunnel_dynamite.button1,{action} Zbadaj
-Eventpast_dynamite.text,Ku swojemu zdziwieniu odkrywasz, że to są laski dynamitu przyczepione do belek trzymających strop. Otrzymujesz 1 wskazówkę({clue}). Możesz wziąć 1 laskę dynamitu ze sobą({observation}).
-Eventpast_dynamite.button1,Sukces
+Eventpast_dynamite.text,Ku swojemu zdziwieniu odkrywasz, że to są laski dynamitu przyczepione do belek trzymających strop. Otrzymujesz 1 wskazówkę({clue}). Możesz wziąć 1 laskę dynamitu ze sobą (test: {observation}).
+Eventpast_dynamite.button1,Sprawdź
 Tokenpast_tunel_right_end.button1,Odkryj
 Tokenpast_tunel_door.text,Ciężkie metalowe drzwi. Żeby je otworzyć potrzebny jest srebry klucz.
 Tokenpast_tunel_right_end.text,Tunel biegnie dalej w tym kierunku.
@@ -169,7 +168,7 @@ Eventend_game_question_john.text,Czy John jest z tobą?
 Eventend_game_question_john.button2,Nie
 Eventend_game_alone_with_john.button1,Kontynuuj
 Eventend_game_all_with_jone.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się wyjaśnić śmierci znalezionego chłopca. Na szczęście John jest cały. Do końca życia każdy z was się zastanawia co własciwie się stało tego deszczowego dnia kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło na prawdę?
-Eventend_game_alone_without_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświeciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca. Do końca życia sobie nie wybaczyłeś tego, że ich tam zostawiłeś. Najbardziej Ci brak Johna, często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
+Eventend_game_alone_without_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświeciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca. Do końca życia sobie nie wybaczyłeś tego, że ich tam zostawiłeś. Najbardziej Ci żal Johna, często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
 Eventend_game_alone_without_john.button1,Kontynuuj
 Eventend_game_all_with_john.text,Wychodzicie z kopalni. Niestety nie udało wam się się rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje wam spokoju to, że wydaje się wam, że to był ten sam chłopiec którego widzieliście tam wśród tej okrpnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Ale czy to na prawdę się wydarzyło? Na szczęście John jest bezpieczny. 
 Eventend_game_all_with_john.button1,Kontynuuj
@@ -268,11 +267,11 @@ Eventmiddle_room_show1.text,W dalszej cześci pokokju widzisz dwoje drzwi i ster
 Eventmiddle_room_show1.button1,Kontynuuj
 Tokenenter_to_church_corridor.text,Drzwi prowadzące na wschód.
 Tokenenter_to_church_corridor.button1,{action} Otwórz
-Eventcorridor_to_church_reveal.text,Drzwi się otwierają. Widzisz ładną klatkę schodową wyłożoną czerwonym dywanem. Strome schody prowadzą w górę, na końcu widać kolejne drzwi.\n(Umieść: {Tilestairs_up} na planszy)
+Eventcorridor_to_church_reveal.text,Drzwi się otwierają. Widzisz ładną klatkę schodową wyłożoną czerwonym dywanem. Strome schody prowadzą w górę, na końcu widać kolejne drzwi.\n(Umieść: {c:Tilestairs_up} na planszy)
 Eventcorridor_to_church_reveal.button1,Kontynuuj
 Tokenpast_church_enter.text,Drewniane, zdobione drzwi.
 Tokenpast_church_enter.button1,{action} Zbadaj
-Tokenpast_church_enter.button2,{action} Otwórz
+Tokenpast_church_enter.button2,{action} Wejdź
 Tokenpick_axe_room.text,Drewniane drzwi. Prowadzą na południe.
 Tokenpick_axe_room.button1,{action} Otwórz
 Eventaxe_room_reveal.text,Po otwarciu drzwi widzisz wąskie pomieszczenie. Dwie lampy naftowe oświetlają duze prostokątne pojemniki. \nNa końcu pokoju widzisz człowieka, który się po coś schyla\n(Umieść: {c:Tileaxe_room} na planszy)
@@ -318,20 +317,20 @@ Tokenminer_body_empty.text,Ciało górnika.
 Tokenminer_body_empty.button1,Kontynuuj
 Eventchurch_reveal_from_doors.text,Przez dziurkę od klucza widzisz duże pomieszczenie, wydaje się znajome, jakbyś tu już kiedyś był. Wygląda na nowo wybudowany kościół. Na ławkach siedzą ludzie, przy ołtarzu stoi bardzo wysoki i dobrze zbudowany mężczyzna, a na ołtarzu.. próbujesz się przypatrzeć ale nie dasz rady z tej odległości.\n(Umieść: {Tilechurch} na planszy)
 Eventchurch_reveal_from_doors.button1,Otwórz drzwi
-Tokenchurch_crowd.text,cii.. słuchaj kazania..
+Tokenchurch_crowd.text,..wierni z uwagą słuchają kazania
 Tokenchurch_crowd.button1,Kontynuuj
-Tokenchurch_crowd_1.text,..nie przeskadzaj słucham..
+Tokenchurch_crowd_1.text,..wierni z uwagą słuchają kazania
 Tokenchurch_crowd_1.button1,Kontynuuj
 Eventchurch_reveal_from_doors.button2,Zaczekaj
-Eventopen_door_to_church.text,Drzwi się cicho otwierają.
-Eventopen_door_to_church.button1,Kontynuuj
+Eventopen_door_to_church.text,Drzwi się cicho otwierają i wchodzisz do środka. Słyszysz przemówienie pastora o końcu świata.
+Eventopen_door_to_church.button1,Zatakuj pastora
 Eventchurch_reveal_from_secret.text,Przechodzisz przez ciemny tunel, który pnie się do góry. Na końcu dochodzisz do drewnianej klapy, uchylasz ją lekko i przez szparę widzisz duże pomieszczenie, wydaje się znajome, jakbyś tu już kiedyś był. Wygląda na nowo wybudowany kościół. Na ławkach siedzą ludzie, przy ołtarzu stoi bardzo wysoki i dobrze zbudowany mężczyzna, a na ołtarzu.. próbujesz się przypatrzeć... ale widzisz tylko nogi. Wyglądają na nogi małego chłopca...\nChyba można by ich zaskoczyć w wybuchowy sposób..\n(Umieść: {c:Tilechurch} na planszy)
 Eventchurch_reveal_from_secret.button1,Kontynuuj
 Eventset_dynamite.text,To powinno ich zaskoczyć..\nPodpalasz ląt, wrzucasz przez szparę do kapilicy i uciekasz przez tunel.
 Eventset_dynamite.button1,Kontynuuj
-Tokenevan_body.text,Evan
-Tokenevan_body.button1,Kontynuuj
-Eventchurch_explode.text,explozja
+Tokenevan_body.text,Ciało chłopca. Ma nadpaloną głowę.
+Tokenevan_body.button1,{action} Zbadaj
+Eventchurch_explode.text,Explozja!!\nWszyscy poszukiwacze na polu {c:Tilechurch} otrzymują obrażenia od dynamitu.
 Eventchurch_explode.button1,Kontynuuj
 Eventdynamite_from_body.text,Obok ciała znajdujesz 
 Eventdynamite_from_body.button1,Kontynuuj
@@ -375,11 +374,56 @@ Tokenfurue_book_shelf.text,Półka z książkami.
 Tokenfurue_book_shelf.button1,{action} Zbadaj
 Eventfuture_books.text,"Widzisz dużo grubych książek, każda jest podpisana ""Dziennik prac. Kopalnia miedzi"" Daty są od 1800 do 1900 roku. Brakuje dziennika z 1850-1855. W środku są tabele z nazwiskami, datami i ilością wydobytego urobku. (Otrzymujesz 1 wskazówkę {clue})"
 Eventfuture_books.button1,Kontynuuj
-Eventjulie_talk.text,Cieszę się, że przyszliście mi pomóc. Jak zapewne wiesz mój syn zaginął kilka dni temu. Policja jest bezradna, nie udało im się znaleźć żadnego tropu. Dowiedziałam się, że w pobliskim lesie znaleziono ciało jakiegoś chłopca. Na szczęście to nie był mój syn. Policja nie łączy tych dwóch spraw ale ja zaczynam mieć bardzo złe przeczucia. Proszę was idźcie w to miejsce. Po drodze przeczytajcie raport koronera, który udało mi się podkraść z komisariatu.\nPowodzenia. \n(Wszyscy poszukiwacze otrzymują po 1 wskazówce {clue})
+Eventjulie_talk.text,Cieszę się, że przyszliście mi pomóc. Jak zapewne wiesz mój syn zaginął kilka dni temu. Policja jest bezradna, nie udało im się znaleźć żadnego tropu. Dowiedziałam się, że w pobliskim lesie znaleziono ciało jakiegoś chłopca. Na szczęście to nie był mój syn. Policja nie łączy tych dwóch spraw ale ja zaczynam mieć bardzo złe przeczucia. Proszę was idźcie w to miejsce. Po drodze przeczytajcie raport koronera, którego zdjęcie zrobiłam u koronera.\nPowodzenia. \n(Wszyscy poszukiwacze otrzymują po 1 wskazówce {clue})
 Eventjulie_talk.button1,Kontynuuj
-Eventjulie_talk_1.text,Kobieta wstaje. Ocierając chusteczką oczy i wychodzi przez drzwi.
+Eventjulie_talk_1.text,Kobieta wstaje. Ociera chusteczką oczy i wychodzi przez drzwi.
 Eventjulie_talk_1.button1,Kontynuuj
 EventSTART_GAME.button1,Kontynuuj
 Eventui_open.button1,Kontynuuj
 UI2.button1,Przycisk1
 EventSTART_GAME.text,Poszukiwacze zaczynają bez żadnych wskazówek.
+Eventend_game_03_alone.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświeciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy zaginięcia chłopca. Do końca życia sobie nie wybaczyłeś tego, że ich tam zostawiłeś.
+Eventpast_dynamite.button3,Anuluj
+Eventopen_door_to_church.button2,Posłuchaj kazania
+Eventchurch_event_1.text,"""...niec świata nadchodzi. Sąd ostateczny się zbliża"" - głośno mówi pastor z charakterystyczną u kaznodziei pewnością i agresją. ""Dowód na to widzicie przed sobą."" - ludzie wyciągają głowy żeby lepiej widzieć, niektórzy głośno wzdychają, jedna kobieta zaczyna płakać.. ""To, oto dziecko, ofiara świata i demonów musi ponieść ofiarę razem z nami!"" - krzyczy pastor. ""Ejmen"" - chórem odpowiadają wierni."
+Eventchurch_event_1.button1,Kontynuuj
+Tokenevan_alive_questionmark.button1,{action} podejdź udając, że się modlisz
+Tokenevan_alive.text,Chłopiec leży nieprzytomny
+Eventevan_alive_menu.text,"Z przerażeniem stwierdzasz, że ten chłopiec wygląda identycznie jak ten którego znaleźli policjanci, z tą róznicą, że żyje i nie ma obrażeń głowy. ""Co tu się dzieje?"" - cicho wyszeptujesz.\nOtrzymujesz 1 zakrytą kartę przerażenia."
+Eventevan_alive_menu.button1,Kontynuuj
+Tokenevan_alive_questionmark.text,Dziecko leżące na kamiennym ołtarzu. 
+Tokenevan_alive.button1,Kontynuuj
+Tokencarl.text,Pastor przemawia... Jest wysoki i muskularny, bije od niego pewność siebie i groza. Lepiej mu nie przeszkadzać.
+Tokencarl.button1,Kontynuuj
+Eventchurch_event_2.text,"...""świat jest zepsuty do szpiku kości! Gwałty, morderstwa. Nasz Pan się zbliża! Ajmen!"" - krzyczy pastor.\n\nCała ta sytuacja coraz bardziej cię niepokoi, gorączkowo myślisz o tym jak z tego wybrnąć. Może da się jakoś odwrócić ich uwagę..."
+Eventchurch_event_2.button1,Kontynuuj
+Event_body_raport.button1,Kontynuuj
+Event_carl_event.text,Ogromna eksplozja powaliła wszystkich zebranych w kaplicy. Nie wiadomo czy ktoś przeżył...\nPo chwili gdy uporczywy pisk w twoich uszach zaczyna się zmniejszać słyszysz, że w rumowisku ławek i ciał coś się rusza.
+Event_body_raport.text,Z raportu koronera wynika, że chłopiec umarł na skutek spaleania części potylicznej czaski. Chłopiec był ubranyw strój, który przypomina te z czasów wojny secesyjnej. Wiek chłopca to ok. 10 lat, czyli taki jak poszukiwanego Johna. Tożsamość martwego chłopca nie została potwierdzona, nikt nie zgłosił zaginięcia kolejnego chłopca w tej okolicy
+Event_carl_event.button1,Kontynuuj
+Tokendebris.text,Rumowisko z ławek i ciał.
+Tokendebris.button1,Kontynuuj
+Tokenderbis_1.text,Rumowisko z ławek i ciał.
+Tokenderbis_1.button1,Kontynuuj
+Tokencarl_body.text,Pastor, wydaje się ledwo żywy..
+Tokencarl_body.button1,Zaatakuj {action}
+Event_evan_body.text,Z przerażeniem zdajesz sobie sprawę, że to jest ten sam chłopiec, którym czytałeś w raporcie koronera, ma to samo  ubranie i takie same obrażenia. \nTwój umysł nie jest w stanie tego zrozumieć. Otrzymujesz 2 zakryte karty przerażenia,
+Event_evan_body.button1,Kontynuuj
+Event_carl_event_1.text,Pastor mimo, że otrzymał ogromne obrażenia powoli wstaje, a jego ciało się zmienia... słyszysz przerażający krzyk przemiany w potwora. Wszyscy poszukiwacze na polu {c:Tilechurch} otrzymują 1 kartę przerażenia.
+Event_carl_event_1.button1,Kontynuuj
+Spawn_carl_monster.text,mogliście zostać w swoich czasach..
+Spawn_carl_monster.button1,Kontynuuj
+Token_carl_monster.text,...mogliście zostać w swoich czasach
+Token_carl_monster.button1,Kontynuuj
+Event_carl_monster_dead.text,Potwór ginie, a raczej rozpływa się w powietrzu. Na ziemi zostają jego poszarpane ubrania i srebrny klucz
+Event_carl_monster_dead.button1,Kontynuuj
+Event_silver_key.text,Srebrny klucz
+Event_silver_key.button1,Kontynuuj
+Event_dynamite_inventory.text,Dynamit, można nim coś wysadzić.
+Event_dynamite_inventory.button1,Kontynuuj
+Event_carl_run.text,Nachodzi was przeczucie, że trzeba jak naszybciej opuścić to miejsce.
+Event_carl_run.button1,Kontynuuj
+Event_carl_run_1.text,Carl nagle materializuje się na ołtarzu...
+Event_carl_run_1.button1,Kontynuuj
+Event_carl_run_2.text,...zabiera ciało chłopca i ucieka w stronę kopalni... 
+Event_carl_run_2.button1,Kontynuuj
