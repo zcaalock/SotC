@@ -38,8 +38,8 @@ Evententer_to_shelter.text,Wchodzisz do cuchnącego stęchlizną i ziemią pomie
 Evententer_to_shelter.button1,Kontynuuj
 Eventshow_lamp_token.text,Lampa naftowa wisi na haku.
 Eventshow_lamp_token.button1,Kontynuuj
-Tokencave_lamp.text,Lampa naftowa. Możesz ją zabrać
-Tokencave_lamp.button1,Kontynuuj
+Tokencave_lamp.text,Lampa naftowa.
+Tokencave_lamp.button1,{action} Zabierz
 Tokenshelter_bed.text,Stare cuchnące łóżno. 
 Tokenshelter_bed.button1,{action} Zbadaj 
 EventShelter_old_bed.text,Wygląda na to, że przed laty spali tu górnicy. Przyglądasz się drewnianej konstrukcji łóżka i dostrzegasz setki drobnych kresek wyrytych na powierzchni. Są zgrupowane po 6 i jedna przekreśla resztę. Zdobywasz 1 wskazówkę.
@@ -167,7 +167,7 @@ Eventend_game_alone_with_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy 
 Eventend_game_question_john.text,Czy John jest z tobą?
 Eventend_game_question_john.button2,Nie
 Eventend_game_alone_with_john.button1,Kontynuuj
-Eventend_game_all_with_jone.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się wyjaśnić śmierci znalezionego chłopca. Na szczęście John jest cały. Do końca życia każdy z was się zastanawia co własciwie się stało tego deszczowego dnia kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło na prawdę?
+Eventend_game_all_without_john.button1,Kontynuuj
 Eventend_game_alone_without_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświeciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca. Do końca życia sobie nie wybaczyłeś tego, że ich tam zostawiłeś. Najbardziej Ci żal Johna, często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
 Eventend_game_alone_without_john.button1,Kontynuuj
 Eventend_game_all_with_john.text,Wychodzicie z kopalni. Niestety nie udało wam się się rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje wam spokoju to, że wydaje się wam, że to był ten sam chłopiec którego widzieliście tam wśród tej okrpnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Ale czy to na prawdę się wydarzyło? Na szczęście John jest bezpieczny. 
@@ -215,7 +215,7 @@ Eventpast_end_john_4.button1,Kontynuuj
 Eventpast_ednding_middle_john.text,Z głębi tunelu słyszysz jakieś krzyki. Szata potwora zapala się od ognia. Wszystko zaczyna palić się jak pochodnia. Ogień doszedł do lontu i za chwile wszystko wybuchnie. Macie ostatnią szansę na ucieczkę. 
 Eventpast_ednding_middle_john.button1,Kontynuuj
 Eventend_game_question_john.button1,Tak
-Eventend_game_all_with_jone.button1,Kontynuuj
+Eventend_game_all_without_john.text,Wychodzicie z kopalni. Nie udało wam się rozwiązać tajemnicy morderstwa chłopca. Do końca życia sobie nie wybaczyliście także tego, że zostawiliście tam Johna.\n\n Najbardziej ci go żal, często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
 Tokenpast_papers.text,Stos gazet.
 Tokenpast_papers.button1,{action} Przeczytaj
 Eventpast_newspaper_president.button1,Czytaj inną
@@ -427,3 +427,14 @@ Event_carl_run_1.text,Carl nagle materializuje się na ołtarzu...
 Event_carl_run_1.button1,Kontynuuj
 Event_carl_run_2.text,...zabiera ciało chłopca i ucieka w stronę kopalni... 
 Event_carl_run_2.button1,Kontynuuj
+Event_lamp.button1,Kontynuuj
+Event_lamp.text,{c:QItemlamp}
+Eventchurch_event_3.text,"""Dzisiaj złożymy wielką ofiarę aby przebłagać naszego pana. Musimy poświęcić to co dla nas najważniejsze, dlatego każdy z was..."" pastor mówi podniesionym głosem rozglądając się po kościele, nagle urywa zdanie gdy dostrzega ciebie."
+Eventchurch_event_3.button1,Kontynuuj
+Eventchurch_event_question.text,A ty kim jestes?
+Eventchurch_event_question.button1,Kontynuuj
+Event_church_event_with_dynamite.text,To jeden z naszych, kazałem mu przynieść dynamit. Masz go?
+Event_church_event_with_dynamite.button1,Daj dynamit
+Event_church_event_with_dynamite.button2,Nie mam
+Eventchurch_event_give_dynamite.text,Świetnie, w takim razie możemy zacząć naszą ofiarę. Pastor bierze od ciebie dynamit.
+Eventchurch_event_give_dynamite.button1,Kontynuuj
