@@ -28,7 +28,7 @@ Eventshow_observe_cave.text,Tunel niknie w ciemności
 Eventshow_observe_cave.button1,Kontynuuj
 Eventshow_mine_end.text,W tym miescu tunel jest zasypany. Nie masz szans się dalej przedostać.
 Eventshow_mine_end.button1,Kontynuuj
-Tokenend_of_tunel.button1,Kontynuuj
+Tokenend_of_tunel.button1,{action} Zbadaj
 Eventshow_shelter_token.text,W tym miejscu znajdują się drewniane drzwi.
 Tokenend_of_tunel.text,Tunel jest całkiem zasypany. Nie ma przejścia
 Eventshow_shelter_token.button1,Kontynuuj
@@ -125,8 +125,7 @@ Eventthe_end.text,Koniec
 Eventthe_end.button1,Kontynuuj
 Eventpast_shelf_in_shelter.text,Zaczynasz przyglądać się z uwagą rzeczom na półce, są tam różne ksiązki religijne. Jedna z nich cię zaciekawiła, jest oprawiona w dziwną skórę, trochę wygląda jak ludzka. Wyciągasz rękę, żeby ją zabrać gdy nagle...
 Eventpast_shelf_in_shelter_all.button1,Kontynuuj
-Spawnpast_enemy1.text,Drzwi są otwarte. Przed chwilą ktoś nimi znokautował jednego z was. Zakapturzona postać wchodzi do pomieszczenia
-Spawnpast_enemy1.button1,Kontynuuj
+Spawncultist.button1,Kontynuuj
 Eventpast_mine_show.text,Za przeciwnikiem widać jakieś słabo oświetlone pomieszczenie. Wygląda jak jakaś jaskinia albo kopalnia.\n(Umieść: {c:Tile03_cave_shelter} na planszy)
 Eventpast_mine_show.button1,Kontynuuj
 Tokenpast_mine_show_left.text,Korytarz prowadzi dalej w tę stronę.
@@ -158,9 +157,9 @@ Eventpast_boy_room_reveal.button1,Kontynuuj
 Eventpast_boy_found.text,Na łóżku leży jakas postać. Po dokładnym przyjżeniu się stwierdzasz, że to mały John. Widać, że jest w kiepskim stanie ale przynajmniej żyje.
 Eventpast_boy_found.button1,Kontynuuj
 TokenJohn.text,Podchodzisz do dziecka i widzisz jak powoli otwiera oczy.
-TokenJohn.button1,Jak się czujesz?
-TokenJohn.button2,Jak się tu znalazłeś?
-TokenJohn.button3,Nic nie mów, zaraz cię stąd zabiorę.
+TokenJohn.button1,{action} Jak się czujesz?
+TokenJohn.button2,{action} Jak się tu znalazłeś?
+TokenJohn.button3,{action} Nic nie mów, zaraz cię stąd zabiorę.
 Eventtake_john.text,Bierzesz Johna na ręce. Od tej chwili do momentu, aż zostawisz Johna możesz wykonac tylko jedną akcję na turę. 
 Eventtake_john.button1,Kontynuuj
 Eventend_game_alone_with_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświęciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje ci spokoju to, że wydaje ci się, że to był ten sam chłopiec którego widziałeś tam wśród tej okrpnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Do końca życia sobie nie wybaczysz tego, że zostawiłeś tam swoich przyjaciół. Ale czy to na prawdę się wydarzyło? Jedyne co cię pociesza to to, że John jest bezpieczny. Ostatnio coraz rzadziej cię odwiedza sanatorium... patrzysz zamyślony przez zakratowane okno jak nad Arkham zachodzi słońce.
@@ -303,8 +302,8 @@ Eventgive_dynamite.text,"""Świetnie. Idę go zanieść pastorowi, a ty się st�
 Eventgive_dynamite.button1,Kontynuuj
 Eventno_dynamite.text,Głupcze. Jesteś bezużyteczny jeśli nawet tak prostego zadania nie umiesz wykonać. Będę musiał sam tam iść...\n..ale wcześniej...
 Eventno_dynamite.button1,Kontynuuj
-Eventfrom_church.text,"""Ah.. z kościoła. Dobrze."" - mężczyzna wydaje się zmieszany. ""W takim razie idź szybko znajdz tego górnika, którego pastor wysłał po dynamit i nam go przynieś.."" - po chwili zastanowienia dodaje ""dynamit nie górnika"". Po czym wraca przez drzwi, którymi przyszedł."
-Eventfrom_church.button1,Kontynuuj
+Event_dynamite_quest.button1,Kontynuuj
+Event_carl_ask_about_dynamite.button1,Kontynuuj
 Tokenminer_body.text,W rogu widzisz schylającego się człowieka.
 Tokenminer_body.button1,Zagadaj
 Eventminer_body.text,Próbujesz coś powiedzieć do człowieka ale wydaje się, że cię nie słyszy. Podchodzisz do niego i lekko klepiesz go po ramieniu...
@@ -315,7 +314,7 @@ Eventminer_body_2.text,Domyślasz się, że górnik po coś się schylał i musi
 Eventminer_body_2.button1,Kontynuuj
 Tokenminer_body_empty.text,Ciało górnika.
 Tokenminer_body_empty.button1,Kontynuuj
-Eventchurch_reveal_from_doors.text,Przez dziurkę od klucza widzisz duże pomieszczenie, wydaje się znajome, jakbyś tu już kiedyś był. Wygląda na nowo wybudowany kościół. Na ławkach siedzą ludzie, przy ołtarzu stoi bardzo wysoki i dobrze zbudowany mężczyzna, a na ołtarzu.. próbujesz się przypatrzeć ale nie dasz rady z tej odległości.\n(Umieść: {Tilechurch} na planszy)
+Eventchurch_reveal_from_doors.text,Przez dziurkę od klucza widzisz duże pomieszczenie, wydaje się znajome, jakbyś tu już kiedyś był. Wygląda na nowo wybudowany kościół. Na ławkach siedzą ludzie, przy ołtarzu stoi bardzo wysoki i dobrze zbudowany mężczyzna, a na ołtarzu.. próbujesz się przypatrzeć ale nie dasz rady z tej odległości.\n(Umieść: {c:Tilechurch} na planszy)
 Eventchurch_reveal_from_doors.button1,Otwórz drzwi
 Tokenchurch_crowd.text,..wierni z uwagą słuchają kazania
 Tokenchurch_crowd.button1,Kontynuuj
@@ -387,14 +386,14 @@ Eventpast_dynamite.button3,Anuluj
 Eventopen_door_to_church.button2,Posłuchaj kazania
 Eventchurch_event_1.text,"""...niec świata nadchodzi. Sąd ostateczny się zbliża"" - głośno mówi pastor z charakterystyczną u kaznodziei pewnością i agresją. ""Dowód na to widzicie przed sobą."" - ludzie wyciągają głowy żeby lepiej widzieć, niektórzy głośno wzdychają, jedna kobieta zaczyna płakać.. ""To, oto dziecko, ofiara świata i demonów musi ponieść ofiarę razem z nami!"" - krzyczy pastor. ""Ejmen"" - chórem odpowiadają wierni."
 Eventchurch_event_1.button1,Kontynuuj
-Tokenevan_alive_questionmark.button1,{action} podejdź udając, że się modlisz
+Tokenevan_alive_questionmark.button1,{action} Zbadaj
 Tokenevan_alive.text,Chłopiec leży nieprzytomny
 Eventevan_alive_menu.text,"Z przerażeniem stwierdzasz, że ten chłopiec wygląda identycznie jak ten którego znaleźli policjanci, z tą róznicą, że żyje i nie ma obrażeń głowy. ""Co tu się dzieje?"" - cicho wyszeptujesz.\nOtrzymujesz 1 zakrytą kartę przerażenia."
 Eventevan_alive_menu.button1,Kontynuuj
 Tokenevan_alive_questionmark.text,Dziecko leżące na kamiennym ołtarzu. 
 Tokenevan_alive.button1,Kontynuuj
 Tokencarl.text,Pastor przemawia... Jest wysoki i muskularny, bije od niego pewność siebie i groza. Lepiej mu nie przeszkadzać.
-Tokencarl.button1,Kontynuuj
+Tokencarl.button1,{action} Zaatakuj
 Eventchurch_event_2.text,"...""świat jest zepsuty do szpiku kości! Gwałty, morderstwa. Nasz Pan się zbliża! Ajmen!"" - krzyczy pastor.\n\nCała ta sytuacja coraz bardziej cię niepokoi, gorączkowo myślisz o tym jak z tego wybrnąć. Może da się jakoś odwrócić ich uwagę..."
 Eventchurch_event_2.button1,Kontynuuj
 Event_body_raport.button1,Kontynuuj
@@ -415,7 +414,7 @@ Spawn_carl_monster.text,mogliście zostać w swoich czasach..
 Spawn_carl_monster.button1,Kontynuuj
 Token_carl_monster.text,...mogliście zostać w swoich czasach
 Token_carl_monster.button1,Kontynuuj
-Event_carl_monster_dead.text,Potwór ginie, a raczej rozpływa się w powietrzu. Na ziemi zostają jego poszarpane ubrania i srebrny klucz
+Event_carl_monster_dead.text,Potwór ginie, a raczej rozpływa się w powietrzu. Na ziemi zostają jego poszarpane ubrania i srebrny klucz. Otrzymujesz {c:QItem_silver_key}
 Event_carl_monster_dead.button1,Kontynuuj
 Event_silver_key.text,Srebrny klucz
 Event_silver_key.button1,Kontynuuj
@@ -431,10 +430,38 @@ Event_lamp.button1,Kontynuuj
 Event_lamp.text,{c:QItemlamp}
 Eventchurch_event_3.text,"""Dzisiaj złożymy wielką ofiarę aby przebłagać naszego pana. Musimy poświęcić to co dla nas najważniejsze, dlatego każdy z was..."" pastor mówi podniesionym głosem rozglądając się po kościele, nagle urywa zdanie gdy dostrzega ciebie."
 Eventchurch_event_3.button1,Kontynuuj
-Eventchurch_event_question.text,A ty kim jestes?
+Eventchurch_event_question.text,Kim jesteś?
 Eventchurch_event_question.button1,Kontynuuj
-Event_church_event_with_dynamite.text,To jeden z naszych, kazałem mu przynieść dynamit. Masz go?
+Event_church_event_with_dynamite.text,To jeden z naszych, kazałem mu przynieść dynamit. Przyniosłeś?
 Event_church_event_with_dynamite.button1,Daj dynamit
 Event_church_event_with_dynamite.button2,Nie mam
 Eventchurch_event_give_dynamite.text,Świetnie, w takim razie możemy zacząć naszą ofiarę. Pastor bierze od ciebie dynamit.
 Eventchurch_event_give_dynamite.button1,Kontynuuj
+Eventchurch_event_0.text,Wchodzisz do kaplicy. Z pewnością jest to kaplica, w której spotkaliście się z matką zaginionego Johna ale wygląda inaczej. Jest nowa, zadnbana. Nie ma śladów po pożarze. Ale przecież to niemożliwe, czyżbyś zaczął tracić zmysły? Powoli przechodzisz obok ludzi, próbując nie zwracać na siebię uwagi.\n\n Otrzymujesz 1 zakrytą kartę przerażenia. 
+Eventchurch_event_0.button1,Kontynuuj
+Token_carl_waiting_for_dynamite.text,Pastor przemawia..
+Event_dynamite_quest.text,"""Ah.. z kościoła. Dobrze."" - mężczyzna wydaje się zmieszany. ""W takim razie idź szybko znajdz tego górnika, którego pastor wysłał po dynamit i nam go przynieś.."" - po chwili zastanowienia dodaje ""dynamit nie górnika"". Po czym wraca skąd przyszedł."
+Event_carl_ask_about_dynamite.text,"""Niedawno zostałem przyjęty do kościoła"" - szybko zmyślasz odpowiedź."
+Token_carl_waiting_for_dynamite.button1,{action} Daj mu dynamit
+Event_john_feel.text,"Patrzysz w przerażone oczy chłopca.. ""ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?"""
+Event_john_feel.button1,Kontynuuj
+Event_john_how_get_here.text,"""ja, ja bawiłem się w lesie kiedy zobaczyłem tego człowieka. Był wysoki, ciągnął coś za sobą, zostawił to przed wejściem do kopalni w krzakach. Bałem się bardzo ale mnie nie zauważył. Wszedłem do kopalni bo nie chciałem, żeby mnie znalazł.. showałem się w takiej kryjówce w ścianie ale tam była dziura, wpadłem w nią.. potem tylko pamiętam ten pokój. Jestem tu już bardzo długo.."" - widzisz jak oczy chłopca zachodzą łzami."
+Event_john_how_get_here.button1,Kontynuuj
+Event_attack_carl_human.text,Bierzesz wielki metalowy stojak na świecę i z całej siły uderzasz pastora w głowę.
+Event_attack_carl_human.button1,Kontynuuj
+Event_spawn_minions.text,Z przerażeniem zauważasz, że reszta zgromadzonych też się zmienia..
+Event_spawn_minions.button1,Kontynuuj
+Spawnminion1.text,Ajmen.. ajmen.. ajmenn..\nUmieść: {c:Spawnminion1} na planszy
+Spawnminion1.button1,Kontynuuj
+Spawnminion_2.text,aaaajjjmeeeen!!!
+Spawnminion_2.button1,Kontynuuj
+Token_carl_waiting_for_dynamite.button2,{action} Zaatakuj
+Token_spell_book.button1,{action} Weź
+Event_slivering.button1,Kontynuuj
+Event_Machete.text,Przyglądając się stercie gruzu znalazłeś {c:QItemMachete}
+Token_spell_book.text,Widzisz książkę z dziwnymi symbolami oprawioną w skórę.
+Event_slivering.text,Otrzymujesz {c:QItemshriveling}
+Event_Machete.button1,Kontynuuj
+Tokenend_of_tunel_1.text,Nie ma przejścia
+Tokenend_of_tunel_1.button1,Kontynuuj
+Spawncultist.text,Drzwi są otwarte. Przed chwilą ktoś nimi znokautował jednego z was. Zakapturzona postać wchodzi do pomieszczenia
