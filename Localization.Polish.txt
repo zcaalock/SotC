@@ -2,13 +2,13 @@
 quest.name,Pieśń wybrzeża
 quest.description,Rozwiąż zagadkę zaginięcia Johna. 
 quest.authors,zcaalock
-Token01_boy_body.button1,{action}Zbadaj
+Token01_boy_body.button1,({action})Zbadaj
 Event02_show_body_boy.button1,Kontynuuj
 TokenInvestigators.text,Tu zaczynacie
 Event04_investigators.button1,Kontynuuj
 Event01_show_cave_enter_tile.button1,Kontynuuj
 Event04_investigators.text,Wchodzicie przedzierając się przez chaszcze.
-Event03_take_watch.text,Widzisz ładny grawerowany zegarek. Możesz go dokładnie zbadać używając menu inwentarza.\n(Otrzymujesz 1 wskazówkę {clue}) 
+Event03_take_watch.text,Widzisz ładny grawerowany zegarek. Możesz go dokładnie zbadać używając menu inwentarza.\n(Otrzymujesz 1 wskazówkę ({clue})) 
 Event03_take_watch.button1,Kontynuuj
 Tokencave_shelter_show.text,Korytarz ciągnie się dalej w kierunku wschodnim. 
 Token01_boy_body.text,W tym miejscu odnaleziono zwłoki chłopca. Po obejrzeinu sceny rzuca ci się w oczy coś błyszczącego w słońcu. \n
@@ -20,7 +20,7 @@ EventCave_shelter_show.button1,Kontynuuj
 Event01_show_cave_enter_tile.text,Przed wami ukazuje się mała polana w środku lasu. Ziemia jest tu grząska po niedawnej ulewie. Wokół drzew rozwinięta jest taśma policyjna. To tu znaleziono ciało chłopca.\n(Umieść: {c:Tile01_Cave_entrance} na planszy)
 Eventshow_cave_enter_token.button1,Kontynuuj
 Event02_show_body_boy.text,Taśma policyjna ogradza miejsce gdzie znaleziono zwłoki chłopca. Może policjanci coś przeoczyli.
-Token01_cave_enter.button1,{action}Otwórz
+Token01_cave_enter.button1,({action})Otwórz
 Token01_cave_enter.text,Wejście do starej kopalni. Drzwi są drewniane i bardzo masywne ale wygląda na to, że są otwarte
 Eventshow_cave_tile.text,Wchodzisz do starej kopalni, z tego co słyszałeś prawdopodobnie jest z okresu wojny secesyjnej. Cuchnie tu stęchlizną, powietrze jest zastane przez lata. Możesz przesunąć się o jedno pole do środka.\n(Umieść: {c:Tile02_cave_01} na planszy)
 Eventshow_cave_tile.button1,Kontynuuj
@@ -28,32 +28,32 @@ Eventshow_observe_cave.text,Tunel niknie w ciemności
 Eventshow_observe_cave.button1,Kontynuuj
 Eventshow_mine_end.text,W tym miescu tunel jest zasypany. Nie masz szans się dalej przedostać.
 Eventshow_mine_end.button1,Kontynuuj
-Tokenend_of_tunel.button1,{action} Zbadaj
+Tokenend_of_tunel.button1,({action}) Zbadaj
 Eventshow_shelter_token.text,W tym miejscu znajdują się drewniane drzwi.
 Tokenend_of_tunel.text,Tunel jest całkiem zasypany. Nie ma przejścia
 Eventshow_shelter_token.button1,Kontynuuj
 Tokendoor_to_shelter.text,Drewniane drzwi są bardzo zniszczone i ledwo się trzymają w zawiasach. Sądząc po śladach na podłodze, ktoś niedawno tędy przechodził.
-Tokendoor_to_shelter.button1,{action}Wejdź
+Tokendoor_to_shelter.button1,({action})Wejdź
 Evententer_to_shelter.text,Wchodzisz do cuchnącego stęchlizną i ziemią pomieszczenia. Jest tu stare rozwalające się piętrowe łóżko. 
 Evententer_to_shelter.button1,Kontynuuj
 Eventshow_lamp_token.text,Lampa naftowa wisi na haku.
 Eventshow_lamp_token.button1,Kontynuuj
 Tokencave_lamp.text,Lampa naftowa.
-Tokencave_lamp.button1,{action} Zabierz
+Tokencave_lamp.button1,({action}) Zabierz
 Tokenshelter_bed.text,Stare cuchnące łóżno. 
-Tokenshelter_bed.button1,{action} Zbadaj 
+Tokenshelter_bed.button1,({action}) Zbadaj 
 EventShelter_old_bed.text,Wygląda na to, że przed laty spali tu górnicy. Przyglądasz się drewnianej konstrukcji łóżka i dostrzegasz setki drobnych kresek wyrytych na powierzchni. Są zgrupowane po 6 i jedna przekreśla resztę. Zdobywasz 1 wskazówkę.
 EventShelter_old_bed.button1,Kontynuuj
 Eventshelter_foodprints.text,Na podłodze dostrzegasz jakieś ślady.
 Eventshelter_foodprints.button1,Kontynuuj
 Tokencave_foodprints.text,Ślady stóp i czegoś jeszcze.
-Tokencave_foodprints.button1,{action} Zbadaj
+Tokencave_foodprints.button1,({action}) Zbadaj
 Eventcave_footprints.text,Na podłodze dostrzegasz ślady stóp i duży rozmazany ślad który się ciągnie od drzwi do małego pomieszczenia na końcu pokoju. Otrzymujesz 1 wskazówkę.
 Eventcave_footprints.button1,Kontynuuj
 Eventtime_m.text,Stos śmieci, może jest tu coś ciekawego.
 Eventtime_m.button1,Kontynuuj
 Tokentime.text,Stos śmieci wygląda jakby ktoś w pośpiechu próbował coś tu zasypać
-Tokentime.button1,{action} Zbadaj
+Tokentime.button1,({action}) Zbadaj
 Eventtime_test.text,Pod śmieciami znajdujesz jakiś właz zrobiony ze śniedziałego metalu. Cały jest pokryty dziwnymi symbolami. Wygląda to na jakąś dziwną układankę
 Eventtime_test.button1,Rozwiąż układankę
 Puzzle0.button1,Sprawdź
@@ -61,11 +61,11 @@ Eventtime_open.text,Otworzyło się przejście
 Eventtime_open.button1,Kontynuuj
 Tokentime_enter.button1,Wejdź
 Eventgo_in_time.text, Zaczynasz się schylać aby wejść do środka kiedy nachodzi cię przeczucie, że nie powinieneś tam schodzić sam.
-Eventgo_in_time.button1,{action}Idź sam
+Eventgo_in_time.button1,({action})Idź sam
 Eventtime_alone.text,Potykasz się i wpadasz z impetem do dziury. Czujesz na twarzy pęd zimnego powietrza... 
 Eventtime_alone.button1,Kontynuuj
 Eventwait_for_friends.text,Wołasz swoich towarzyszy. Po chwili przychodzą, próbujesz ich przekonać, żeby weszli tam z tobą.
-Eventwait_for_friends.button1,{action}Wejdźcie razem
+Eventwait_for_friends.button1,({action})Wejdźcie razem
 Tokentime_enter.text,Przejście jest nachylone i prowadzi pod ziemię. Czujesz zimny powiew wiatru i jakby zjonizowane powietrze.
 Eventgo_in_time.button2,Czekaj na resztę
 Eventall_go_in_time.text,Lecicie chwile przez ciemność, czując zimny wiatr na twarzach... (usuń wszystkie kafelki i znaczniki z planszy)
@@ -80,12 +80,12 @@ Tokengo_to_future.button1,Wejdź przez przejście
 Tokenpast_doors1.text,Drzwi. Ciekawe gdzie prowadzą
 Tokenpast_doors1.button1,Kontynuuj
 Tokentorture_bed.text,Łóżko z pasami
-Tokentorture_bed.button1,{action} Zbadaj
+Tokentorture_bed.button1,({action}) Zbadaj
 Eventtorture_bed.text,Na łóżku są ślady krwi. Jest lekko przypalone po jednej stronie. Otrzymujesz 1 wskazówkę
 Eventtorture_bed.button1,Kontynuuj
 Eventgo_to_future_.text,Ogarnia cię przeczucie, że nie powinieneś tam wchodzić bez swoich przyjaciół.
-Eventgo_to_future_.button1,{action}Idź sam
-Eventgo_to_future_.button2,{action}Wejdźcie razem
+Eventgo_to_future_.button1,({action})Idź sam
+Eventgo_to_future_.button2,({action})Wejdźcie razem
 Eventgo_to_future_alone.text,Wchodzisz do przejścia sam i znowu mkniesz szybko przez pustkę
 Eventgo_to_future_alone.button1,Kontynuuj
 Eventgo_to_future_all.text,Wskakujecie do przejścia i znowu mkniecie przez pustkę..
@@ -93,35 +93,35 @@ Eventgo_to_future_all.button1,Kontynuuj
 Eventback_in_future.text,Wypadasz na stertę śmieci. Po chwili udaje ci się wygrzebać i stanąć na nogach. Rozglądasz się i widzisz to samo pomieszczenie w kopalni, z którego na początku przyszliście. Patrzysz za siebie i widzisz, że przejście zniknęło. Dotykasz desperacko każdego kawałka podłogi i ściany, wołasz swoich przyjaciół ale niema żadnego odzewu. Po kilkunastu minutach zrezygnowany postanawiasz dać za wygraną. 
 Eventback_in_future.button1,Kontynuuj
 Tokenwatch_from_past.text,Coś leży na podłodze.
-Tokenwatch_from_past.button1,{action} Zbadaj
-Eventwatch_from_past.text,"To stary zegarek kieszonkowy. Wygląda identycznie jak ten, który znaleźliście w miejscu gdzie było ciało chłopca. Tylko, że ten zegarek jest dużo starszy, cały jest zardzewiały i ma zbitą szybkę... Zaraz, zaraz, przecież to ten sam zegarek, ma z tyłu grawer z napisem "dla Evana 1881". To niemożliwe..."
+Tokenwatch_from_past.button1,({action}) Zbadaj
+Eventwatch_from_past.text,To stary zegarek kieszonkowy. Wygląda identycznie jak ten, który znaleźliście w miejscu gdzie było ciało chłopca. Tylko, że ten zegarek jest dużo starszy, cały jest zardzewiały i ma zbitą szybkę... Zaraz, zaraz, przecież to ten sam zegarek, ma z tyłu grawer z napisem "dla Evana 1881". To niemożliwe...
 Eventwatch_from_past.button1,Kontynuuj
 Tokenmessage_from_past.text,Stare łóżko. Wydaje ci się, że wygląda trochę inaczej.
-Tokenmessage_from_past.button1,{action} Zbadaj
+Tokenmessage_from_past.button1,({action}) Zbadaj
 Eventmessage_from_past.text,Kreski na łóżku zniknęły. To bardzo cię zdziwiło i zaniepokoiło. Zaczynasz się zastanawiać czy zwariowałeś. Otrzymujesz 2 karty przerażenia. Po bliższym przyjrzeniu się drewnianej konstrukcji dostrzegasz napis wyryty na jednej z desek. Napis jest stary ale udaje ci się go odczytać.
 Eventmessage_from_past.button1,Kontynuuj
-Eventmessage_from_past_1.text,"Z trudnością odczytujesz wiadomość: "K..dykol.k to od..ytas. uratu. .as". Nie masz pojęcia co to ma znaczyć."
+Eventmessage_from_past_1.text,Z trudnością odczytujesz wiadomość: "K..dykolwiek to od..ytas. uratu. .as". Nie masz pojęcia co to ma znaczyć.
 Eventmessage_from_past_1.button1,Kontynuuj
-Tokenend_game_alone.button1,{action}Wyjdź
+Tokenend_game_alone.button1,({action})Wyjdź
 Eventend_game_03_alone.button1,Kontynuuj
 Eventgo_to_future_.button3,Czekaj na resztę
 Event_back_in_future_all.text,Niezgrabnie wychodzicie w tym samym cuchnącym miejscu w kopalni do którego weszliście kilka godzin temu. Dookoła są rozrzucone śmieci
 Event_back_in_future_all.button1,Kontynuuj
 Tokenend_game_all.text,Wyjście na zewnątrz (koniec gry)
-Tokenend_game_all.button1,{action}Kontynuuj
+Tokenend_game_all.button1,({action})Kontynuuj
 Eventend_game_all.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się wyjaśnić śmierci znalezionego chłopca ani odnaleźć Johna. Do końca życia każdy z was się zastanawia co własciwie się stało tego deszczowego dnia kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło na prawdę?
 Eventend_game_all.button1,Kontynuuj
 Tokenend_game_alone.text,Przejście prowadzi na zewnątrz. (Koniec gry)
 Tokenpast_shelf_in_shelter.text,Półka z różnymi rzeczami
-Tokenpast_shelf_in_shelter.button1,{action} Przeszukaj
+Tokenpast_shelf_in_shelter.button1,({action}) Przeszukaj
 Eventpast_shelf_in_shelter.button1,Kontynuuj
 Eventpast_shelf_in_shelter_all.text,Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Otrzymujesz stan ogłuszony i tracisz tracisz tę turę.
-Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. Na szczęście, w pomieszczeniu obok jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie kreski. Po nieokreślonym czasie, wyryłeś napis: "kiedykolwiek to przeczytasz, uratuj mnie". Zasypiasz wyczerpany i już się nigdy nie budzisz."
+Eventpast_end_game_alone.text,Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. Na szczęście, w pomieszczeniu obok jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie kreski. Po nieokreślonym czasie, wyryłeś napis: "kiedykolwiek to przeczytasz, uratuj mnie". Zasypiasz wyczerpany i już się nigdy nie budzisz.
 Eventpast_end_game_alone.button1,Kontynuuj (Koniec gry)
 Eventgo_to_future_disapear.text,Przejście znika
 Eventpast_end_game_alone0.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się odnaleźć Johna, a co najbardziej smutne wasz toważysz także zaginął. Do końca życia każdy z was się zastanawia co własciwie się stało tego deszczowego dnia kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło na prawdę?
 Eventpast_end_game_alone0.button1,Kontynuuj
-Eventthe_end.text,Koniec
+Eventthe_end.text,Koniec.
 Eventthe_end.button1,Kontynuuj
 Eventpast_shelf_in_shelter.text,Zaczynasz przyglądać się z uwagą rzeczom na półce, są tam różne ksiązki religijne. Jedna z nich cię zaciekawiła, jest oprawiona w dziwną skórę, trochę wygląda jak ludzka. Wyciągasz rękę, żeby ją zabrać gdy nagle...
 Eventpast_shelf_in_shelter_all.button1,Kontynuuj
@@ -133,7 +133,7 @@ Tokenpast_mine_show_left.button1,Odkryj
 Eventpast_mine_show2.text,Tunel prowadzi prosto a potem zakęca w lewo. Biorąc pod uwagę zimne powietrze, które płynie z tego kierunku, tam musi być wyjście.\n(Umieść: {c:Tile02_cave_01} na planszy)
 Eventpast_mine_show2.button1,Kontynuuj
 Tokenpast_mine_exit.text,Drzwi na zewnątrz. Są zamknięte, nie uda ci się ich otworzyć.
-Tokenpast_mine_exit.button1,{action} Zbadaj
+Tokenpast_mine_exit.button1,({action}) Zbadaj
 Eventpast_show_outside.text,Przez szparę w drzwiach widzisz jakąś polanę otoczoną gęstym lasem. Otrzymujesz 1 wskazówkę.\n(Umieść: {c:Tile01_Cave_entrance} na planszy)
 Eventpast_show_outside.button1,Kontynuuj
 Tokenpast_mine_show_right.text,Tunel w tym miejscu zaczyna schodzić w dół.
@@ -143,13 +143,13 @@ Eventpast_mine_show_right.button1,Kontynuuj
 Eventpast_mine_tunel_right_items_show.text,Na ziemi widzisz ciągnące się wszędzie liny lub coś co je przypomina. Po prawej są ciężkie metalowe drzwi.
 Eventpast_mine_tunel_right_items_show.button1,Kontynuuj
 Tokenpast_mine_right_tunnel_dynamite.text,Plontanina dziwnych cienkich lin.
-Tokenpast_mine_right_tunnel_dynamite.button1,{action} Zbadaj
-Eventpast_dynamite.text,Ku swojemu zdziwieniu odkrywasz, że to są laski dynamitu przyczepione do belek trzymających strop. Otrzymujesz 1 wskazówkę({clue}). Możesz wziąć 1 laskę dynamitu ze sobą (test: {observation}).
-Eventpast_dynamite.button1,Sprawdź
+Tokenpast_mine_right_tunnel_dynamite.button1,({action}) Zbadaj
+Eventpast_dynamite.text,Ku swojemu zdziwieniu odkrywasz, że to są laski dynamitu przyczepione do belek trzymających strop. \nOtrzymujesz ({clue}). \n\nMożesz wziąć 1 laskę dynamitu ze sobą \nTest: {observation}
+Eventpast_dynamite.button1,Weź
 Tokenpast_tunel_right_end.button1,Odkryj
 Tokenpast_tunel_door.text,Ciężkie metalowe drzwi. Żeby je otworzyć potrzebny jest srebry klucz.
 Tokenpast_tunel_right_end.text,Tunel biegnie dalej w tym kierunku.
-Tokenpast_tunel_door.button1,{action} Otwórz
+Tokenpast_tunel_door.button1,({action}) Otwórz
 Eventpast_tunel_door_open.text,Przekręcasz klucz w zamku, idealnie pasuje. Otwierasz drzwi z wielkim zgrzytem..\n
 Eventpast_tunel_door_open.button1,Kontynuuj
 Eventpast_boy_room_reveal.text,...Twoim oczom ukazuje się ciemne pomieszczenie.\n(Umieść: {c:Tilepast_boy_room} na planszy)
@@ -157,9 +157,9 @@ Eventpast_boy_room_reveal.button1,Kontynuuj
 Eventpast_boy_found.text,Na łóżku leży jakas postać. Po dokładnym przyjżeniu się stwierdzasz, że to mały John. Widać, że jest w kiepskim stanie ale przynajmniej żyje.
 Eventpast_boy_found.button1,Kontynuuj
 TokenJohn.text,Podchodzisz do dziecka i widzisz jak powoli otwiera oczy.
-TokenJohn.button1,{action} Jak się czujesz?
-TokenJohn.button2,{action} Jak się tu znalazłeś?
-TokenJohn.button3,{action} Nic nie mów, zaraz cię stąd zabiorę.
+TokenJohn.button1,({action}) Jak się czujesz?
+TokenJohn.button2,({action}) Jak się tu znalazłeś?
+TokenJohn.button3,({action}) Nic nie mów, zaraz cię stąd zabiorę.
 Eventtake_john.text,Bierzesz Johna na ręce. Od tej chwili do momentu, aż zostawisz Johna możesz wykonac tylko jedną akcję na turę. 
 Eventtake_john.button1,Kontynuuj
 Eventend_game_alone_with_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświęciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje ci spokoju to, że wydaje ci się, że to był ten sam chłopiec którego widziałeś tam wśród tej okrpnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Do końca życia sobie nie wybaczysz tego, że zostawiłeś tam swoich przyjaciół. Ale czy to na prawdę się wydarzyło? Jedyne co cię pociesza to to, że John jest bezpieczny. Ostatnio coraz rzadziej cię odwiedza sanatorium... patrzysz zamyślony przez zakratowane okno jak nad Arkham zachodzi słońce.
@@ -171,7 +171,7 @@ Eventend_game_alone_without_john.text,Wychodzisz z kopalni. Twoi przyjaciele nig
 Eventend_game_alone_without_john.button1,Kontynuuj
 Eventend_game_all_with_john.text,Wychodzicie z kopalni. Niestety nie udało wam się się rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje wam spokoju to, że wydaje się wam, że to był ten sam chłopiec którego widzieliście tam wśród tej okrpnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Ale czy to na prawdę się wydarzyło? Na szczęście John jest bezpieczny. 
 Eventend_game_all_with_john.button1,Kontynuuj
-Event_watch.text,"Oglądasz zegarek, jest zrobiony bardzo starannie, błyszczący metal jest dokładnie wypolerowany. Z tyłu jest grawer z napisem: "dla Evana 1881" Całkiem nieźle się trzyma jak na 40 letni zegarek. Otrzymujesz 1 wskazówkę"
+Event_watch.text,Oglądasz zegarek, jest zrobiony bardzo starannie, błyszczący metal jest dokładnie wypolerowany. Z tyłu jest grawer z napisem: "dla Evana 1881" Całkiem nieźle się trzyma jak na 40 letni zegarek.
 Event_watch.button1,Kontynuuj
 Eventshow_watch_from_past.text,Coś się mieni na podłodze.
 Eventshow_watch_from_past.button1,Kontynuuj
@@ -180,8 +180,8 @@ Eventtake_dynamite.text,Udaje ci się wyplątać jedną laskę dynamitu.
 Eventtake_dynamite.button1,Kontynuuj
 Eventtake_dynamite_fail1.text,Nie udało ci się wyplątać dynamitu z tego węzła gordyjskiego.
 Eventtake_dynamite_fail1.button1,Kontynuuj
-Tokendynamite_after_fail.text,Splątane laski dynamitów. Możesz spróbować wyjąć dynamit jeszcze raz ale masz przeczucie, że jak ci się nie uda to stanie się coś niedobrego ({agility})
-Tokendynamite_after_fail.button1,Kontynuuj
+Tokendynamite_after_fail.text,Widzisz splątane laski dynamitów. Możesz spróbować wyjąć dynamit jeszcze raz. \nTest {agility}
+Tokendynamite_after_fail.button1,({action}) Weź
 Tokendynamite_after_fail.button2,Porażka
 Eventtake_dynamite_2_fail.text,Bezskutecznie próbujesz wydobyć laskę dynamitu z plątaniny sznurków nasączonych naftą. Całkiem nieopatrznie wpadł ci głupi pomysł do głowy aby przyświecic sobie to miejsce lampą olejną. Niestety wypadła ci z rąk i płomień rozlał się na połowę tunelu...
 Eventtake_dynamite_2_fail.button1,Kontynuuj
@@ -194,7 +194,7 @@ Eventfire_ending_mieddle.button1,Kontynuuj
 Eventexplode.text,Gwałtowny wybuch rzuca cie o ścianę. Czy udało ci się dotrzeć do pomieszczenia gdzie jest łóżko z pasami?
 Eventexplode.button1,Tak
 Eventexplode.button2,Nie
-Eventall_dead.text,Koniec
+Eventall_dead.text,Koniec. Wszyscy nie żyją
 Eventall_dead.button1,Kontynuuj
 Tokenblock.text,Przejście jest zablokowane
 Tokenblock.button1,Kontynuuj
@@ -216,89 +216,89 @@ Eventpast_ednding_middle_john.button1,Kontynuuj
 Eventend_game_question_john.button1,Tak
 Eventend_game_all_without_john.text,Wychodzicie z kopalni. Nie udało wam się rozwiązać tajemnicy morderstwa chłopca. \n\n Często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
 Tokenpast_papers.text,Stos gazet.
-Tokenpast_papers.button1,{action} Przeczytaj
+Tokenpast_papers.button1,({action}) Przeczytaj
 Eventpast_newspaper_president.button1,Czytaj inną
-Eventpast_newspaper_boy.text,26 Września 1901 (czwartek). To już 7 zaginięcie dziecka w przeciągu ostatnich 3 miesięcy. Poszukiwany chłopiec to Evan McCormic, lat 10, syn farmera. Nie wrócił do domu po pracy przy zbieraniu kukurydzy. Władze miasta są zaniepokojone ostatnimi zniknięciami. Szeryf Ratman wyznaczył nagrodzę w wysokości 500$ za znalezienie chłopca. Lokalna grupa baptystów organizuje wieczorem 20 września spotkanie podczas którego będzie można wesprzeć rodzinę zaginionego chłopca. (Otrzymujesz 2 wskazówki{clue})
+Eventpast_newspaper_boy.text,26 Września 1901 (czwartek). To już 7 zaginięcie dziecka w przeciągu ostatnich 3 miesięcy. Poszukiwany chłopiec to Evan McCormic, lat 10, syn farmera. Nie wrócił do domu po pracy przy zbieraniu kukurydzy. Władze miasta są zaniepokojone ostatnimi zniknięciami. Szeryf Ratman wyznaczył nagrodzę w wysokości 500$ za znalezienie chłopca. Lokalna grupa baptystów organizuje wieczorem 20 września spotkanie podczas którego będzie można wesprzeć rodzinę zaginionego chłopca. (Otrzymujesz 2 wskazówki ({clue}))
 Eventpast_newspaper_president.text,29 Października 1901r (środa). Prezydent William McKinley's postrzelony. Podczas spotkania został postrzelony przez Leona Czolgosza, Amerykanina polskiego pochodzenia, który uważał, że McKinley jest winny powszechnej niesprawiedliwości społecznej. Prezydent otrzymał dwa strzały w brzuch i pierś i został szybko przeniesiony do pobliskiego szpitala. Po opatrzeniu rany brzucha, lekarze mają nadzieję że McKinley wyzdrowieje..
 Eventpast_newspaper_boy.button1,Czytaj inną
 Eventpast_newspaper_menu.text,Wybierz
 Eventpast_newspaper_menu.button1,Prezydent postrzelony...
 Eventpast_newspaper_menu.button2,Zaginione dziecko...
 Eventpast_newspaper_menu.button3,Koniec świata...
-Eventpast_newspaper_end_of_world.text,"Rosną napięcia społeczne w związku z przełomem stuleci. Pastor tutejszego kościoła baptystów namawia wszystkich aby porzucili swoje grzechy i oddali to co dla nich najważniejsze bogu. "Zbliża się dzień sądu ostatecznego, kto tego nie rozumie zginie w ogniu piekielnym.." - powiedział pastor Carl Panzram."
+Eventpast_newspaper_end_of_world.text,"Rosną napięcia społeczne w związku z przełomem stuleci. Pastor tutejszego kościoła baptystów namawia wszystkich aby porzucili swoje grzechy i oddali to co dla nich najważniejsze bogu. "Zbliża się dzień sądu ostatecznego, kto tego nie rozumie zginie w ogniu piekielnym.." - powiedział pastor Carl Panzram.
 Eventpast_newspaper_end_of_world.button1,Czytaj dalej
 Tokenopen_secret_to_church.text,Widzisz świeżo usypaną ziemię i ślady butów dookoła. ({observation})
 Tokenopen_secret_to_church.button1,Kontynuuj
 Eventsecret_to_church_reveal.text,Ze zdumieniem odkrywasz klapę, która prowadzi do ciemnego tunelu
 Eventsecret_to_church_reveal.button1,Kontynuuj
 Tokentunel_to_church.text,Wejście do tunelu.
-Tokentunel_to_church.button1,{action} Wejdź
+Tokentunel_to_church.button1,({action}) Wejdź
 Eventpast_tunel_end.text,Tunel biegnie jeszcze kilka metrów na wschód. Po lewej stronie widzisz przejście zakryte kamieniami i zabite deskami. Na końcu tunelu są drzwi.\n(Umieść: {c:Tilepast_tunel_end} na planszy)
 Eventpast_tunel_end.button1,Kontynuuj
 Tokenshow_blocked_doors.text,Zabite deskami przejście. Gdyby tylko mieć coś żeby podważyć te deski..
 Tokenshow_blocked_doors.button1,Kontynuuj
 Eventopen_blocked_doors.text,Wygląda na to, że kilofem będzie dało się otworzyć to przejście
-Eventopen_blocked_doors.button1,{action} Otwórz przejście kilofem
+Eventopen_blocked_doors.button1,({action}) Otwórz przejście kilofem
 Eventopen_blocked_doors.button2,Nie mam kilofa
 Eventreveal_blocked_room.text,Ściana zrobiona z desek i kamieni się zawala ukazując małe ciemne pomieszczenie. Jest w nim dużo cuchnących beczek i górniczych narzędzi. Z boku dostrzegasz skrzynię.\n(Umieść: {c:Tilesecret_room} na planszy)
 Eventreveal_blocked_room.button1,Kontynuuj
 Tokenshotgun_chest.text,Widzisz dużą, solidnie zbudowaną metalową skrzynię. Jest zamknięta na zamek szyfrowy.
-Tokenshotgun_chest.button1,{action} Spróbuj otworzyć
+Tokenshotgun_chest.button1,({action}) Spróbuj otworzyć
 Eventspawn_monster_stairs.text,Czytanie gazety przerywają kroki. Przez drzwi z kierunku wchodniego wchodzi postać. Wygląda na bardzo zaskoczoną.
 Eventtake_shotgun.text,Skrzynia się otwiera i w środku widzisz strzelbę. \n(Otrzymujesz: {c:QItemshot_gun})
 Puzzleopen_chest.button1,Sprawdź
 Eventtake_shotgun.button1,Kontynuuj
 TokenMiddle_room.text,Widzisz małe, drewniane drzwi na końcu tunelu
-TokenMiddle_room.button1,{action}Otwórz
+TokenMiddle_room.button1,({action})Otwórz
 Eventopen_middle_door.text,Drzwi się otwierają z głośnym trzaskiem. Widzisz drewniane schody, które prowadzą w dół do dużego pomieszczenia.\n(Umieść: {c:Tilemieddle_room} na planszy)
 Eventopen_middle_door.button1,Kontynuuj
 Eventmiddle_room_show.text,Na dole, zaraz przy schodach są drzwi, a obok znajduje się stół z jakimiś przedmiotami.
 Eventmiddle_room_show.button1,Kontynuuj
 Tokendoor_to_secret_church.text,Drzwi, prowadzą na północ.
-Tokendoor_to_secret_church.button1,{action} Otwórz
+Tokendoor_to_secret_church.button1,({action}) Otwórz
 Eventopen_room_to_secret_church.text,Drzwi się otwierają i widzisz pomieszczenie, które wygląda na przepompownię. Rury wystają ze ścian, a podłoga jest wilgorna. W powietrzu unosi się zapach pleśni i zagrzybiałego drewna.\n(Umieść: {c:Tilesecret_passage} na planszy)
 Eventopen_room_to_secret_church.button1,Kontynuuj
 Tokenitems_in_middle_room.text,Na stole leży kilka przedmiotów
-Tokenitems_in_middle_room.button1,{action} Przeszukaj
-Eventitems_in_middle_room.text,"Na stole leży gruba książka. Otwierasz ją. Na pierwszej stronie jest napis: "Dziennik prac 1850-1855. Kopalnia miedzi" W środku są tabele z nazwiskami, datami i ilością wydobytego urobku. (Otrzymujesz 1 wskazówkę {clue})\nOprócz tego otrzymujesz {c:QItemitem_in_middle_room}"
+Tokenitems_in_middle_room.button1,({action}) Przeszukaj
+Eventitems_in_middle_room.text,Na stole leży gruba książka. Otwierasz ją. Na pierwszej stronie jest napis: "Dziennik prac 1850-1855. Kopalnia miedzi" W środku są tabele z nazwiskami, datami i ilością wydobytego urobku. (Otrzymujesz 1 wskazówkę ({clue}))\nOprócz tego otrzymujesz {c:QItemitem_in_middle_room}
 Eventitems_in_middle_room.button1,Kontynuuj
 Eventmiddle_room_show1.text,W dalszej cześci pokokju widzisz dwoje drzwi i stertę gazet przy ścianie.
 Eventmiddle_room_show1.button1,Kontynuuj
 Tokenenter_to_church_corridor.text,Drzwi prowadzące na wschód.
-Tokenenter_to_church_corridor.button1,{action} Otwórz
+Tokenenter_to_church_corridor.button1,({action}) Otwórz
 Eventcorridor_to_church_reveal.text,Drzwi się otwierają. Widzisz ładną klatkę schodową wyłożoną czerwonym dywanem. Strome schody prowadzą w górę, na końcu widać kolejne drzwi.\n(Umieść: {c:Tilestairs_up} na planszy)
 Eventcorridor_to_church_reveal.button1,Kontynuuj
 Tokenpast_church_enter.text,Drewniane, zdobione drzwi.
-Tokenpast_church_enter.button1,{action} Zbadaj
-Tokenpast_church_enter.button2,{action} Wejdź
+Tokenpast_church_enter.button1,({action}) Zbadaj
+Tokenpast_church_enter.button2,({action}) Wejdź
 Tokenpick_axe_room.text,Drewniane drzwi. Prowadzą na południe.
-Tokenpick_axe_room.button1,{action} Otwórz
+Tokenpick_axe_room.button1,({action}) Otwórz
 Eventaxe_room_reveal.text,Po otwarciu drzwi widzisz wąskie pomieszczenie. Dwie lampy naftowe oświetlają duze prostokątne pojemniki. \nNa końcu pokoju widzisz człowieka, który się po coś schyla\n(Umieść: {c:Tileaxe_room} na planszy)
 Eventaxe_room_reveal.button1,Kontynuuj
 Tokenpick_axe.text,Widzisz trzy metalowe pojemniki.
-Tokenpick_axe.button1,{action} Przeszukaj
+Tokenpick_axe.button1,({action}) Przeszukaj
 Eventspawn_monster_stairs.button1,Kontynuuj
-Eventmonster_stairs_menu.text,""Co się tu dzieje, jak się tu dostałeś, kim jesteś?" - meżczyzna zarzuca cię gradem pytań"
+Eventmonster_stairs_menu.text,"Co się tu dzieje, jak się tu dostałeś, kim jesteś?" - meżczyzna zarzuca cię gradem pytań
 Eventmonster_stairs_menu.button1,Zaatakuj
 Eventmonster_stairs_menu.button2,Jestem detektywem
 Eventmonster_stairs_menu.button3,Jestem górnikiem
 Eventmonster_stairs_menu.button4,Jestem z kościoła
-Eventaxe_take.text,Pjemniki wyglądaja jak trumny. Są puste ale masz wrażenie, że to może się niedługo zmienić. Pomiędzy pojemnikami widzisz kilof (Otrzymujesz 1 wskazówkę {clue} oraz {c:QItemaxe})
+Eventaxe_take.text,Pjemniki wyglądaja jak trumny. Są puste ale masz wrażenie, że to może się niedługo zmienić. Pomiędzy pojemnikami widzisz kilof (Otrzymujesz 1 wskazówkę ({clue}) oraz {c:QItemaxe})
 Eventaxe_take.button1,Kontynuuj
 Eventpast_newspaper_end_of_world.button2,Czytaj inną
 Eventpast_newspaper_menu.button4,Anuluj
 Eventpast_newspaper_president.button2,Anuluj
 Eventpast_newspaper_boy.button2,Anuluj
-Spawnspawn_staits_monster.text,"Widzisz przed sobą postać, która zmieniła się w okropny sposób. "Chyba znalazłem kolejną ofiarę na dzień przebłagania..""
+Spawnspawn_staits_monster.text,Widzisz przed sobą postać, która zmieniła się w okropny sposób. "Chyba znalazłem kolejną ofiarę na dzień przebłagania.."
 Spawnspawn_staits_monster.button1,Kontynuuj
 Eventstaris_monster_defeat.text,Potwór umiera.
 Eventstaris_monster_defeat.button1,Kontynuuj
-Eventi_detective.text,""Detektywem powiadasz? Zapewne chcesz wiedzieć kim ja jestem..." - odpowiada człowiek, powoli podnosząc prawą rękę "
+Eventi_detective.text,"Detektywem powiadasz? Zapewne chcesz wiedzieć kim ja jestem..." - odpowiada człowiek, powoli podnosząc prawą rękę.
 Eventi_detective.button1,Kontynuuj
 Eventi_miner_dynamite.button1,Daj mu dynamit (jeśli masz przy sobie)
 Eventi_miner_dynamite.button2,Nie mam
 Eventi_miner_dynamite.text,Ah tak.. przyniosłeś dynamit, o który cię nasz pastor prosił?
-Eventgive_dynamite.text,""Świetnie. Idę go zanieść pastorowi, a ty się stąd nie ruszaj""
+Eventgive_dynamite.text,"Świetnie. Idę go zanieść pastorowi, a ty się stąd nie ruszaj"
 Eventgive_dynamite.button1,Kontynuuj
 Eventno_dynamite.text,Głupcze. Jesteś bezużyteczny jeśli nawet tak prostego zadania nie umiesz wykonać. Będę musiał sam tam iść...\n..ale wcześniej...
 Eventno_dynamite.button1,Kontynuuj
@@ -328,13 +328,13 @@ Eventchurch_reveal_from_secret.button1,Kontynuuj
 Eventset_dynamite.text,To powinno ich zaskoczyć..\nPodpalasz ląt, wrzucasz przez szparę do kapilicy i uciekasz przez tunel.
 Eventset_dynamite.button1,Kontynuuj
 Tokenevan_body.text,Ciało chłopca. Ma nadpaloną głowę.
-Tokenevan_body.button1,{action} Zbadaj
+Tokenevan_body.button1,({action}) Zbadaj
 Eventchurch_explode.text,Explozja!!\nWszyscy poszukiwacze na polu {c:Tilechurch} otrzymują obrażenia od dynamitu.
 Eventchurch_explode.button1,Kontynuuj
 Eventdynamite_from_body.text,Obok ciała znajdujesz 
 Eventdynamite_from_body.button1,Kontynuuj
 Eventdynamite_question.text,Czy podłożyć dynamit?
-Eventdynamite_question.button1,{action}Tak (mam dynamit przy sobie)
+Eventdynamite_question.button1,({action})Tak (mam dynamit przy sobie)
 Eventdynamite_question.button2,Nie, wróć tunelem
 Tokenopen_secret_to_church.button2,Porażka
 Eventnothing.text,Nic tu ciekawego nie ma
@@ -352,28 +352,28 @@ Eventstart_event_2.button1,Kontynuuj
 Eventstart_event_3.text,Z tyłu są ładne zdobione drzwi.
 Eventstart_event_3.button1,Kontynuuj
 Tokenfuture_doors_to_corridor.text,Duże, ładnie zdobione drzwi.
-Tokenfuture_doors_to_corridor.button1,{action} Otwórz
+Tokenfuture_doors_to_corridor.button1,({action}) Otwórz
 Tokenfuture_exit.text,Wyjście.
-Tokenfuture_exit.button1,{action}Wyjdź
+Tokenfuture_exit.button1,({action})Wyjdź
 Eventstart_event_4.text,Umieść poszukiwaczy przy wejściu.
 Eventstart_event_4.button1,Kontynuuj
 Eventstart_event_5.text,Słyszysz jak drzwi się za wami zamykają.
 Eventstart_event_5.button1,Kontynuuj
 Tokenfriend.text,Twoja znajoma. Julie Mayer.
-Tokenfriend.button1,{action} Porozmawiaj
+Tokenfriend.button1,({action}) Porozmawiaj
 Tokeninfo_table.text,Napis na kontuarze.
-Tokeninfo_table.button1,{action} Zbadaj
-Eventinfo_table.text,Ku pamięci ofiar pożaru, który tu wybuchł w 12 grudnia 1901r. Otrzymujesz 1 wskazówkę {clue}
+Tokeninfo_table.button1,({action}) Zbadaj
+Eventinfo_table.text,Ku pamięci ofiar pożaru, który tu wybuchł w 12 grudnia 1901r. Otrzymujesz 1 wskazówkę ({clue})
 Eventinfo_table.button1,Kontynuuj
 Eventgo_to_crime_scene.text,Opuszczasz kościół i udajesz się na miejsce gdzie znaleziono ciało chłopca. Jest niedaleko, w pobliskim lesie.
 Eventgo_to_crime_scene.button1,Kontynuuj
 Eventfuture_corridor_reveal.text,Widzisz stare schody prowadzące w dół. Pokryte są czerwonym brudnym dywanem. Na końcu korytarz jest zastawiony półką z książkami.\n(Umieść {c:Tilestairs_up} na planszy})
 Eventfuture_corridor_reveal.button1,Kontynuuj
 Tokenfurue_book_shelf.text,Półka z książkami.
-Tokenfurue_book_shelf.button1,{action} Zbadaj
-Eventfuture_books.text,"Widzisz dużo grubych książek, każda jest podpisana "Dziennik prac. Kopalnia miedzi" Daty są od 1800 do 1900 roku. Brakuje dziennika z 1850-1855. W środku są tabele z nazwiskami, datami i ilością wydobytego urobku. (Otrzymujesz 1 wskazówkę {clue})"
+Tokenfurue_book_shelf.button1,({action}) Zbadaj
+Eventfuture_books.text,Widzisz dużo grubych książek, każda jest podpisana "Dziennik prac. Kopalnia miedzi" Daty są od 1800 do 1900 roku. Brakuje dziennika z 1850-1855. W środku są tabele z nazwiskami, datami i ilością wydobytego urobku. (Otrzymujesz 1 wskazówkę ({clue}))
 Eventfuture_books.button1,Kontynuuj
-Eventjulie_talk.text,Cieszę się, że przyszliście mi pomóc. Jak zapewne wiesz mój syn zaginął kilka dni temu. Policja jest bezradna, nie udało im się znaleźć żadnego tropu. Dowiedziałam się, że w pobliskim lesie znaleziono ciało jakiegoś chłopca. Na szczęście to nie był mój syn. Policja nie łączy tych dwóch spraw ale ja zaczynam mieć bardzo złe przeczucia. Proszę was idźcie w to miejsce. Po drodze przeczytajcie raport koronera, którego zdjęcie zrobiłam u koronera.\nPowodzenia. \n(Wszyscy poszukiwacze otrzymują po 1 wskazówce {clue})
+Eventjulie_talk.text,Cieszę się, że przyszliście mi pomóc. Jak zapewne wiesz mój syn zaginął kilka dni temu. Policja jest bezradna, nie udało im się znaleźć żadnego tropu. Dowiedziałam się, że w pobliskim lesie znaleziono ciało jakiegoś chłopca. Na szczęście to nie był mój syn. Policja nie łączy tych dwóch spraw ale ja zaczynam mieć bardzo złe przeczucia. Proszę was idźcie w to miejsce. Po drodze przeczytajcie raport koronera, którego zdjęcie zrobiłam u koronera.\nPowodzenia. \n(Wszyscy poszukiwacze otrzymują po 1 wskazówce ({clue}))
 Eventjulie_talk.button1,Kontynuuj
 Eventjulie_talk_1.text,Kobieta wstaje. Ociera chusteczką oczy i wychodzi przez drzwi.
 Eventjulie_talk_1.button1,Kontynuuj
@@ -384,17 +384,17 @@ EventSTART_GAME.text,Poszukiwacze zaczynają bez żadnych wskazówek.
 Eventend_game_03_alone.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie odnaleźli chociaż poświeciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy zaginięcia chłopca. Do końca życia sobie nie wybaczyłeś tego, że ich tam zostawiłeś.
 Eventpast_dynamite.button3,Anuluj
 Eventopen_door_to_church.button2,Posłuchaj kazania
-Eventchurch_event_1.text,""...niec świata nadchodzi. Sąd ostateczny się zbliża" - głośno mówi pastor z charakterystyczną u kaznodziei pewnością i agresją. "Dowód na to widzicie przed sobą." - ludzie wyciągają głowy żeby lepiej widzieć, niektórzy głośno wzdychają, jedna kobieta zaczyna płakać.. "To, oto dziecko, ofiara świata i demonów musi ponieść ofiarę razem z nami!" - krzyczy pastor. "Ejmen" - chórem odpowiadają wierni."
+Eventchurch_event_1.text,"...niec świata nadchodzi. Sąd ostateczny się zbliża" - głośno mówi pastor z charakterystyczną u kaznodziei pewnością i agresją. "Dowód na to widzicie przed sobą." - ludzie wyciągają głowy żeby lepiej widzieć, niektórzy głośno wzdychają, jedna kobieta zaczyna płakać.. "To, oto dziecko, ofiara świata i demonów musi ponieść ofiarę razem z nami!" - krzyczy pastor. "Ejmen" - chórem odpowiadają wierni."
 Eventchurch_event_1.button1,Kontynuuj
-Tokenevan_alive_questionmark.button1,{action} Zbadaj
+Tokenevan_alive_questionmark.button1,({action}) Zbadaj
 Tokenevan_alive.text,Chłopiec leży nieprzytomny
-Eventevan_alive_menu.text,"Z przerażeniem stwierdzasz, że ten chłopiec wygląda identycznie jak ten którego znaleźli policjanci, z tą róznicą, że żyje i nie ma obrażeń głowy. "Co tu się dzieje?" - cicho wyszeptujesz.\nOtrzymujesz 1 zakrytą kartę przerażenia."
+Eventevan_alive_menu.text,Z przerażeniem stwierdzasz, że ten chłopiec wygląda identycznie jak ten którego znaleźli policjanci, z tą róznicą, że żyje i nie ma obrażeń głowy. "Co tu się dzieje?" - cicho wyszeptujesz.\nOtrzymujesz 1 zakrytą kartę przerażenia.
 Eventevan_alive_menu.button1,Kontynuuj
 Tokenevan_alive_questionmark.text,Dziecko leżące na kamiennym ołtarzu. 
 Tokenevan_alive.button1,Kontynuuj
 Tokencarl.text,Pastor przemawia... Jest wysoki i muskularny, bije od niego pewność siebie i groza. Lepiej mu nie przeszkadzać.
-Tokencarl.button1,{action} Zaatakuj
-Eventchurch_event_2.text,"..."świat jest zepsuty do szpiku kości! Gwałty, morderstwa. Nasz Pan się zbliża! Ajmen!" - krzyczy pastor.\n\nCała ta sytuacja coraz bardziej cię niepokoi, gorączkowo myślisz o tym jak z tego wybrnąć. Może da się jakoś odwrócić ich uwagę..."
+Tokencarl.button1,({action}) Zaatakuj
+Eventchurch_event_2.text,"...świat jest zepsuty do szpiku kości! Gwałty, morderstwa. Nasz Pan się zbliża! Ajmen!" - krzyczy pastor.\n\nCała ta sytuacja coraz bardziej cię niepokoi, gorączkowo myślisz o tym jak z tego wybrnąć. Może da się jakoś odwrócić ich uwagę...
 Eventchurch_event_2.button1,Kontynuuj
 Event_body_raport.button1,Kontynuuj
 Event_carl_event.text,Ogromna eksplozja powaliła wszystkich zebranych w kaplicy. Nie wiadomo czy ktoś przeżył...\nPo chwili gdy uporczywy pisk w twoich uszach zaczyna się zmniejszać słyszysz, że w rumowisku ławek i ciał coś się rusza.
@@ -405,7 +405,7 @@ Tokendebris.button1,Kontynuuj
 Tokenderbis_1.text,Rumowisko z ławek i ciał.
 Tokenderbis_1.button1,Kontynuuj
 Tokencarl_body.text,Pastor, wydaje się ledwo żywy..
-Tokencarl_body.button1,Zaatakuj {action}
+Tokencarl_body.button1,Zaatakuj ({action})
 Event_evan_body.text,Z przerażeniem zdajesz sobie sprawę, że to jest ten sam chłopiec, którym czytałeś w raporcie koronera, ma to samo  ubranie i takie same obrażenia. \nTwój umysł nie jest w stanie tego zrozumieć. Otrzymujesz 2 zakryte karty przerażenia,
 Event_evan_body.button1,Kontynuuj
 Event_carl_event_1.text,Pastor mimo, że otrzymał ogromne obrażenia powoli wstaje, a jego ciało się zmienia... słyszysz przerażający krzyk przemiany w potwora. Wszyscy poszukiwacze na polu {c:Tilechurch} otrzymują 1 kartę przerażenia.
@@ -428,7 +428,7 @@ Event_carl_run_2.text,...zabiera ciało chłopca i ucieka w stronę kopalni...
 Event_carl_run_2.button1,Kontynuuj
 Event_lamp.button1,Kontynuuj
 Event_lamp.text,{c:QItemlamp}
-Eventchurch_event_3.text,""Dzisiaj złożymy wielką ofiarę aby przebłagać naszego pana. Musimy poświęcić to co dla nas najważniejsze, dlatego każdy z was..." pastor mówi podniesionym głosem rozglądając się po kościele, nagle urywa zdanie gdy dostrzega ciebie."
+Eventchurch_event_3.text,"Dzisiaj złożymy wielką ofiarę aby przebłagać naszego pana. Musimy poświęcić to co dla nas najważniejsze, dlatego każdy z was..." pastor mówi podniesionym głosem rozglądając się po kościele, nagle urywa zdanie gdy dostrzega ciebie.
 Eventchurch_event_3.button1,Kontynuuj
 Eventchurch_event_question.text,Kim jesteś?
 Eventchurch_event_question.button1,Kontynuuj
@@ -440,12 +440,12 @@ Eventchurch_event_give_dynamite.button1,Kontynuuj
 Eventchurch_event_0.text,Wchodzisz do kaplicy. Z pewnością jest to kaplica, w której spotkaliście się z matką zaginionego Johna ale wygląda inaczej. Jest nowa, zadnbana. Nie ma śladów po pożarze. Ale przecież to niemożliwe, czyżbyś zaczął tracić zmysły? Powoli przechodzisz obok ludzi, próbując nie zwracać na siebię uwagi.\n\n Otrzymujesz 1 zakrytą kartę przerażenia. 
 Eventchurch_event_0.button1,Kontynuuj
 Token_carl_waiting_for_dynamite.text,Pastor przemawia..
-Event_dynamite_quest.text,""Ah.. z kościoła. Dobrze." - mężczyzna wydaje się zmieszany. "W takim razie idź szybko znajdz tego górnika, którego pastor wysłał po dynamit i nam go przynieś.." - po chwili zastanowienia dodaje "dynamit nie górnika". Po czym wraca skąd przyszedł."
-Event_carl_ask_about_dynamite.text,""Niedawno zostałem przyjęty do kościoła" - szybko zmyślasz odpowiedź."
-Token_carl_waiting_for_dynamite.button1,{action} Daj mu dynamit
-Event_john_feel.text,"Patrzysz w przerażone oczy chłopca.. "ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?""
+Event_dynamite_quest.text,"Ah.. z kościoła. Dobrze." - mężczyzna wydaje się zmieszany. "W takim razie idź szybko znajdz tego górnika, którego pastor wysłał po dynamit i nam go przynieś.." - po chwili zastanowienia dodaje "dynamit nie górnika". Po czym wraca skąd przyszedł.
+Event_carl_ask_about_dynamite.text,"Niedawno zostałem przyjęty do kościoła" - szybko zmyślasz odpowiedź.
+Token_carl_waiting_for_dynamite.button1,({action}) Daj mu dynamit
+Event_john_feel.text,Patrzysz w przerażone oczy chłopca.. "ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?"
 Event_john_feel.button1,Kontynuuj
-Event_john_how_get_here.text,""ja, ja bawiłem się w lesie kiedy zobaczyłem tego człowieka. Był wysoki, ciągnął coś za sobą, zostawił to przed wejściem do kopalni w krzakach. Bałem się bardzo ale mnie nie zauważył. Wszedłem do kopalni bo nie chciałem, żeby mnie znalazł.. showałem się w takiej kryjówce w ścianie ale tam była dziura, wpadłem w nią.. potem tylko pamiętam ten pokój. Jestem tu już bardzo długo.." - widzisz jak oczy chłopca zachodzą łzami."
+Event_john_how_get_here.text,"ja, ja bawiłem się w lesie kiedy zobaczyłem tego człowieka. Był wysoki, ciągnął coś za sobą, zostawił to przed wejściem do kopalni w krzakach. Bałem się bardzo ale mnie nie zauważył. Wszedłem do kopalni bo nie chciałem, żeby mnie znalazł.. showałem się w takiej kryjówce w ścianie ale tam była dziura, wpadłem w nią.. potem tylko pamiętam ten pokój. Jestem tu już bardzo długo.." - widzisz jak oczy chłopca zachodzą łzami.
 Event_john_how_get_here.button1,Kontynuuj
 Event_attack_carl_human.text,Bierzesz wielki metalowy stojak na świecę i z całej siły uderzasz pastora w głowę.
 Event_attack_carl_human.button1,Kontynuuj
@@ -455,8 +455,8 @@ Spawnminion1.text,Ajmen.. ajmen.. ajmenn..\nUmieść: {c:Spawnminion1} na plansz
 Spawnminion1.button1,Kontynuuj
 Spawnminion_2.text,aaaajjjmeeeen!!!
 Spawnminion_2.button1,Kontynuuj
-Token_carl_waiting_for_dynamite.button2,{action} Zaatakuj
-Token_spell_book.button1,{action} Weź
+Token_carl_waiting_for_dynamite.button2,({action}) Zaatakuj
+Token_spell_book.button1,({action}) Weź
 Event_slivering.button1,Kontynuuj
 Event_Machete.text,Przyglądając się stercie gruzu znalazłeś {c:QItemMachete}
 Token_spell_book.text,Widzisz książkę z dziwnymi symbolami oprawioną w skórę.
@@ -465,3 +465,6 @@ Event_Machete.button1,Kontynuuj
 Tokenend_of_tunel_1.text,Nie ma przejścia
 Tokenend_of_tunel_1.button1,Kontynuuj
 Spawncultist.text,Drzwi są otwarte. Przed chwilą ktoś nimi znokautował jednego z was. Zakapturzona postać wchodzi do pomieszczenia
+EventEvent_watch_from_past.text,Oglądasz zegarek, wygląda dokładnie jak ten, który znalazłeś wcześniej przed kopalnią, tyle że jest dużo starszy i zniszczony. Ma dokładnie ten sam grawer z tyłu z napisem: "dla Evana 1881"
+EventEvent_watch_from_past.button1,Kontynuuj
+Tokendynamite_after_fail.button3,Anuluj
