@@ -206,7 +206,7 @@ Eventpast_end_john_1.button1,Kontynuuj
 Eventpast_end_john_1.text,Słyszysz narastający huk dochodzący z tunelu na wschodzie. Czujesz narastające przerażenie. Każdy badacz otrzymuje 1 zakrytą kartę przerażenia.
 Eventpast_end_john_2.button1,Przycisk1
 Eventpast_end_john_2.text,W dole tunelu pojawia się jakaś ogromna, zakapturzona postać.
-Eventpast_end_john_3.text,groza ostatnia tura
+Eventpast_end_john_3.text,Posta wydaje z siebie jakieś dziwne dźwieki, jakbyto był jakiś nieznany jezyk. Zaczyna iśc wzdłóż korytarza.
 Eventpast_end_john_3.button1,Kontynuuj
 Eventspawndagon.button1,Przycisk1
 Eventpast_end_john_4.text,Wielka kula ognia przelatuje przez korytarz. 
@@ -214,7 +214,7 @@ Eventpast_end_john_4.button1,Kontynuuj
 Eventpast_ednding_middle_john.text,Z głębi tunelu słyszysz jakieś krzyki. Szata potwora zapala się od ognia. Wszystko zaczyna palić się jak pochodnia. Ogień doszedł do lontu i za chwile wszystko wybuchnie. Macie ostatnią szansę na ucieczkę. 
 Eventpast_ednding_middle_john.button1,Kontynuuj
 Eventend_game_question_john.button1,Tak
-Eventend_game_all_without_john.text,Wychodzicie z kopalni. Nie udało wam się rozwiązać tajemnicy morderstwa chłopca. Do końca życia sobie nie wybaczyliście także tego, że zostawiliście tam Johna.\n\n Najbardziej ci go żal, często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
+Eventend_game_all_without_john.text,Wychodzicie z kopalni. Nie udało wam się rozwiązać tajemnicy morderstwa chłopca. \n\n Często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
 Tokenpast_papers.text,Stos gazet.
 Tokenpast_papers.button1,{action} Przeczytaj
 Eventpast_newspaper_president.button1,Czytaj inną
@@ -323,7 +323,7 @@ Tokenchurch_crowd_1.button1,Kontynuuj
 Eventchurch_reveal_from_doors.button2,Zaczekaj
 Eventopen_door_to_church.text,Drzwi się cicho otwierają i wchodzisz do środka. Słyszysz przemówienie pastora o końcu świata.
 Eventopen_door_to_church.button1,Zatakuj pastora
-Eventchurch_reveal_from_secret.text,Przechodzisz przez ciemny tunel, który pnie się do góry. Na końcu dochodzisz do drewnianej klapy, uchylasz ją lekko i przez szparę widzisz duże pomieszczenie, wydaje się znajome, jakbyś tu już kiedyś był. Wygląda na nowo wybudowany kościół. Na ławkach siedzą ludzie, przy ołtarzu stoi bardzo wysoki i dobrze zbudowany mężczyzna, a na ołtarzu.. próbujesz się przypatrzeć... ale widzisz tylko nogi. Wyglądają na nogi małego chłopca...\nChyba można by ich zaskoczyć w wybuchowy sposób..\n(Umieść: {c:Tilechurch} na planszy)
+Eventchurch_reveal_from_secret.text,Przechodzisz przez ciemny tunel, który pnie się do góry. Na końcu dochodzisz do drewnianej klapy, uchylasz ją lekko i przez szparę widzisz duże pomieszczenie, wydaje się znajome, jakbyś tu już kiedyś był. Wygląda na nowo wybudowany kościół. Na ławkach siedzą ludzie, przy ołtarzu stoi bardzo wysoki i dobrze zbudowany mężczyzna, a na ołtarzu.. próbujesz się przypatrzeć... ale widzisz tylko nogi. Wyglądają na nogi małego chłopca... wyglada na to, że ci ludzie sa niebezpieczni\n\n(Umieść: {c:Tilechurch} na planszy)
 Eventchurch_reveal_from_secret.button1,Kontynuuj
 Eventset_dynamite.text,To powinno ich zaskoczyć..\nPodpalasz ląt, wrzucasz przez szparę do kapilicy i uciekasz przez tunel.
 Eventset_dynamite.button1,Kontynuuj
