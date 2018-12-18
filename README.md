@@ -1,3 +1,3 @@
-# Sound of silence
+# SotC
 Scenario for valkyrie
 https://github.com/NPBruce/valkyrie
