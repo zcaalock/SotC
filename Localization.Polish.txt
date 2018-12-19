@@ -1,7 +1,7 @@
 .,Polish
 quest.name,Pieśń wybrzeża v 0.1
-quest.description,Rozwiąż zagadkę zaginięcia Johna.
-quest.authors,zcaalock
+quest.description,<i>Rozwiąż zagadkę zaginięcia Johna, syna twojej dobrej przyjaciółki i zbadaj tajemnice starego kościoła babtystów z przełomu wieków</i>\n\nScenariusz jest przeznaczony dla 2-5 osób, wymaga kafelków z pierwszej edycji Posiadłości Szaleństwa. W tym scenariuszu zrezygnowano z opisu tego jak należy ustawiać znaczniki, jest to celowy zabieg zachęcający graczy do uważneg śledzenia zmian w aplikacji jak również element mechaniki. Jeśli jakiś znacznik zostanie zauważony po czasie należy go umieścić na planszy i traktować jako dopiero co odkryty.\nScenariusz jest krótki (30-90min) i nastawiony bardziej na fabułę niż na walkę, posiada kilka zakończeń, które wpływają na długość gry oraz dwie osobne ścieżki fabularne, które do pełnego zbadania wymagają przynajmniej dwukrotnego podejścia do gry.\n
+quest.authors,zcaalock\nchrismaliszewski
 Token01_boy_body.button1,{action} Zbadaj
 Event02_show_body_boy.button1,Kontynuuj
 TokenInvestigators.text,Umieść poszukiwaczy na planszy.
@@ -116,8 +116,8 @@ Tokenpast_shelf_in_shelter.text,Widzisz łóżko piętrowe. Świeża farba i bru
 Tokenpast_shelf_in_shelter.button1,{action} Przeszukaj
 Eventpast_shelf_in_shelter.button1,Kontynuuj
 Eventpast_shelf_in_shelter_all.text,Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Otrzymujesz stan ogłuszony i tracisz tracisz tę turę.
-Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. W pomieszczeniu jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie łóżka kreski. Po nieokreślonym czasie, może po kilku tygodniach, a może miesiącach postanawiasz wyryć napis: ""Kiedykolwiek to przeczytasz, uratuj mnie"". Zasypiasz wyczerpany i już się nigdy nie budzisz."
-Eventpast_end_game_alone.button1,Kontynuuj (Koniec gry dla tego poszukiwacza)
+Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. W pomieszczeniu jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie łóżka kreski. Po nieokreślonym czasie, może po kilku tygodniach, a może miesiącach postanawiasz wyryć napis: ""Kiedykolwiek to przeczytasz, uratuj mnie"". Zasypiasz wyczerpany.\n\n(Usuń wszystkie elementy z planszy)"
+Eventpast_end_game_alone.button1,Kontynuuj 
 Eventgo_to_future_disapear.text,Ze zdziwieniem stwierdziłeś, że przejście zniknęło. Przed sobą widzisz gołą ścianę wyłożoną płytkami.
 Eventpast_end_game_alone0.text,Chwilę po tym jak poszukiwacz sam wskoczył od przejścia zamyka się ono ukazując sciąnę pokrytą brunymi zniszczonymi płytkami. \n\n(Pozostali gracze odzyskują konrolę nad swoimi postaciami, gracz który przeszedł przez przejście zostaje wyeliminowany)
 Eventpast_end_game_alone0.button1,Kontynuuj
@@ -517,3 +517,13 @@ EventEndgame_all_one_missing.text,Wychodzicie z kopalni. Mimo wielomiesięcznego
 EventEndgame_all_one_missing.button1,Kontynuuj
 EventEND_GAME.text,Koniec Gry.\n\nTo jest jedno z kilku możliwych zakończeń.
 EventEND_GAME.button1,Kontynuuj
+Event_wakeup_in_john_room.text,Budzisz się w cuchnącym pokoju. Jak przez mgłę przypominasz sobie głosy i ludzi, którzy cię zabrali. Domyślasz się, że cię tu przenieśli. Powoli otwierasz oczy i rozglądasz się po pomieszczeniu.\n\n(Umieść poszukiwacza, który wszedł przez przejście na planszy)
+Event_wakeup_in_john_room.button1,Kontynuuj
+Event_wakeup_in_john_room_john_spawn.text,W dalszej części pomieszczenia widzisz drewniane łóżko na którym leży młody chłopak w wieku około 10 lat.
+Event_wakeup_in_john_room_john_spawn.button1,Kontynuuj
+Event_wakeup_in_john_room_doors.text,Do pokoju prowadzą solidne, metalowe drzwi.
+Event_wakeup_in_john_room_doors.button1,Kontynuuj
+Tokenpast_end_game_alone_pickaxe.text,Widzisz zardzewiały kilof oparty o ścianę. Rdza i brud sprawiają, że jest ledwo dostrzegalny w słabym świetle tunelu.
+Tokenpast_end_game_alone_pickaxe.button1,{action} Weź
+Eventpast_end_game_alone_pickaxe_take.text,Otrzymujesz {c:QItemaxe}
+Eventpast_end_game_alone_pickaxe_take.button1,Kontynuuj
