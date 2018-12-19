@@ -54,15 +54,15 @@ Eventtime_m.text,W małym pomieszczeniu na końcu pokoju widzisz stos śmieci.
 Eventtime_m.button1,Kontynuuj
 Tokentime.text,Stos śmieci wygląda jakby ktoś w pośpiechu próbował coś tu zasypać
 Tokentime.button1,{action} Zbadaj
-Eventtime_test.text,Pod śmieciami znajdujesz jakiś właz zrobiony ze zaśniedziałego metalu. Cały jest pokryty dziwnymi symbolami. Wygląda to na jakąś dziwną układankę
-Eventtime_test.button1,Rozwiąż układankę
+Eventtime_test.text,Pod śmieciami znajdujesz jakiś właz zrobiony ze zaśniedziałego metalu. Cały jest pokryty dziwnymi symbolami. Dokładnie takimi jakie znajdują się na zegarku. \n\n(Tylko poszukiwacz z przedmiotem {c:QItem01_watch} może wejść w interakcję z zagadką}
+Eventtime_test.button1,[Posiadam zegarek] Kontynuuj
 Puzzle0.button1,Sprawdź
 Eventtime_open.text,Słyszysz serię kliknięć, całe pomieszczenie wydaje się lekko wibrować. Ze zdumieniem odkrywasz. że otworzyło się przejście.
 Eventtime_open.button1,Kontynuuj
 Tokentime_enter.button1,Wejdź
-Eventgo_in_time.text,Zaczynasz się schylać aby wejść do środka. kiedy nachodzi cię przeczucie, że nie powinieneś tam schodzić sam.
+Eventgo_in_time.text,Zaczynasz się schylać aby wejść do środka ale zatrzymujesz się w pół kroku zastanawiając się czy czekać na towarzyszy.
 Eventgo_in_time.button1,{action} Idź sam
-Eventtime_alone.text,Potykasz się i wpadasz z impetem do dziury. Czujesz na twarzy pęd zimnego powietrza...
+Eventtime_alone.text,Potykasz się i wpadasz z impetem do dziury. Czujesz na twarzy pęd zimnego powietrza...\n\n(Usuń wszystkie kafelki z planszy. W tym momencie akcja dzieje się z perspektywy poszukiwacza, który wszedł do tajnego przejścia, pozostali poszukiwacze nie mogą wykonywać żadnych akcji)
 Eventtime_alone.button1,Kontynuuj
 Eventwait_for_friends.text,Wołasz swoich towarzyszy. Po chwili przychodzą, próbujesz ich przekonać, żeby weszli tam z tobą.
 Eventwait_for_friends.button1,{action} Wejdźcie razem
@@ -77,11 +77,11 @@ Eventpast_show_items_torture_room.text,Próbująć się podnieść obrzucasz spo
 Eventpast_show_items_torture_room.button1,Kontynuuj
 Tokengo_to_future.text,Przejście z którego wypadłeś.
 Tokengo_to_future.button1,Wejdź przez przejście
-Tokenpast_doors1.text,Drzwi. Ciekawe gdzie prowadzą
-Tokenpast_doors1.button1,Kontynuuj
+Tokenpast_doors1.text,Drzwi. Ciekawe gdzie prowadzą.
+Tokenpast_doors1.button1,Zbadaj
 Tokentorture_bed.text,Łóżko z pasami
-Tokentorture_bed.button1,({action}) Zbadaj
-Eventtorture_bed.text,Na łóżku są ślady krwi. Jest lekko przypalone po jednej stronie. \n\n Otrzymujesz {clue}
+Tokentorture_bed.button1,{action} Zbadaj
+Eventtorture_bed.text,Skórzane łożko jest umazane krwią, po bokach luźno zwisają pasy. Obok łóżka stoi jakieś urzązenie z kablami przyczepionymi do opaski na głowę.\n\n Otrzymujesz {clue}
 Eventtorture_bed.button1,Kontynuuj
 Eventgo_to_future_.text,Ogarnia cię przeczucie, że nie powinieneś tam wchodzić bez swoich przyjaciół.
 Eventgo_to_future_.button1,{action} Idź sam
@@ -97,29 +97,29 @@ Tokenwatch_from_past.button1,({action}) Zbadaj
 Eventwatch_from_past.text,"To stary zegarek kieszonkowy. Wygląda identycznie jak ten, który znaleźliście w miejscu gdzie było ciało chłopca. Tylko, że ten zegarek jest dużo starszy, cały jest zardzewiały i ma zbitą szybkę... Zaraz, zaraz, przecież to ten sam zegarek, ma z tyłu grawer z napisem ""dla Evana 1881"". To niemożliwe..."
 Eventwatch_from_past.button1,Kontynuuj
 Tokenmessage_from_past.text,Stare łóżko. Wydaje ci się, że wygląda trochę inaczej.
-Tokenmessage_from_past.button1,({action}) Zbadaj
-Eventmessage_from_past.text,Kreski na łóżku zniknęły. To bardzo cię zdziwiło i zaniepokoiło. Zaczynasz się zastanawiać czy zwariowałeś. Otrzymujesz 2 karty przerażenia. Po bliższym przyjrzeniu się drewnianej konstrukcji dostrzegasz napis wyryty na jednej z desek. Napis jest stary ale udaje ci się go odczytać.
+Tokenmessage_from_past.button1,{action} Zbadaj
+Eventmessage_from_past.text,Kreski na łóżku zniknęły. To bardzo cię zdziwiło i zaniepokoiło. Zaczynasz się zastanawiać czy zwariowałeś. Otrzymujesz 2 zakryte karty przerażenia. Po bliższym przyjrzeniu się drewnianej konstrukcji dostrzegasz napis wyryty na jednej z desek. Napis jest stary ale udaje ci się go odczytać.
 Eventmessage_from_past.button1,Kontynuuj
-Eventmessage_from_past_1.text,"Z trudnością odczytujesz wiadomość: ""K..dykolwiek to od..ytas. uratu. .as"". Nie masz pojęcia co to ma znaczyć."
+Eventmessage_from_past_1.text,"Z trudnością odczytujesz wiadomość: ""K****kol**ek to przec***asz, **atuj mni*"". Nie masz pojęcia co to ma znaczyć."
 Eventmessage_from_past_1.button1,Kontynuuj
-Tokenend_game_alone.button1,({action})Wyjdź
+Tokenend_game_alone.button1,{action} Wyjdź
 Eventend_game_03_alone.button1,Kontynuuj
 Eventgo_to_future_.button3,Czekaj na resztę
 Event_back_in_future_all.text,Niezgrabnie wychodzisz do cuchnącego pomieszczenia starej kopalni. Dookoła są rozrzucone śmieci
 Event_back_in_future_all.button1,Kontynuuj
 Tokenend_game_all.text,Wyjście na zewnątrz (koniec gry)
-Tokenend_game_all.button1,({action})Kontynuuj
+Tokenend_game_all.button1,{action} Kontynuuj
 Eventend_game_all.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się wyjaśnić śmierci znalezionego chłopca ani odnaleźć Johna. Do końca życia każdy z was się zastanawia co właściwie się stało tego deszczowego dnia kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło naprawdę?
 Eventend_game_all.button1,Kontynuuj
 Tokenend_game_alone.text,Przejście prowadzi na zewnątrz. (Koniec gry)
 Tokenpast_shelf_in_shelter.text,Widzisz łóżko piętrowe. Świeża farba i brudna cuchnąca pościel sugerują, że od czasu do czasu ktoś tu śpi.
-Tokenpast_shelf_in_shelter.button1,({action}) Przeszukaj
+Tokenpast_shelf_in_shelter.button1,{action} Przeszukaj
 Eventpast_shelf_in_shelter.button1,Kontynuuj
 Eventpast_shelf_in_shelter_all.text,Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Otrzymujesz stan ogłuszony i tracisz tracisz tę turę.
-Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. Na szczęście, w pomieszczeniu obok jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie łóżka kreski. Po nieokreślonym czasie, wyryłeś napis: ""kiedykolwiek to przeczytasz, uratuj mnie"". Zasypiasz wyczerpany i już się nigdy nie budzisz."
-Eventpast_end_game_alone.button1,Kontynuuj (Koniec gry)
-Eventgo_to_future_disapear.text,Przejście znika
-Eventpast_end_game_alone0.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się odnaleźć Johna, a co najbardziej smutne wasz towarzysz także zaginął. Do końca życia każdy z was się zastanawia co właściwie się stało tego deszczowego dnia kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło naprawdę?
+Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. W pomieszczeniu jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie łóżka kreski. Po nieokreślonym czasie, może po kilku tygodniach, a może miesiącach postanawiasz wyryć napis: ""Kiedykolwiek to przeczytasz, uratuj mnie"". Zasypiasz wyczerpany i już się nigdy nie budzisz."
+Eventpast_end_game_alone.button1,Kontynuuj (Koniec gry dla tego poszukiwacza)
+Eventgo_to_future_disapear.text,Ze zdziwieniem stwierdziłeś, że przejście zniknęło. Przed sobą widzisz gołą ścianę wyłożoną płytkami.
+Eventpast_end_game_alone0.text,Chwilę po tym jak poszukiwacz sam wskoczył od przejścia zamyka się ono ukazując sciąnę pokrytą brunymi zniszczonymi płytkami. \n\n(Pozostali gracze odzyskują konrolę nad swoimi postaciami, gracz który przeszedł przez przejście zostaje wyeliminowany)
 Eventpast_end_game_alone0.button1,Kontynuuj
 Eventthe_end.text,Koniec.
 Eventthe_end.button1,Kontynuuj
@@ -171,9 +171,9 @@ Eventend_game_alone_without_john.text,Wychodzisz z kopalni. Twoi przyjaciele nig
 Eventend_game_alone_without_john.button1,Kontynuuj
 Eventend_game_all_with_john.text,Wychodzicie z kopalni. Niestety nie udało wam się się rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje wam spokoju to, że wydaje się wam, że to był ten sam chłopiec którego widzieliście tam wśród tej okropnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Ale czy to naprawdę się wydarzyło? Na szczęście John jest bezpieczny.
 Eventend_game_all_with_john.button1,Kontynuuj
-Event_watch.text,"Oglądasz zegarek, jest zrobiony bardzo starannie, błyszczący metal jest dokładnie wypolerowany. Z tyłu jest grawer z napisem: ""dla Evana 1881"" Całkiem nieźle się trzyma jak na 40 letni zegarek."
+Event_watch.text,"Oglądasz zegarek, jest zrobiony bardzo starannie, błyszczący metal jest dokładnie wypolerowany. Z tyłu jest grawer z napisem: ""dla Evana 1881"" Całkiem nieźle się trzyma jak na 40 letni zegarek. Na kopercie zegarka jest zamontowany ruchomy bazel, który jest pokryty dziwnymi symbolami."
 Event_watch.button1,Kontynuuj
-Eventshow_watch_from_past.text,Coś się mieni na podłodze.
+Eventshow_watch_from_past.text,Rozgądając się po pomieszczeniu dostrzegasz coś mieniącego się na podłodze.
 Eventshow_watch_from_past.button1,Kontynuuj
 Eventpast_dynamite.button2,Porażka
 Eventtake_dynamite.text,Udaje ci się wyplątać jedną laskę dynamitu.
@@ -456,7 +456,7 @@ Spawnminion1.text,Ajmen.. ajmen.. ajmenn.. \n\n Umieść: {c:Spawnminion1} na pl
 Spawnminion_2.button1,Kontynuuj
 Spawnminion_2.text,aaaajjjmeeeen!!!
 Token_carl_waiting_for_dynamite.button2,({action}) Zaatakuj
-Token_spell_book.button1,({action}) Weź
+Token_spell_book.button1,{action} Weź
 Event_slivering.button1,Kontynuuj
 Event_Machete.text,Oglądasz dokładnie kamienie szukając szczeliny, która umożliwiała by ci zobaczenie co jest po drugiej stronie. Po chwili dostrzegasz metalowy, zardzewiały przedmiot.\n\nOtrzymujesz: {c:QItemMachete}
 Token_spell_book.text,Widzisz książkę z dziwnymi symbolami oprawioną w skórę.
@@ -499,3 +499,21 @@ Event_church_doors_to_mine_knife.button1,Kontynuuj
 Tokenend_of_tunel.button2,Porażka
 Eventend_of_tunel_fail.text,Oglądasz dokładnie rumowisko szukając szczeliny, która umożliwiała by ci zobaczenie co jest po drugiej stronie. Ostrożnie wyciągasz luźny kamień, niestety powoduje to małą lawinę, która spada w twoim kierunku. W ostatniej chwili się cofasz ale jeden z kamieni leci prosto na twoją głowę. \n\nOtrzymujesz 2 zakryte karty obrażenia ({agility} zapobiega) 
 Eventend_of_tunel_fail.button1,Kontynuuj
+Tokenpast_doors1_blocked.text,Drzwi są bardzo solidnie zrobione, nie jesteś ich w żaden sposób otworzyć.
+Tokenpast_doors1_blocked.button1,Kontynuuj
+Eventpast_doors1_blocked.text,Drzwi są bardzo solidnie zrobione, nie jesteś ich w żaden sposób otworzyć.
+Eventpast_doors1_blocked.button1,Kontynuuj
+Eventpast_end_game_alone0_place_invest.text,Po kilku minutach pozostali poszukiwacze zaniepokojeni zniknięcim towarzysza zbierają się w pomieszczeniu gdzie ostatnio go widzieli.\n\nUmieść pozostałych poszukiwaczy na planszy
+Tokenpast_end_game_alone0_place_invest.button1,Kontynuuj
+Eventtime_test.button2,Anuluj
+Eventtime_test_watch_trigger.text,Ze zdumieniem odkrywasz, że kręcąc bazelem zegarka wpływasz na układ symboli na pokrywie włazu. Nie masz pojęcia jakim cudem to działa ale możesz spróbować róznych kombinacji.
+Eventtime_test_watch_trigger.button1,{action} Rozwiąż zagadkę
+Eventtime_test_watch_trigger.button2,Anuluj
+Eventtime_test_no_watch.button1,Kontynuuj
+Eventtime_test_no_watch.text,Pod śmieciami znajdujesz jakiś właz zrobiony ze zaśniedziałego metalu. Cały jest pokryty dziwnymi symbolami. Nie masz pojęcia co one znaczą, być może przeoczyłeś jakąś wskazówkę.
+Eventgo_to_future_disapear.button1,Kontynuuj
+Eventpast_end_game_alone0_place_invest.button1,Kontynuuj
+EventEndgame_all_one_missing.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się wyjaśnić śmierci znalezionego chłopca ani odnaleźć Johna. Co gorsze zaginiony poszukiwacz nigdy się nie odnalazł. Do końca życia każdy z was się zastanawia co właściwie się stało tego deszczowego dnia kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło naprawdę?
+EventEndgame_all_one_missing.button1,Kontynuuj
+EventEND_GAME.text,Koniec Gry.\n\nTo jest jedno z kilku możliwych zakończeń.
+EventEND_GAME.button1,Kontynuuj
