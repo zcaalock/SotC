@@ -1,6 +1,6 @@
 .,Polish
 quest.name,Pieśń wybrzeża v 0.1
-quest.description,<i>Rozwiąż zagadkę zaginięcia Johna, syna twojej dobrej przyjaciółki i zbadaj tajemnice starego kościoła babtystów z przełomu wieków</i>\n\nScenariusz jest przeznaczony dla 2-5 osób, wymaga kafelków z pierwszej edycji Posiadłości Szaleństwa. W tym scenariuszu zrezygnowano z opisu tego jak należy ustawiać znaczniki, jest to celowy zabieg zachęcający graczy do uważneg śledzenia zmian w aplikacji jak również element mechaniki. Jeśli jakiś znacznik zostanie zauważony po czasie należy go umieścić na planszy i traktować jako dopiero co odkryty.\nScenariusz jest krótki (30-90min) i nastawiony bardziej na fabułę niż na walkę, posiada kilka zakończeń, które wpływają na długość gry oraz dwie osobne ścieżki fabularne, które do pełnego zbadania wymagają przynajmniej dwukrotnego podejścia do gry.\n
+quest.description,<i>Rozwiąż zagadkę zaginięcia Johna, syna twojej dobrej przyjaciółki i zbadaj tajemnice starego kościoła babtystów z przełomu wieków</i>\n\nScenariusz jest przeznaczony dla 2-5 osób, wymaga kafelków z pierwszej edycji Posiadłości Szaleństwa. W tym scenariuszu w większości przypadków zrezygnowano z opisu tego jak należy ustawiać znaczniki, jest to celowy zabieg zachęcający graczy do uważneg śledzenia zmian w aplikacji jak również element mechaniki. Jeśli jakiś znacznik zostanie zauważony po czasie należy go umieścić na planszy i traktować jako dopiero co odkryty.\n\n<b>Uwaga: jeśli w trakcie rozgrywki pojawi polecenie usunięcia wszystkich kafelek z planszy faza poszukiwaczy zaczyna się od nowa.</b>\n\nScenariusz jest nastawiony na fabułę, posiada kilka zakończeń, które wpływają na długość rozgrywki.\n\nWszelkie uwagi można kierować pod adresem:\nhttps://github.com/zcaalock/SotC/issues\n\nScenariusz jest stworzony przy użyciu:\nhttps://github.com/NPBruce/valkyrie\n\n\n
 quest.authors,zcaalock\nchrismaliszewski
 Token01_boy_body.button1,{action} Zbadaj
 Event02_show_body_boy.button1,Kontynuuj
@@ -92,7 +92,7 @@ Eventgo_to_future_all.text,Wskakujesz do przejścia i znowu mkniesz przez pustk�
 Eventgo_to_future_all.button1,Kontynuuj
 Eventback_in_future.text,Wypadasz na stertę śmieci. Po chwili udaje ci się wygrzebać i stanąć na nogach. Rozglądasz się i widzisz to samo pomieszczenie w kopalni, z którego na początku przyszedłeś. Patrzysz za siebie i widzisz, że przejście zniknęło. Dotykasz desperacko każdego kawałka podłogi i ściany, wołasz swoich przyjaciół ale nie ma żadnego odzewu. Po kilkunastu minutach zrezygnowany wychodzisz na zewnątrz szukać pomocy.
 Eventback_in_future.button1,Kontynuuj
-Tokenwatch_from_past.text,Coś leży na podłodze.
+Tokenwatch_from_past.text,Coś błyszczącego leży na podłodze. 
 Tokenwatch_from_past.button1,{action} Zbadaj
 Eventwatch_from_past.text,"To stary zegarek kieszonkowy. Wygląda identycznie jak ten, który znaleźliście w miejscu gdzie było ciało chłopca. Tylko, że ten zegarek jest dużo starszy, cały jest zardzewiały i ma zbitą szybkę... Zaraz, zaraz, przecież to ten sam zegarek, ma z tyłu grawer z napisem ""dla Evana 1881"". To niemożliwe..."
 Eventwatch_from_past.button1,Kontynuuj
@@ -149,14 +149,14 @@ Eventpast_dynamite.button1,Weź
 Tokenpast_tunel_right_end.button1,Odkryj
 Tokenpast_tunel_door.text,Ciężkie metalowe drzwi. Żeby je otworzyć potrzebny jest srebrny klucz.
 Tokenpast_tunel_right_end.text,Tunel biegnie dalej w tym kierunku.
-Tokenpast_tunel_door.button1,({action}) Otwórz
+Tokenpast_tunel_door.button1,{action} Otwórz
 Eventpast_tunel_door_open.text,Przekręcasz klucz w zamku, idealnie pasuje. Otwierasz drzwi z wielkim zgrzytem..
 Eventpast_tunel_door_open.button1,Kontynuuj
 Eventpast_boy_room_reveal.text,...Twoim oczom ukazuje się ciemne pomieszczenie. \n\n (Umieść: {c:Tilepast_boy_room} na planszy)
 Eventpast_boy_room_reveal.button1,Kontynuuj
 Eventpast_boy_found.text,Na łóżku leży jakas postać. Po dokładnym przyjrzeniu się stwierdzasz, że to mały John. Widać, że jest w kiepskim stanie ale przynajmniej żyje.
 Eventpast_boy_found.button1,Kontynuuj
-TokenJohn.text,Podchodzisz do dziecka i widzisz jak powoli otwiera oczy.
+TokenJohn.text,Widzisz chłopca w wieku około 10 lat.
 TokenJohn.button1,({action}) Rozmawiaj?
 Eventtake_john.text,Bierzesz Johna na ręce. Od tej chwili do momentu, aż zostawisz Johna możesz wykonać tylko jedną akcję na turę.
 Eventtake_john.button1,Kontynuuj
@@ -441,9 +441,9 @@ Token_carl_waiting_for_dynamite.text,Pastor przemawia..
 Event_dynamite_quest.text,"Ah.. z kościoła. Dobrze. - mężczyzna wydaje się zmieszany. ""W takim razie idź szybko znajdz tego górnika, którego pastor wysłał po dynamit i nam go przynieś.."" - po chwili zastanowienia dodaje ""dynamit nie górnika"". Po czym wraca skąd przyszedł."
 Event_carl_ask_about_dynamite.text,Niedawno zostałem przyjęty do kościoła - szybko zmyślasz odpowiedź.
 Token_carl_waiting_for_dynamite.button1,({action}) Daj mu dynamit
-Event_john_feel.text,"Patrzysz w przerażone oczy chłopca.. ""ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?"""
+Event_john_feel.text,"Patrzysz w przerażone oczy chłopca i pytasz jak się czuje: \n<i>""ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?""</i> \n\nChłopiec jest wychudzony i blady, pytasz o jego imię: <i>\n""Mam na imię J-john""</i>\n\nA więc to jest John, zaginiony chłopiec, którego szukasz.\nOtrzymujesz {clue}"
 Event_john_feel.button1,Kontynuuj
-Event_john_how_get_here.text,Ja, ja bawiłem się w lesie kiedy zobaczyłem tego człowieka. Był wysoki, ciągnął coś za sobą, zostawił t-t-to przed wejściem do kopalni w krzakach. Bałem się bardzo ale mnie nie zauważył. Wszedłem do kopalni bo nie chciałem, żeby mnie znalazł.. schowałem się w takiej kryjówce w ścianie ale tam była dziura, wpadłem w nią.. potem tylko pamiętam ten pokój. Jestem tu już bardzo długo.. - widzisz jak oczy chłopca zachodzą łzami.
+Event_john_how_get_here.text,"Ciesząc się, że go odnalazłeś pytasz jak się tu znalazł:\n\n<i>""Ja, ja bawiłem się w lesie kiedy zobaczyłem tego człowieka. Był wysoki, ciągnął coś za sobą, zostawił t-t-to przed wejściem do kopalni w krzakach. Bałem się bardzo ale mnie nie zauważył. Wszedłem do kopalni bo nie chciałem, żeby mnie znalazł.. schowałem się w takiej kryjówce w ścianie ale tam była dziura, wpadłem w nią.. potem tylko pamiętam ten pokój. Jestem tu już bardzo długo.."" </i>- widzisz jak oczy chłopca zachodzą łzami."
 Event_john_how_get_here.button1,Kontynuuj
 Event_attack_carl_human.text,Bierzesz wielki metalowy stojak na świecę i z całej siły uderzasz pastora w głowę.
 Event_attack_carl_human.button1,Kontynuuj
@@ -526,7 +526,7 @@ Tokenpast_end_game_alone_pickaxe.button1,{action} Weź
 Eventpast_end_game_alone_pickaxe_take.text,Otrzymujesz {c:QItemaxe}
 Eventpast_end_game_alone_pickaxe_take.button1,Kontynuuj
 Tokenend_of_tunel_destroyable.text,Przy pomocy kilofa możesz spróbować odkopać przejście.
-Tokenend_of_tunel_destroyable.button1,Kontynuuj
+Tokenend_of_tunel_destroyable.button1,{action} Kontynuuj
 Tokenend_of_tunel_destroyable.button2,Porażka
 Eventend_of_tunel_destroyable_success.text,Z wielkim wysiłkiem udało ci się zrobić małe przejście na drugą strone. Przez dziurę widzisz tunel niknący w ciemności.\n\nUmieść {c:Tilepast_mine_tuner_right}
 Eventend_of_tunel_destroyable_success.button1,Kontynuuj
@@ -546,3 +546,11 @@ Eventend_of_tunel_destroyable_door_reveal.text,Po prawej stronie widzisz metalow
 Eventend_of_tunel_destroyable_door_reveal.button1,Kontynuuj
 Token_time_respawn.text,Domyślasz się, że aby ponownie otworzyć przejście musisz użyć zegarka. 
 Token_time_respawn.button1,Kontynuuj
+Eventend_of_tunel_destroyable_fail0.text,Mimo uśilnych prób nie udaje ci się zrobić przejścia. Kamienie są duże i zakleszczone ze sobą
+Eventend_of_tunel_destroyable_fail0.button1,Kontynuuj
+Eventend_of_tunel_destroyable_fail1.text,Uderzasz z całych sił w skałę, kilof niefortunnie odbija się od dużego kamienia prosto w twoją głowę. Otrzymujesz 1 zakrytą kartę obrażenia ({agility} zapobiega)
+Eventend_of_tunel_destroyable_fail1.button1,Kontynuuj
+Eventend_of_tunel_destroyable_fail2.text,Sfrustrowany ostatkiem sił uderzasz na oślep w kamienie. Cała konstrukcja niespodziewanie się zawala prosto na ciebie.\nOtrzymujesz 2 zakryte karty obrażeń ({agility} zapobiega)\nNastępnie odkrywasz jedną kartę obrażeń kiedy sterta kamieni powala cię na ziemię.
+Eventend_of_tunel_destroyable_fail2.button1,Kontynuuj
+Eventfriendfound.text,Z ulgą odkrywasz, że zaginiony towarzysz również się odnalazł.
+Eventfriendfound.button1,Kontynuuj
