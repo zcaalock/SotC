@@ -157,9 +157,7 @@ Eventpast_boy_room_reveal.button1,Kontynuuj
 Eventpast_boy_found.text,Na łóżku leży jakas postać. Po dokładnym przyjrzeniu się stwierdzasz, że to mały John. Widać, że jest w kiepskim stanie ale przynajmniej żyje.
 Eventpast_boy_found.button1,Kontynuuj
 TokenJohn.text,Podchodzisz do dziecka i widzisz jak powoli otwiera oczy.
-TokenJohn.button1,({action}) Jak się czujesz?
-TokenJohn.button2,({action}) Jak się tu znalazłeś?
-TokenJohn.button3,({action}) Nic nie mów, zaraz cię stąd zabiorę.
+TokenJohn.button1,({action}) Rozmawiaj?
 Eventtake_john.text,Bierzesz Johna na ręce. Od tej chwili do momentu, aż zostawisz Johna możesz wykonać tylko jedną akcję na turę.
 Eventtake_john.button1,Kontynuuj
 Eventend_game_alone_with_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie znaleźli chociaż poświęciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje ci spokoju to, że wydaje ci się, że to był ten sam chłopiec którego widziałeś tam wśród tej okropnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Do końca życia sobie nie wybaczysz tego, że zostawiłeś tam swoich przyjaciół. Ale czy to naprawdę się wydarzyło? Jedyne co cię pociesza to to, że John jest bezpieczny. Ostatnio coraz rzadziej cię odwiedza sanatorium... patrzysz zamyślony przez zakratowane okno jak nad Arkham zachodzi słońce.
@@ -445,7 +443,7 @@ Event_carl_ask_about_dynamite.text,Niedawno zostałem przyjęty do kościoła - 
 Token_carl_waiting_for_dynamite.button1,({action}) Daj mu dynamit
 Event_john_feel.text,"Patrzysz w przerażone oczy chłopca.. ""ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?"""
 Event_john_feel.button1,Kontynuuj
-Event_john_how_get_here.text,ja, ja bawiłem się w lesie kiedy zobaczyłem tego człowieka. Był wysoki, ciągnął coś za sobą, zostawił to przed wejściem do kopalni w krzakach. Bałem się bardzo ale mnie nie zauważył. Wszedłem do kopalni bo nie chciałem, żeby mnie znalazł.. schowałem się w takiej kryjówce w ścianie ale tam była dziura, wpadłem w nią.. potem tylko pamiętam ten pokój. Jestem tu już bardzo długo.. - widzisz jak oczy chłopca zachodzą łzami.
+Event_john_how_get_here.text,Ja, ja bawiłem się w lesie kiedy zobaczyłem tego człowieka. Był wysoki, ciągnął coś za sobą, zostawił t-t-to przed wejściem do kopalni w krzakach. Bałem się bardzo ale mnie nie zauważył. Wszedłem do kopalni bo nie chciałem, żeby mnie znalazł.. schowałem się w takiej kryjówce w ścianie ale tam była dziura, wpadłem w nią.. potem tylko pamiętam ten pokój. Jestem tu już bardzo długo.. - widzisz jak oczy chłopca zachodzą łzami.
 Event_john_how_get_here.button1,Kontynuuj
 Event_attack_carl_human.text,Bierzesz wielki metalowy stojak na świecę i z całej siły uderzasz pastora w głowę.
 Event_attack_carl_human.button1,Kontynuuj

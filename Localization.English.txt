@@ -158,8 +158,6 @@ Eventpast_boy_found.text,There is a figure on the bed. After careful acceptance,
 Eventpast_boy_found.button1,Continue
 TokenJohn.text,You approach the child and see how slowly he opens his eyes.
 TokenJohn.button1,({action}) How are you?
-TokenJohn.button2,({action}) How did you get here?
-TokenJohn.button3,({action}) Do not say anything, I'll get you out of here soon.
 Eventtake_john.text,You take John in your arms. From now until you leave John you can only do one action per turn.
 Eventtake_john.button1,Continue
 Eventend_game_alone_with_john.text,You leave the mine. Your friends have never found one, even though you've spent many months searching for them. You also failed to solve the mystery of the murder of a boy found in front of the mine. All the time you are not disturbed by the fact that it seems to you that it was the same boy whom you saw there among this secret sect. He was wearing the same clothes. But how is it possible, how he did not live ... You will not forgive yourself for the rest of your life that you left your friends there. But did it really happen? The only thing that comforts you is that John is safe. Recently, you visit the sanatorium less frequently ... you look thoughtfully through the barred window as the sun sets over Arkham.
