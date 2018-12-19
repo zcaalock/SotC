@@ -28,9 +28,9 @@ Eventshow_observe_cave.text,Tunel niknie w ciemności
 Eventshow_observe_cave.button1,Kontynuuj
 Eventshow_mine_end.text,W tym miejscu tunel jest zasypany. Nie masz szans się dalej przedostać.
 Eventshow_mine_end.button1,Kontynuuj
-Tokenend_of_tunel.button1,({action}) Zbadaj
+Tokenend_of_tunel.button1,{action} Przeszukaj
 Eventshow_shelter_token.text,Po prawej stronie widzisz drewniane drzwi.
-Tokenend_of_tunel.text,Tunel jest całkiem zasypany. Nie ma przejścia
+Tokenend_of_tunel.text,Widzisz stertę kamieni i gruzu po zawalemniu się tunelu.. Nie ma przejścia. Możesz spróbować przeszukać stertę gruzu. \n\nTest: {observation}
 Eventshow_shelter_token.button1,Kontynuuj
 Tokendoor_to_shelter.text,Drewniane drzwi są bardzo zniszczone i ledwo się trzymają w zawiasach. Sądząc po śladach na podłodze, ktoś niedawno tędy przechodził.
 Tokendoor_to_shelter.button1,({action})Wejdź
@@ -365,7 +365,7 @@ Tokeninfo_table.text,Napis na kontuarze.
 Tokeninfo_table.button1,{action} Zbadaj
 Eventinfo_table.text,Ku pamięci ofiar pożaru, który tu wybuchł w 12 grudnia 1901r. Otrzymujesz {clue}.
 Eventinfo_table.button1,Kontynuuj
-Eventgo_to_crime_scene.text,Opuszczasz kościół i udajesz się na miejsce gdzie znaleziono ciało chłopca. Jest niedaleko, w pobliskim lesie.
+Eventgo_to_crime_scene.text,Opuszczasz kościół i udajesz się na miejsce gdzie znaleziono ciało chłopca. Jest niedaleko, w pobliskim lesie.\n\nUsuń wszystkie kafelki z planszy.
 Eventgo_to_crime_scene.button1,Kontynuuj
 Eventfuture_corridor_reveal.text,Widzisz stare schody prowadzące w dół. Pokryte są czerwonym brudnym dywanem. Na końcu korytarza widzisz stare masywne drzwi.\n\n (Umieść {c:Tilestairs_up} na planszy})
 Eventfuture_corridor_reveal.button1,Kontynuuj
@@ -458,7 +458,7 @@ Spawnminion_2.text,aaaajjjmeeeen!!!
 Token_carl_waiting_for_dynamite.button2,({action}) Zaatakuj
 Token_spell_book.button1,({action}) Weź
 Event_slivering.button1,Kontynuuj
-Event_Machete.text,Przyglądając się stercie gruzu znalazłeś {c:QItemMachete}
+Event_Machete.text,Oglądasz dokładnie kamienie szukając szczeliny, która umożliwiała by ci zobaczenie co jest po drugiej stronie. Po chwili dostrzegasz metalowy, zardzewiały przedmiot.\n\nOtrzymujesz: {c:QItemMachete}
 Token_spell_book.text,Widzisz książkę z dziwnymi symbolami oprawioną w skórę.
 Event_slivering.text,Otrzymujesz {c:QItemshriveling}
 Event_Machete.button1,Kontynuuj
@@ -496,3 +496,6 @@ Eventfuture_books_doors_reveal_fail.text,Po krótkiej chwili, stwierdzasz że ni
 Eventfuture_books_doors_reveal_fail.button1,Kontynuuj
 Event_church_doors_to_mine_knife.text,Kierując się spowrotem na górę dostrzegasz coś metalowego wystającego spod dywanu. \n\nOtrzymujesz {c:QItem_church_doors_to_mine_knife}
 Event_church_doors_to_mine_knife.button1,Kontynuuj
+Tokenend_of_tunel.button2,Porażka
+Eventend_of_tunel_fail.text,Oglądasz dokładnie rumowisko szukając szczeliny, która umożliwiała by ci zobaczenie co jest po drugiej stronie. Ostrożnie wyciągasz luźny kamień, niestety powoduje to małą lawinę, która spada w twoim kierunku. W ostatniej chwili się cofasz ale jeden z kamieni leci prosto na twoją głowę. \n\nOtrzymujesz 2 zakryte karty obrażenia ({agility} zapobiega) 
+Eventend_of_tunel_fail.button1,Kontynuuj
