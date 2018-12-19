@@ -369,8 +369,6 @@ Eventgo_to_crime_scene.text,You leave the church and go to the place where the b
 Eventgo_to_crime_scene.button1,Continue
 Eventfuture_corridor_reveal.text,You see the old stairs leading down. They are covered with a red dirty carpet. At the end, the corridor is lined with bookshelves. \n\n (Place {c:Tilestairs_up} as indicated})
 Eventfuture_corridor_reveal.button1,Continue
-Tokenfurue_book_shelf.text,Bookshelf
-Tokenfurue_book_shelf.button1,({action}) Investigate
 Eventfuture_books.text,"You see a lot of thick books, each one is signed ""Journal of Works. Copper Mine"". Dates are from 1800 to 1900. Journal missing from 1850-1855. In the middle are tables with names, dates and quantity of extracted ore. \n\n You gain ({clue})"
 Eventfuture_books.button1,Continue
 Eventjulie_talk.text,I'm glad you came to help me. As you probably know, my son was missing a few days ago. The police are helpless, they have not found any clues. I learned that a boy's body was found in a nearby forest. Fortunately, it was not my son. The police do not connect these two things, but I'm beginning to have a very bad feeling. Please, go to this place. Along the way, read the report of the coroner, whose photo I took at the coroner. \n\n Good luck. \n\n (All investigators gain ({clue})

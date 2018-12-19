@@ -341,18 +341,18 @@ Eventnothing.text,Nic tu ciekawego nie ma
 Eventnothing.button1,Kontynuuj
 Eventgo_back_from_church.text,Wracasz przez tunel
 Eventgo_back_from_church.button1,Kontynuuj
-UI1.uitext,Jest 1 października 1920 roku. Twoja znajoma zaprasza cię na spotkanie w pobliskim kościele baptystów. Przez telefon wspomniała, że to ważne, a w jej głosie wyczułeś niepokój. Domyślasz się, że chodzi o zaginięcie jej syna Johna, pisały o tym gazety. Wygląda na to, że jeszcze się nie odnalazł...
+UI1.uitext,Jest 1 października 1920 roku. Twoja znajoma zaprasza cię na spotkanie w pobliskim kościele baptystów. Przez telefon wspomniała, że to ważne a w jej głosie wyczułeś niepokój. Domyślasz się, że chodzi o zaginięcie jej syna Johna, pisały o tym gazety. Wygląda na to, że jeszcze się nie odnalazł...
 UI0.button1,Kontynuuj
 Eventstart_event.text,Wchodzisz do kościoła. Jest dość stary i zniszczony, wygląda jakby kiedyś wybuchł w nim pożar. \n\n Umieść {c:Tilechurch} na planszy
 Eventstart_event.button1,Kontynuuj
 Eventstart_event_1.text,W ławce siedzi twoja znajoma. Wygląda na bardzo smutną. Modli się.
 Eventstart_event_1.button1,Kontynuuj
-Eventstart_event_2.text,Na kontuarze znajduje się tabliczka.
+Eventstart_event_2.text,Na kontuarze znajduje się tabliczka z napisem, którego z tej odległości nie jesteś w stanie odczyta.
 Eventstart_event_2.button1,Kontynuuj
-Eventstart_event_3.text,Z tyłu są ładne zdobione drzwi.
+Eventstart_event_3.text,Z tyłu kościoła jest stara, ładnie zdobiona, drewniana półka z książkami.
 Eventstart_event_3.button1,Kontynuuj
 Tokenfuture_doors_to_corridor.text,Duże, ładnie zdobione drzwi.
-Tokenfuture_doors_to_corridor.button1,({action}) Otwórz
+Tokenfuture_doors_to_corridor.button1,{action} Otwórz
 Tokenfuture_exit.text,Wyjście.
 Tokenfuture_exit.button1,{action} Idź na miejsce zbrodni
 Eventstart_event_4.text,Umieść poszukiwaczy przy wejściu.
@@ -367,11 +367,11 @@ Eventinfo_table.text,Ku pamięci ofiar pożaru, który tu wybuchł w 12 grudnia 
 Eventinfo_table.button1,Kontynuuj
 Eventgo_to_crime_scene.text,Opuszczasz kościół i udajesz się na miejsce gdzie znaleziono ciało chłopca. Jest niedaleko, w pobliskim lesie.
 Eventgo_to_crime_scene.button1,Kontynuuj
-Eventfuture_corridor_reveal.text,Widzisz stare schody prowadzące w dół. Pokryte są czerwonym brudnym dywanem. Na końcu korytarz jest zastawiony półką z książkami. \n\n (Umieść {c:Tilestairs_up} na planszy})
+Eventfuture_corridor_reveal.text,Widzisz stare schody prowadzące w dół. Pokryte są czerwonym brudnym dywanem. Na końcu korytarza widzisz stare masywne drzwi.\n\n (Umieść {c:Tilestairs_up} na planszy})
 Eventfuture_corridor_reveal.button1,Kontynuuj
-Tokenfurue_book_shelf.text,Półka z książkami.
-Tokenfurue_book_shelf.button1,({action}) Zbadaj
-Eventfuture_books.text,"Widzisz dużo grubych książek, każda jest podpisana ""Dziennik prac. Kopalnia miedzi"" Daty są od 1800 do 1900 roku. Brakuje dziennika z 1850-1855. W środku są tabele z nazwiskami, datami i ilością wydobytego urobku. (Otrzymujesz 1 wskazówkę ({clue}))"
+Tokenfurue_book_shelf_interaction.button1,{action} Zbadaj
+Tokenfurue_book_shelf_interaction.text,Półka z książkami.
+Eventfuture_books.text,"Jesteś lekko zdziwiony, że to nie egzemplarze bilbii lub innych religijnych książek. Przebiegasz wzrogiem po grzbietach i widzisz, że każda księga jest podpisana: ""Dziennik prac. Kopalnia miedzi"" Daty są od 1800 do 1900 roku. Brakuje dziennika z 1850-1855. W środku są tabele z nazwiskami, datami i ilością wydobytego urobku. (Otrzymujesz {clue})"
 Eventfuture_books.button1,Kontynuuj
 Eventjulie_talk.text,Cieszę się, że zdecydowałeś się mi pomóc. Jak zapewne wiesz mój syn zaginął kilka dni temu. Policja jest bezradna, nie udało im się znaleźć żadnego tropu. Dowiedziałam się, że w pobliskim lesie znaleziono ciało jakiegoś chłopca. Na szczęście to nie był mój syn. Policja nie łączy tych dwóch spraw ale ja zaczynam mieć bardzo złe przeczucia. Proszę idź tam, może znajdziesz jakiś trop. Po drodze przeczytaj raport koronera, udało mi się zdobyć kopię od lekarza, który badał zwłoki tego biednego chłopca. \n\n Powodzenia.  \n\n (Wszyscy poszukiwacze otrzymują {clue})
 Eventjulie_talk.button1,Kontynuuj
@@ -476,3 +476,23 @@ EventToken_go_to_future.button1,Kontynuuj
 EventToken_torture_bed.text,Na środku pomieszczenia stoi skórzane łóżko z pasami.
 EventToken_go_to_future.text,Za twoimi plecami znajduje się przejście, z którego wypadłeś.
 EventToken_torture_bed.button1,Kontynuuj
+Token_church_doors_to_mine.text,Stare masywne drzwi.
+Token_church_doors_to_mine.button1,{action} Zbadaj
+Event_church_doors_to_mine_explore.text,Drzwi są drewniane, solidnie zrobione, spięte grubymi metalowymi pasami. Zamek w drzwiach jest duży i staroświecki. Naciskasz na klamkę ale drzwi są zamknięte. Próbujesz zobaczyć coś przez dziurę od klucza ale jest tam tylko ciemność, zapach stęchlizny i zbutwiałego drewna.\n\nOtrzymujesz {clue}
+Event_church_doors_to_mine_explore.button1,Kontynuuj
+Token_church_doors_to_mine_static.text,Zamknięte masywne drzwi
+Token_church_doors_to_mine_static.button1,Kontynuuj
+Tokenfuture_books_doors_reveal.text,Postanawiasz jeszcze raz rzucić okiem na póki, masz przeczucie, że coś z nimi jest nie tak..
+Tokenfuture_books_doors_reveal.button1,{action} Zbadaj
+Eventfuture_books_doors_reveal_test.text,Wyciągasz książki na chybił trafił mając nadzieję, że znajdziesz coś interesującego. \nTest {lore}
+Eventfuture_books_doors_reveal_test.button1,Kontynuuj
+Eventfuture_books_doors_reveal_test.button2,Kontynuuj
+Eventfuture_books_doors_reveal_test.button3,Anuluj
+Eventfuture_books_doors_reveal_success.text,Próbujesz wyciągnąc kolejną książkę, pociągasz ją w dół, słyszysz ciche kliknięcie i czujesz, że półka lekko się poruszyła. Po dokładnieszym zbadaniu dostrzegasz prowadnice na podłodze, które umożliwają łatwe przesunięcie półki na bok. Ze zdziwnieniem obserwujesz jak półka się przesuwa, a twoim oczom ukazują się ładnie zdobione drzw.
+Eventfuture_books_doors_reveal_success.button1,Kontynuuj
+Tokenfurue_book_shelf_open.text,Półka z dziennikami urobku.
+Tokenfurue_book_shelf_open.button1,Kontynuuj
+Eventfuture_books_doors_reveal_fail.text,Po krótkiej chwili, stwierdzasz że nie ma tu nic interesującego. Same tabelki i liczby.
+Eventfuture_books_doors_reveal_fail.button1,Kontynuuj
+Event_church_doors_to_mine_knife.text,Kierując się spowrotem na górę dostrzegasz coś metalowego wystającego spod dywanu. \n\nOtrzymujesz {c:QItem_church_doors_to_mine_knife}
+Event_church_doors_to_mine_knife.button1,Kontynuuj
