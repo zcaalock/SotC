@@ -71,7 +71,7 @@ Eventgo_in_time.button2,Czekaj na resztę
 Eventall_go_in_time.text,Lecisz chwile przez ciemność, czując zimny wiatr na twarzy.. \n\n (usuń wszystkie kafelki i znaczniki z planszy)
 Eventall_go_in_time.button1,Kontynuuj
 Eventwait_for_friends.button2,Nie wchodźcie
-Eventpast_start_event.text,...wpadasz z impetem do małego jasnego pomieszczenia na twarde płytki. Każdy poszukiwacz otrzymuje 2 zakryte karty obrażeń ({agility} zapobiega)
+Eventpast_start_event.text,...wpadasz z impetem do małego jasnego pomieszczenia na twarde płytki. Każdy poszukiwacz, który teraz przeszedł przez przejście otrzymuje 2 zakryte karty obrażeń ({agility} zapobiega)
 Eventpast_start_event.button1,Kontynuuj
 Eventpast_show_items_torture_room.text,Próbująć się podnieść obrzucasz spojrzeniem całe pomieszczenie. Jest to mały pokój wyłożony białymi płytkami, jest tu czysto i jasno.\n\n (Umieść: {c:Tilepast_shelter} na planszy)
 Eventpast_show_items_torture_room.button1,Kontynuuj
@@ -93,7 +93,7 @@ Eventgo_to_future_all.button1,Kontynuuj
 Eventback_in_future.text,Wypadasz na stertę śmieci. Po chwili udaje ci się wygrzebać i stanąć na nogach. Rozglądasz się i widzisz to samo pomieszczenie w kopalni, z którego na początku przyszedłeś. Patrzysz za siebie i widzisz, że przejście zniknęło. Dotykasz desperacko każdego kawałka podłogi i ściany, wołasz swoich przyjaciół ale nie ma żadnego odzewu. Po kilkunastu minutach zrezygnowany wychodzisz na zewnątrz szukać pomocy.
 Eventback_in_future.button1,Kontynuuj
 Tokenwatch_from_past.text,Coś leży na podłodze.
-Tokenwatch_from_past.button1,({action}) Zbadaj
+Tokenwatch_from_past.button1,{action} Zbadaj
 Eventwatch_from_past.text,"To stary zegarek kieszonkowy. Wygląda identycznie jak ten, który znaleźliście w miejscu gdzie było ciało chłopca. Tylko, że ten zegarek jest dużo starszy, cały jest zardzewiały i ma zbitą szybkę... Zaraz, zaraz, przecież to ten sam zegarek, ma z tyłu grawer z napisem ""dla Evana 1881"". To niemożliwe..."
 Eventwatch_from_past.button1,Kontynuuj
 Tokenmessage_from_past.text,Stare łóżko. Wydaje ci się, że wygląda trochę inaczej.
@@ -119,7 +119,7 @@ Eventpast_shelf_in_shelter_all.text,Czujesz ogromny ból w okolicach potylicy, a
 Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. W pomieszczeniu jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie łóżka kreski. Po nieokreślonym czasie, może po kilku tygodniach, a może miesiącach postanawiasz wyryć napis: ""Kiedykolwiek to przeczytasz, uratuj mnie"". Zasypiasz wyczerpany.\n\n(Usuń wszystkie elementy z planszy)"
 Eventpast_end_game_alone.button1,Kontynuuj 
 Eventgo_to_future_disapear.text,Ze zdziwieniem stwierdziłeś, że przejście zniknęło. Przed sobą widzisz gołą ścianę wyłożoną płytkami.
-Eventpast_end_game_alone0.text,Chwilę po tym jak poszukiwacz sam wskoczył od przejścia zamyka się ono ukazując sciąnę pokrytą brunymi zniszczonymi płytkami. \n\n(Pozostali gracze odzyskują konrolę nad swoimi postaciami, gracz który przeszedł przez przejście zostaje wyeliminowany)
+Eventpast_end_game_alone0.text,Chwilę po tym jak poszukiwacz sam wskoczył od przejścia zamyka się ono ukazując sciąnę pokrytą brunymi zniszczonymi płytkami. \n\n(Pozostali gracze odzyskują konrolę nad swoimi postaciami)
 Eventpast_end_game_alone0.button1,Kontynuuj
 Eventthe_end.text,Koniec.
 Eventthe_end.button1,Kontynuuj
@@ -462,7 +462,7 @@ Event_Machete.text,Oglądasz dokładnie kamienie szukając szczeliny, która umo
 Token_spell_book.text,Widzisz książkę z dziwnymi symbolami oprawioną w skórę.
 Event_slivering.text,Otrzymujesz {c:QItemshriveling}
 Event_Machete.button1,Kontynuuj
-Tokenend_of_tunel_1.text,Nie ma przejścia
+Tokenend_of_tunel_1.text,Zawalony tunel.
 Tokenend_of_tunel_1.button1,Kontynuuj
 Spawncultist.text,Drzwi są otwarte. Przed chwilą ktoś nimi znokautował jednego z was. Zakapturzona postać wchodzi do pomieszczenia
 EventEvent_watch_from_past.text,"Oglądasz zegarek, wygląda dokładnie jak ten, który znalazłeś wcześniej przed kopalnią, tyle że jest dużo starszy i zniszczony. Ma dokładnie ten sam grawer z tyłu z napisem: ""dla Evana 1881"""
@@ -527,3 +527,24 @@ Tokenpast_end_game_alone_pickaxe.text,Widzisz zardzewiały kilof oparty o ścian
 Tokenpast_end_game_alone_pickaxe.button1,{action} Weź
 Eventpast_end_game_alone_pickaxe_take.text,Otrzymujesz {c:QItemaxe}
 Eventpast_end_game_alone_pickaxe_take.button1,Kontynuuj
+Tokenend_of_tunel_destroyable.text,Przy pomocy kilofa możesz spróbować odkopać przejście.
+Tokenend_of_tunel_destroyable.button1,Kontynuuj
+Tokenend_of_tunel_destroyable.button2,Porażka
+Eventend_of_tunel_destroyable_success.text,Z wielkim wysiłkiem udało ci się zrobić małe przejście na drugą strone. Przez dziurę widzisz tunel niknący w ciemności.\n\nUmieść {c:Tilepast_mine_tuner_right}
+Eventend_of_tunel_destroyable_success.button1,Kontynuuj
+Event_watch_ready_to_drop.text,"Oglądasz zegarek, jest zrobiony bardzo starannie, błyszczący metal jest dokładnie wypolerowany. Z tyłu jest grawer z napisem: ""dla Evana 1881"" Całkiem nieźle się trzyma jak na 40 letni zegarek. Na kopercie zegarka jest zamontowany ruchomy bazel, który jest pokryty dziwnymi symbolami.\n\nNaglę olśniewa cię zrozumienie, to jedyna szansa na ratunek. Masz nadzieję, że twoi towarzysze nie zawiodą.\n\nOtrzymujesz {clue}"
+Event_watch_ready_to_drop.button1,{action} Wsuń zegarek pod drzwi
+Event_watch_ready_to_drop.button2,Anuluj
+Event_go_past_with_old_watch.text,Tym razem nie ryzykujesz i czekasz na towarzyszy.
+Event_go_past_with_old_watch.button1,{action} Wejdźcie do przejścia razem
+Event_go_past_with_old_watch.button2,Anuluj
+Event_go_past_with_old_watch1.button1,Kontynuuj
+Event_go_past_with_old_watch1.text,Lecisz chwile przez ciemność, czując zimny wiatr na twarzy.. 
+EventMythos_minior_trigger.text,W pomieszczenu nagle robi się zimno, a ściany lekko drgają. Dreszcz przechodzi cię po plecach kiedy wyczuwasz dziwną aurę wokół. Wszyscy poszukiwacze otrzymują 1 zakrytą kartę przerażenia ({will} zapobiega)
+EventMythos_minior_trigger.button1,Kontynuuj
+Event_drop_watch.text,Wsuwasz ostrożnie zegarek pod drzwi.
+Event_drop_watch.button1,Kontynuuj
+Eventend_of_tunel_destroyable_door_reveal.text,Po prawej stronie widzisz metalowe solidne drzwi. 
+Eventend_of_tunel_destroyable_door_reveal.button1,Kontynuuj
+Token_time_respawn.text,Domyślasz się, że aby ponownie otworzyć przejście musisz użyć zegarka. 
+Token_time_respawn.button1,Kontynuuj
