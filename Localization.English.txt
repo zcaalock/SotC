@@ -1,6 +1,6 @@
 .,English
 quest.name,The sound of silence
-quest.description,Investigate the missing of John Mayer
+quest.description,Investigate the disappearance of John Mayer
 quest.authors,zcaalock
 Token01_boy_body.button1,({action})Investigate
 Event02_show_body_boy.button1,Continue
@@ -8,82 +8,82 @@ TokenInvestigators.text,Place Investigators as indicated
 Event04_investigators.button1,Continue
 Event01_show_cave_enter_tile.button1,Continue
 Event04_investigators.text,You walk through the bushes.
-Event03_take_watch.text,You see a nice engraved watch. You can examine it thoroughly using the inventory menu. \n\n (You recive ({clue}))
+Event03_take_watch.text,You see a nice engraved watch. You can examine it thoroughly from the inventory menu. \n\n (You recive 1 ({clue}))
 Event03_take_watch.button1,Continue
-Tokencave_shelter_show.text,The corridor continues to the east.
-Token01_boy_body.text,The boy's body was found here. After watching the scene, something glistening in the sun strikes you.
-Eventshow_cave_enter_token.text,In the distance you see the entrance carved in the rocks. It looks like an old mine.
+Tokencave_shelter_show.text,The mine continues to the east.
+Token01_boy_body.text,The boy's body was found here. After observing the scene, something glistening in the sun catches your attention.
+Eventshow_cave_enter_token.text,In the distance you see an entrance carved into the rocks. It looks like an old mine.
 TokenInvestigators.button1,Continue
 Tokencave_shelter_show.button1,Explore
-EventCave_shelter_show.text,The corridor continues for 10 meters. On the right side, you see an oil lamp and a door behind it. \n\ n (Place: {c:Tile03_cave_shelter} as indicated)
+EventCave_shelter_show.text,The corridor continues for approximately 10 meters. On the right side, you see an oil lamp and a door behind it. \n\n(Place: {c:Tile03_cave_shelter} as indicated)
 EventCave_shelter_show.button1,Continue
-Event01_show_cave_enter_tile.text,A small clearing in the middle of the forest appears before you. The land here is boggy after a recent downpour. There is a police tape around the trees. This is where the boy's body was found. \n\n (Place: {c:Tile01_Cave_entrance} as indicated)
+Event01_show_cave_enter_tile.text,A small clearing in the middle of the forest appears before you. The land here is wet and boggy from a recent downpour. There is police tape around the trees. This is where the boy's body was found. \n\n (Place: {c:Tile01_Cave_entrance} as indicated)
 Eventshow_cave_enter_token.button1,Continue
-Event02_show_body_boy.text,The police tape encloses the place where the boy's body was found. Maybe the police missed something.
+Event02_show_body_boy.text,The police tape indicates the location of where the boy's body was found. Maybe the police have missed something.
 Token01_cave_enter.button1,({action}) Open
-Token01_cave_enter.text,Entrance to the old mine. The doors are wooden and very massive but it looks like they are open
-Eventshow_cave_tile.text,You enter the old mine, from what you've heard is probably from the Civil War. It smells musty here, the air has been found for years. You can move one space inside.\n\n (Place: {c:Tile02_cave_01} as indicated)
+Token01_cave_enter.text,Entrance to the old mine. It looks as if the massive wooden doors are open.
+Eventshow_cave_tile.text,You enter the old mine, from what you've heard it is probably a remnant of the Civil War. It smells musty here, the air has not been disturbed for years. You may move one space into the explored area.\n\n (Place: {c:Tile02_cave_01} as indicated)
 Eventshow_cave_tile.button1,Continue
-Eventshow_observe_cave.text,The tunnel disappears in the dark
+Eventshow_observe_cave.text,The tunnel disappears into the darkness
 Eventshow_observe_cave.button1,Continue
-Eventshow_mine_end.text,In this place the tunnel is overwhelmed. You have no chance to get through.
+Eventshow_mine_end.text,In this place the tunnel appears to have collapsed. You will not be able to get through here.
 Eventshow_mine_end.button1,Continue
 Tokenend_of_tunel.button1,({action}) Investigate
 Eventshow_shelter_token.text,There is a wooden door here.
-Tokenend_of_tunel.text,The tunnel is completely overwhelmed. There is no transition
+Tokenend_of_tunel.text,The tunnel is completely caved in. There is no way through.
 Eventshow_shelter_token.button1,Continue
-Tokendoor_to_shelter.text,Wooden doors are very damaged and barely hold in hinges. Judging by the footprints on the floor, someone had just passed this way recently.
+Tokendoor_to_shelter.text,Wooden doors, so badly damaged that they are barely held up by their hinges. Judging by the footprints on the floor, someone has passed this way recently.
 Tokendoor_to_shelter.button1,({action}) Enter
-Evententer_to_shelter.text,You enter a fetid and stinky room. There is an old sprawling bunk bed here.
+Evententer_to_shelter.text,You enter and are immediately hit with the fetid stink of the room. There is an old sprawling bunk bed here.
 Evententer_to_shelter.button1,Continue
 Eventshow_lamp_token.text,The oil lamp hangs on the hook.
 Eventshow_lamp_token.button1,Continue
-Tokencave_lamp.text,The oil lamp
+Tokencave_lamp.text,An oil lamp
 Tokencave_lamp.button1,({action}) Take
-Tokenshelter_bed.text,Old stinky bed.
+Tokenshelter_bed.text,An old stinky bed.
 Tokenshelter_bed.button1,({action}) Investigate
-EventShelter_old_bed.text,It looks like the miners slept here years ago. You look at the wooden structure of the bed and see hundreds of small strokes engraved on the surface. They are grouped after 6 and one crosses the rest. \n\n (You recive ({clue})
+EventShelter_old_bed.text,It looks like the miners slept here years ago. You look at the wooden structure of the bed and see hundreds of small strokes engraved on the surface. They are grouped into 6 and one crosses the rest. \n\n (You recive 1 {clue})
 EventShelter_old_bed.button1,Continue
 Eventshelter_foodprints.text,You can see some marks on the floor.
 Eventshelter_foodprints.button1,Continue
 Tokencave_foodprints.text,Footprints and something else.
 Tokencave_foodprints.button1,({action}) Investigate
-Eventcave_footprints.text,On the floor you see footprints and a big smudged trail that stretches from the door to the small room at the end of the room. \n\n (You recive ({clue})
+Eventcave_footprints.text,On the floor you see footprints and a big smudged trail that stretches from the door, to the smaller room at the end of this one. \n\nYou receive 1 ({clue})
 Eventcave_footprints.button1,Continue
 Eventtime_m.text,A pile of garbage, maybe there is something interesting here.
 Eventtime_m.button1,Continue
 Tokentime.text,The pile of rubbish looks like someone in a hurry trying to overcome something here
 Tokentime.button1,({action}) Investigate
-Eventtime_test.text,Under garbage you find a hatch made of metal. The whole is covered with strange symbols. It looks like a strange puzzle
+Eventtime_test.text,Under the garbage you find a hatch made of metal. The hatch is covered with strange symbols. It looks like a strange puzzle.
 Eventtime_test.button1,Solve the puzzle
 Puzzle0.button1,Continue
 Eventtime_open.text,The passage opened
 Eventtime_open.button1,Continue
 Tokentime_enter.button1,Enter
-Eventgo_in_time.text,You start to stoop to go inside when you have a feeling that you should not go alone.
+Eventgo_in_time.text,You stoop to go inside, when you are overcome with a feeling that you should not go alone.
 Eventgo_in_time.button1,({action}) Go alone
-Eventtime_alone.text,Potykasz się i wpadasz z impetem do dziury. Czujesz na twarzy pęd zimnego powietrza...
+Eventtime_alone.text,Your impetuousness causes you to stumble and fall into the hole. You feel the rush of cold air on your face ...
 Eventtime_alone.button1,Continue
-Eventwait_for_friends.text,You call your companions. After a while they come, try to convince them to come in with you.
+Eventwait_for_friends.text,You call your companions. After a while they approach and you try to convince them to come with you.
 Eventwait_for_friends.button1,({action}) You enter together
-Tokentime_enter.text,The passage is inclined and leads underground. You feel a cold breeze and some kind of ionized air.
+Tokentime_enter.text,The passage leads underground. You feel a cold breeze and a strange sensation, like the air is ionized.
 Eventgo_in_time.button2,Wait for companions
 Eventall_go_in_time.text,You are passing through the darkness, feeling the cold wind on your faces ... \n\n (remove all tiles and markers from the board)
 Eventall_go_in_time.button1,Continue
 Eventwait_for_friends.button2,Don`t go in
-Eventpast_start_event.text,... you enter the small, bright room for hard tiles with impetus. Each of you receives 2 damage cards ({agility} prevents)
+Eventpast_start_event.text,... you enter the small, bright room and hit the tiles hard. Each Investigaor suffers 2 facedown damage ({agility} negates)
 Eventpast_start_event.button1,Continue
-Eventpast_show_items_torture_room.text,You hit the floor. Trying to get up, you can see the passage from which you fell and the door on the other side. In the middle of this small room there is a bed with straps. \n\n (Place: {c:Tilepast_shelter} as indicated)
+Eventpast_show_items_torture_room.text,Trying to get up, you can see the passage from which you fell and the door on the other side. In the middle of this small room there is a bed with several leather straps. \n\n (Place: {c:Tilepast_shelter} as indicated)
 Eventpast_show_items_torture_room.button1,Continue
-Tokengo_to_future.text,The transition from which you fell out.
+Tokengo_to_future.text,The passage from which you fell out.
 Tokengo_to_future.button1,Go through the passage
-Tokenpast_doors1.text,Door. You wonder where they lead
+Tokenpast_doors1.text,A Door. You wonder where it leads
 Tokenpast_doors1.button1,Continue
-Tokentorture_bed.text,A bed with straps
+Tokentorture_bed.text,A bed with heavy leather straps
 Tokentorture_bed.button1,({action}) Investigate
-Eventtorture_bed.text,There are traces of blood on the bed. It is lightly burnt on one side. \n\n (You recive ({clue})
+Eventtorture_bed.text,There are traces of blood on the bed an it is lightly burned on one side. \n\n (You recive ({clue})
 Eventtorture_bed.button1,Continue
-Eventgo_to_future_.text,It overwhelms you that you should not go in without your friends.
+Eventgo_to_future_.text,A feeling overwhelms you, you should not go in without your friends.
 Eventgo_to_future_.button1,({action}) Go alone
 Eventgo_to_future_.button2,({action}) Go with companions
 Eventgo_to_future_alone.text,You go to the passage alone and once again you are running fast through the void
@@ -94,36 +94,36 @@ Eventback_in_future.text,You fall into a pile of garbage. After a while, you man
 Eventback_in_future.button1,Continue
 Tokenwatch_from_past.text,Something is lying on the floor.
 Tokenwatch_from_past.button1,({action}) Investigate
-Eventwatch_from_past.text,"It's an old pocket watch. It looks just like the one you found in the place where the boy's body was. Only this watch is much older, it's rusty and it has a broken window ... Right now, it's the same watch, it has an engraving on the back with the inscription ""for Evan 1881"". It is impossible..."
+Eventwatch_from_past.text,"It's an old pocket watch. It looks just like the one you found in the place where the boy's body was. Only this watch is much older, it's rusty and it has a broken face ... It's the same watch, it has an engraving on the back, an inscription - ""for Evan 1881"". How is this possible?..."
 Eventwatch_from_past.button1,Continue
 Tokenmessage_from_past.text,Old bed. You think it looks a bit different.
 Tokenmessage_from_past.button1,({action}) Investigate
-Eventmessage_from_past.text,The dashes on the bed disappeared. That surprised and disturbed you very much. You're starting to wonder if you're crazy. You receive 2 cards of horror. After a closer look at the wooden structure, you can see the inscription engraved on one of the boards. The inscription is old but you manage to read it.
+Eventmessage_from_past.text,The dashes on the bed have disappeared. That surprises and disturbs you considerably. You're starting to wonder if you're crazy. Suffer 2 facedown horror. After a closer look at the wooden structure, you can see an inscription engraved on one of the boards. The inscription is old but you manage to read it.
 Eventmessage_from_past.button1,Continue
 Eventmessage_from_past_1.text,"You can hardly read the message: ""w..nev.r you re.. ..is, .ave me."". You have no idea what it means."
 Eventmessage_from_past_1.button1,Continue
 Tokenend_game_alone.button1,({action}) Exit
 Eventend_game_03_alone.button1,Continue
 Eventgo_to_future_.button3,Wait for companions
-Event_back_in_future_all.text,Awkwardly you leave in the same stinking place in the mine you entered a few hours ago. Rubbish is scattered all around
+Event_back_in_future_all.text,Awkwardly you exit in the same stinking place in the mine you entered a few hours ago. Rubbish is scattered all around
 Event_back_in_future_all.button1,Continue
 Tokenend_game_all.text,Exit to the outside (end of the game)
 Tokenend_game_all.button1,({action})Continue
-Eventend_game_all.text,You are leaving the mine. Despite the many months of investigation, you fail to explain the death of the boy found or find John. For the rest of your life, each of you wonders what actually happened on this rainy day when you started the investigation. Was this really happening at all?
+Eventend_game_all.text,You are leaving the mine. Despite the many months of investigation, you have failed to explain the death of the boy or find John. For the rest of your life, each of you wonders what actually happened on this rainy day when you started the investigation. Had this really happening at all?
 Eventend_game_all.button1,Continue
 Tokenend_game_alone.text,The passage leads outside. (End of the game)
-Tokenpast_shelf_in_shelter.text,Shelf with sort of items
+Tokenpast_shelf_in_shelter.text,Shelf with an assortment of items
 Tokenpast_shelf_in_shelter.button1,({action}) Investigate
 Eventpast_shelf_in_shelter.button1,Continue
-Eventpast_shelf_in_shelter_all.text,You feel enormous pain in the region of the occiput, and then it makes you dark in front of your eyes ... You get stunned and lose your turn.
-Eventpast_end_game_alone.text,"You feel enormous pain in the region of the occiput, and soon afterwards you get dark in front of your eyes ... You wake up after a while in the same place. The front door is barricaded, you can not open it. You scour the entire room in search of a way out. Unfortunately, it looks like you're stuck here. Fortunately, a lot of food and water is stored in the next room. After a few hours the oil lamp falls out and you stay in total darkness. You lose a sense of time, you try to count the days you spent here with burning dashes in wood. After an indefinite period, you have inscribed ""whenever you read this, save me."" You fall asleep exhausted and you never wake up again."
+Eventpast_shelf_in_shelter_all.text,You feel enormous pain in the region of the occiput and your vision goes dark ... Become Stunned and forfit the remainder of your turn.
+Eventpast_end_game_alone.text,"You feel enormous pain in the region of occiput, and soon afterwards it get dark in front of your eyes ... You wake up after a while in the same place. The front door is barricaded and you can not open it. You scour the entire room in search of a way out. Unfortunately, it looks like you're stuck here. Fortunately, a lot of food and water is stored in the next room. After a few hours the oil lamp falls out and you as stuck here... in total darkness. You lose all sense of time, you try to count the days you spent here with burnt dashes in wood. After an indefinite period, you have inscribed ""whenever you read this, save me."" You fall asleep exhausted and you never wake up again."
 Eventpast_end_game_alone.button1,Continue (End of the game)
-Eventgo_to_future_disapear.text,The transition disappears
-Eventpast_end_game_alone0.text,You are leaving the mine. Despite the many months of investigations, you fail to find John, and what's most sad about your commons is also missing. For the rest of your life, each of you wonders what actually happened on this rainy day when you started the investigation. Was this really happening at all?
+Eventgo_to_future_disapear.text,The passage disappears
+Eventpast_end_game_alone0.text,You are leaving the mine. Despite the many months of investigation, you fail to find John, and what's most sad, is your commons is also missing. For the rest of your life, each of you wonders what actually happened on this rainy day when you started the investigation. Had it really happening at all?
 Eventpast_end_game_alone0.button1,Continue
 Eventthe_end.text,The End
 Eventthe_end.button1,Continue
-Eventpast_shelf_in_shelter.text,You start to look closely at the things on the shelf, there are various religious books. One of them interested you, it is bound in strange skin, it looks a bit like human. You reach out to take her when suddenly ...
+Eventpast_shelf_in_shelter.text,You start to look closely at the things on the shelf, there are various religious books. One of them peaks your interest, it is bound in a strange skin, it looks a bit human. You reach out to take it when suddenly ...
 Eventpast_shelf_in_shelter_all.button1,Continue
 Spawncultist.button1,Continue
 Eventpast_mine_show.text,Behind the opponent you can see a dimly lit room. It looks like a cave or mine. \n\n (Place: {c:Tile03_cave_shelter} as indicated)
@@ -132,31 +132,31 @@ Tokenpast_mine_show_left.text,The corridor continues in this direction.
 Tokenpast_mine_show_left.button1,Explore
 Eventpast_mine_show2.text,The tunnel leads straight and then turns left. Considering the cold air that flows from this direction, there must be an exit. \n\n Place: {c:Tile02_cave_01} as indicated)
 Eventpast_mine_show2.button1,Continue
-Tokenpast_mine_exit.text,Doors outside. They're closed, you can not open them.
+Tokenpast_mine_exit.text,Door to the outside. They're closed, you can not open them.
 Tokenpast_mine_exit.button1,({action}) Investigate
-Eventpast_show_outside.text,Through the crack in the door you see a clearing surrounded by thick forest. \n\n You receive {clue}. \n\n (Place: {c:Tile01_Cave_entrance} as indicated)
+Eventpast_show_outside.text,Through the crack in the door you see a clearing surrounded by thick forest. \n\nGain 1 {clue}. \n\n (Place: {c:Tile01_Cave_entrance} as indicated)
 Eventpast_show_outside.button1,Continue
 Tokenpast_mine_show_right.text,The tunnel begins to descend down here.
 Tokenpast_mine_show_right.button1,Explore
-Eventpast_mine_show_right.text,The tunnel is poorly enlightened and runs steeply down. \n\n (Place: {c:Tilepast_mine_tuner_right} as indicated)
+Eventpast_mine_show_right.text,The tunnel is poorly lit and runs downwards on a steep decline. \n\n (Place: {c:Tilepast_mine_tuner_right} as indicated)
 Eventpast_mine_show_right.button1,Continue
-Eventpast_mine_tunel_right_items_show.text,On the ground you can see rope pulling everywhere, or something that reminds you. To the right are heavy metal doors.
+Eventpast_mine_tunel_right_items_show.text,On the ground you can see a bundle of ropes pulled tight, or something that reminds you of that. To the right are heavy metal doors.
 Eventpast_mine_tunel_right_items_show.button1,Continue
-Tokenpast_mine_right_tunnel_dynamite.text,Plontan of strange thin ropes.
+Tokenpast_mine_right_tunnel_dynamite.text,Bundle of strange thin ropes.
 Tokenpast_mine_right_tunnel_dynamite.button1,({action}) Investigate
-Eventpast_dynamite.text,To your surprise, you discover that these are sticks of dynamite attached to beams holding the ceiling. \n\n Recive ({clue}).You can take 1 stick of dynamite with you \n\n Test: {observation}
+Eventpast_dynamite.text,To your surprise, you discover that these are sticks of dynamite attached to beams holding up the ceiling. \n\n Receive 1 ({clue}).You think you can untangle one of the sticks of dynamite.\n\n Test: {observation}
 Eventpast_dynamite.button1,Take
 Tokenpast_tunel_right_end.button1,Explore
-Tokenpast_tunel_door.text,Heavy metal door. To open them you need a silver key.
+Tokenpast_tunel_door.text,Heavy metal door. To open it you need a silver key.
 Tokenpast_tunel_right_end.text,The tunnel continues in this direction.
 Tokenpast_tunel_door.button1,({action}) Open
-Eventpast_tunel_door_open.text,You turn the key in the lock, it fits perfectly. You open the door with a big rasp ..
+Eventpast_tunel_door_open.text,You turn the key in the lock, it fits perfectly. You open the door and it groans in response ..
 Eventpast_tunel_door_open.button1,Continue
 Eventpast_boy_room_reveal.text,... You see a dark room. \n\n (Place: {c:Tilepast_boy_room} as indicated)
 Eventpast_boy_room_reveal.button1,Continue
-Eventpast_boy_found.text,There is a figure on the bed. After careful acceptance, you find that it's little John. You can see that it is in poor condition but at least it lives.
+Eventpast_boy_found.text,There is a figure on the bed. After a careful inspection, you find that it's little John. You can see that he is in poor condition but at least he is alive.
 Eventpast_boy_found.button1,Continue
-TokenJohn.text,You approach the child and see how slowly he opens his eyes.
+TokenJohn.text,You approach the child and he slowly opens his eyes.
 TokenJohn.button1,({action}) How are you?
 Eventtake_john.text,You take John in your arms. From now until you leave John you can only do one action per turn.
 Eventtake_john.button1,Continue
@@ -169,109 +169,109 @@ Eventend_game_alone_without_john.text,You leave the mine. Your friends have neve
 Eventend_game_alone_without_john.button1,Continue
 Eventend_game_all_with_john.text,You are leaving the mine. Unfortunately, you failed to solve the mystery of the murder of a boy found in front of the mine. All the time you are not disturbed by the fact that it seems to you that it was the same boy whom you saw there among this secret sect. He was wearing the same clothes. But how is it possible, how he did not live ... But did it really happen? Fortunately, John is safe.
 Eventend_game_all_with_john.button1,Continue
-Event_watch.text,"You watch the watch, it is done very carefully, the glossy metal is thoroughly polished. There is an engraving on the back with the inscription: ""for Evan 1881"" It's pretty good for a 40 year old watch."
+Event_watch.text,"You study the watch very carefully, the glossy metal is thoroughly polished. There is an engraving on the back, with the inscription: ""for Evan 1881"" It's in pretty good condition for a 40 year old watch."
 Event_watch.button1,Continue
 Eventshow_watch_from_past.text,Something shimmers on the floor.
 Eventshow_watch_from_past.button1,Continue
 Eventpast_dynamite.button2,Fail
-Eventtake_dynamite.text,You're able to untangle one dynamite stick.
+Eventtake_dynamite.text,You are able to untangle one of the sticks of dynamite. Gain the {c:QItempast_dynamite} common item
 Eventtake_dynamite.button1,Continue
 Eventtake_dynamite_fail1.text,You failed to disentangle the dynamite from this Gordian knot.
 Eventtake_dynamite_fail1.button1,Continue
-Tokendynamite_after_fail.text,You see the tangled sticks of dynamites. You can try to remove the dynamite again. \n\n\ Test {agility}
+Tokendynamite_after_fail.text,You see the tangled sticks of dynamite. You can try to remove the dynamite again. \n\nTest {agility}
 Tokendynamite_after_fail.button1,({action}) Take
 Tokendynamite_after_fail.button2,Fail
-Eventtake_dynamite_2_fail.text,You are trying unsuccessfully to extract the stick of dynamite from a tangle of kerps soaked in kerosene. It's quite unkindly you got a stupid idea to think about lighting this place with an oil lamp. Unfortunately, it fell out of your hands and the flame spilled over half of the tunnel ...
+Eventtake_dynamite_2_fail.text,You are try, but are unsuccessful at extracting the stick of dynamite from a tangle of kerps soaked in kerosene. You have a mad and stupid notion to light this place with the oil lamp. Unfortunately, it fell from your hands and the flame spilled across half of the tunnel ...
 Eventtake_dynamite_2_fail.button1,Continue
-Eventfire_event_start.text,The flames began spreading very quickly through the dusty floor and spider webs on the walls. You instinctively understand that you do not have much time to escape.
+Eventfire_event_start.text,The flames began spreading very quickly along the dusty floor and across the spider webs on the walls. You instinctively know, that you do not have much time to escape.
 Eventfire_event_start.button1,Continue
-Eventfire_endin_begin.text,The fire is spreading rapidly, it will soon become dynamite. You must escape ... Each investigator receives 1 card of horror.
+Eventfire_endin_begin.text,The fire is spreading rapidly, it will soon reach the dynamite. You must escape ... Each investigator suffers 1 facedown horror.
 Eventfire_endin_begin.button1,Continue
-Eventfire_ending_mieddle.text,From the depths of the tunnel, you hear some screams. A cry comes from behind the closed door. You think it's the child's voice but you try not to realize it. Everything begins to burn like a torch. The fire reached the fuse and in a moment everything would explode. You have the last chance to escape.
+Eventfire_ending_mieddle.text,From the depths of the tunnel, you hear screams. A cry comes from behind the closed door. You think it's a child's voice but you try not to think too hard on it. Everything begins to burn like a torch. The fire will soon reach the fuse and in a moment everything will explode. This is your  last chance to escape.
 Eventfire_ending_mieddle.button1,Continue
-Eventexplode.text,A violent explosion throws you against the wall. Have you managed to reach the room where there is a bed with straps?
+Eventexplode.text,A violent explosion throws you against the wall. Have you managed to reach the room with the bed that has leather straps?
 Eventexplode.button1,Yes
 Eventexplode.button2,No
 Eventall_dead.text,The End. Everyone is dead
 Eventall_dead.button1,Continue
 Tokenblock.text,The passage is blocked
 Tokenblock.button1,Continue
-Eventafter_explode.text,You survived the explosion. The transition is completely blocked.
+Eventafter_explode.text,You survived the explosion. The passage is completely blocked.
 Eventafter_explode.button1,Continue
-Eventpast_end_john.text,You have a feeling that it will be better to get out of here as soon as possible. You hear a strange sound, you are shivering on your back. Each Investigator recive one facedown horror
+Eventpast_end_john.text,You have a feeling that it will be better to get out of here as soon as possible. You hear a strange sound, and the hairs on the back of your neck stand up on end. Each Investigator receive 1 facedown horror
 Eventpast_end_john.button1,Continue
 Eventpast_end_john_1.button1,Continue
-Eventpast_end_john_1.text,You hear a growing roar coming from the tunnel in the east. You feel growing fear. Each Investigator recive one facedown horror
-Eventpast_end_john_2.button1,Przycisk1
+Eventpast_end_john_1.text,You hear a growing roar coming from the tunnel in the east. Fear wells up inside you, growing with each moment. Each Investigator suffers 1 facedown horror
+Eventpast_end_john_2.button1,Continue
 Eventpast_end_john_2.text,At the bottom of the tunnel appears a huge, hooded figure.
-Eventpast_end_john_3.text,Posta seems to have some strange sounds, as if it were some unknown language. He starts to walk along the corridor.
+Eventpast_end_john_3.text,Posta seems to speak some strange sounds, as if it were some unknown language. He starts to walk along the corridor.
 Eventpast_end_john_3.button1,Continue
-Eventspawndagon.button1,Przycisk1
+Eventspawndagon.button1,Continue
 Eventpast_end_john_4.text,A huge ball of fire passes through the corridor.
 Eventpast_end_john_4.button1,Continue
-Eventpast_ednding_middle_john.text,From the depths of the tunnel, you hear some screams. The monster's robe lights up with fire. Everything begins to burn like a torch. The fire reached the fuse and in a moment everything would explode. You have the last chance to escape.
+Eventpast_ednding_middle_john.text,From the depths of the tunnel, you hear screams. The monster's robe lights up with fire. Everything begins to burn. The fire will reach the fuse soon and in a moment everything would explode. This is your last chance to escape.
 Eventpast_ednding_middle_john.button1,Continue
 Eventend_game_question_john.button1,Yes
-Eventend_game_all_without_john.text,You are leaving the mine. You failed to solve the mystery of the boy's murder. \n\n You often think about it lying down and looking through the barred window of the Arkham Asylum.
+Eventend_game_all_without_john.text,You are leaving the mine. You failed to solve the mystery of the boy's murder. \n\n You often think about it when you are lying down, looking through the barred window of the Arkham Asylum.
 Tokenpast_papers.text,A pile of newspapers.
 Tokenpast_papers.button1,({action}) Read
 Eventpast_newspaper_president.button1,Read another one
-Eventpast_newspaper_boy.text,September 26, 1901 (Thursday). This is the 7th missing child in the last 3 months. The wanted boy is Evan McCormic, 10 years old, the son of a farmer. He did not return home after working on collecting corn. The city authorities are concerned about the latest disappearances. Sheriff Ratman has set a $ 500 reward for finding a boy. A local Baptist group is organizing an evening meeting on September 20, during which you will be able to support the missing boy's family. (You recive ({clue}))
-Eventpast_newspaper_president.text,October 29, 1901 (Wednesday). President William McKinley's shot. During the meeting, he was shot by Leon Czolgosz, an American of Polish origin who believed that McKinley was guilty of widespread social injustice. The president received two shots in the stomach and chest and was quickly transferred to a nearby hospital. After dressing the abdominal wound, the doctors hope that McKinley will recover ...
+Eventpast_newspaper_boy.text,September 26, 1901 (Thursday). This is the 7th missing child in the last 3 months. The wanted boy is Evan McCormic, 10 years old, the son of a farmer. He did not return home after his work collecting corn. The city authorities are concerned about the latest disappearances. Sheriff Ratman has set a $500 reward for finding the boy. A local Baptist group is organizing an evening meeting on September 20, during which you will be able pledge your support to the missing boy's family. (You recive 1 ({clue}))
+Eventpast_newspaper_president.text,October 29, 1901 (Wednesday). President William McKinley's shot. During the meeting, he was shot by Leon Czolgosz, an American of Polish origin who believed that McKinley was guilty of widespread social injustice. The president received two shots in the stomach and chest and was quickly transferred to a nearby hospital. After dressing the abdominal wound, the doctors hope that McKinley will make a full recovery ...
 Eventpast_newspaper_boy.button1,Read another one
 Eventpast_newspaper_menu.text,Choose
 Eventpast_newspaper_menu.button1,President shot..
 Eventpast_newspaper_menu.button2,Missing child..
 Eventpast_newspaper_menu.button3,The end of the world
-Eventpast_newspaper_end_of_world.text,"Social tensions are growing due to the turn of the century. The pastor of the local Baptist church urges everyone to abandon their sins and give back what is the most valueble for them to god. <i>""The day of final judgment is approaching, who will not understand this will die in the fire of hell ... ""</i> said pastor Carl Panzram."
+Eventpast_newspaper_end_of_world.text,"Social tensions are growing due to the turn of the century. The pastor of the local Baptist church urges everyone to abandon their sins and give their most valuable possessions to god. <i>""The day of final judgment is approaching, those who do not understand this will die in the fires of hell ... ""</i> said pastor Carl Panzram."
 Eventpast_newspaper_end_of_world.button1,Read on
 Tokenopen_secret_to_church.text,You see freshly formed soil and footprints all around. ({observation})
 Tokenopen_secret_to_church.button1,Continue
-Eventsecret_to_church_reveal.text,You discover with astonishment the flap that leads to the dark tunnel
+Eventsecret_to_church_reveal.text,You discover with astonishment a flap that leads to a dark tunnel
 Eventsecret_to_church_reveal.button1,Continue
 Tokentunel_to_church.text,Entrance to the tunnel.
 Tokentunel_to_church.button1,({action}) Enter
-Eventpast_tunel_end.text,The tunnel runs several meters to the east. On the left you can see a passage covered with stones and boarded up. At the end of the tunnel there is a door. \n\n (Place: {c:Tilepast_tunel_end} as indicated)
+Eventpast_tunel_end.text,The tunnel runs several meters to the east. On the left you can see a passage covered with stones which is boarded up. At the end of the tunnel there is a door. \n\n (Place: {c:Tilepast_tunel_end} as indicated)
 Eventpast_tunel_end.button1,Continue
-Tokenshow_blocked_doors.text,Boarded crossing. If only to have something to undermine these boards ...
+Tokenshow_blocked_doors.text,Boarded passage. If only to have something to remove these boards ...
 Tokenshow_blocked_doors.button1,Continue
-Eventopen_blocked_doors.text,It seems that the pickaxe will be able to open this passage
+Eventopen_blocked_doors.text,You think if you use the pickaxe, you may be able to open this passage.
 Eventopen_blocked_doors.button1,({action}) Open the passage with pickaxe
 Eventopen_blocked_doors.button2,Don`t have pickaxe
-Eventreveal_blocked_room.text,The wall made of planks and stones collapses, revealing a small dark room. There are many stinking barrels and mining tools in it. You can see the chest from the side. \n\n (Place: {c:Tilesecret_room} as indicated)
+Eventreveal_blocked_room.text,The wall collapses, planks and stones falling to reveal a small dark room. There are many stinking barrels and mining tools in it. You can also see a chest to one side. \n\n (Place: {c:Tilesecret_room} as indicated)
 Eventreveal_blocked_room.button1,Continue
-Tokenshotgun_chest.text,You see a large, solidly built metal chest. It is closed with a combination lock.
+Tokenshotgun_chest.text,A large, solidly built metal chest. It is locked up tight, a combination lock hangs from it.
 Tokenshotgun_chest.button1,({action}) Try to open
-Eventspawn_monster_stairs.text,Reading the newspaper interrupts the steps. A figure comes through the door from the outside. She looks very surprised.
-Eventtake_shotgun.text,The chest opens and you can see the shotgun inside. \n\n (You revice: {c:QItemshot_gun})
+Eventspawn_monster_stairs.text,You are interrupted from reading the rest of the newspaper by footsteps. A figure comes through the door from the outside and he looks very surprised to see you.
+Eventtake_shotgun.text,The chest opens and you can see a shotgun inside. \n\n (You revice: {c:QItemshot_gun})
 Puzzleopen_chest.button1,Check
 Eventtake_shotgun.button1,Continue
-TokenMiddle_room.text,You see a small wooden door at the end of the tunnel
+TokenMiddle_room.text,A wooden door at the end of the tunnel
 TokenMiddle_room.button1,({action}) Open
-Eventopen_middle_door.text,The door opens with a loud crack. You see a wooden staircase that leads down to a large room. \n\n (Place: {c:Tilemieddle_room} as indicated)
+Eventopen_middle_door.text,The door opens with a loud creak. You see a wooden staircase that leads down into a large room. \n\n (Place: {c:Tilemieddle_room} as indicated)
 Eventopen_middle_door.button1,Continue
-Eventmiddle_room_show.text,At the bottom, there is a door next to the stairs, and next to it is a table with some objects.
+Eventmiddle_room_show.text,At the bottom of the steps, is a door and next to it is a table with some objects on it.
 Eventmiddle_room_show.button1,Continue
-Tokendoor_to_secret_church.text,Doors lead north.
+Tokendoor_to_secret_church.text,Door leads north.
 Tokendoor_to_secret_church.button1,({action}) Open
-Eventopen_room_to_secret_church.text,The door opens and you see a room that looks like a pumping station. The pipes protrude from the walls and the floor is damp. There is a smell of mold and moldy wood in the air. \n\n (Place: {c:Tilesecret_passage} as indicated)
+Eventopen_room_to_secret_church.text,The door opens and you see a room that looks like a pumping station. The pipes protrude from the walls and the floor is damp. There is the musty smell of moldy wood in the air. \n\n (Place: {c:Tilesecret_passage} as indicated)
 Eventopen_room_to_secret_church.button1,Continue
 Tokenitems_in_middle_room.text,There are several items on the table
 Tokenitems_in_middle_room.button1,({action}) Investigate
 Eventitems_in_middle_room.text,"There is a thick book on the table. You open it. On the first page is an inscription: ""Journal of Works 1850-1855. Copper Mine"" In the middle there are tables with names, dates and quantity of extracted ore. (You recive ({clue})) \n\n and {c:QItemitem_in_middle_room}"
 Eventitems_in_middle_room.button1,Continue
-Eventmiddle_room_show1.text,In the further part of the room, you see two doors and a pile of newspapers against the wall.
+Eventmiddle_room_show1.text,In the other section of the room, you see two doors and a pile of newspapers against one wall.
 Eventmiddle_room_show1.button1,Continue
 Tokenenter_to_church_corridor.text,The door leading to the east.
 Tokenenter_to_church_corridor.button1,({action}) Open
-Eventcorridor_to_church_reveal.text,The door opens. You see a pretty staircase lined with a red carpet. A steep staircase leads up, at the end you can see another door. \n\n (Place: {c:Tilestairs_up} as indicated)
+Eventcorridor_to_church_reveal.text,The door opens. You see a pristine staircase lined with a red carpet. A steep staircase leads up, at the end you can see another door. \n\n (Place: {c:Tilestairs_up} as indicated)
 Eventcorridor_to_church_reveal.button1,Continue
 Tokenpast_church_enter.text,Wooden, decorated door.
 Tokenpast_church_enter.button1,({action}) Investigate
 Tokenpast_church_enter.button2,({action}) Enter
-Tokenpick_axe_room.text,Wooden door. They drive south.
+Tokenpick_axe_room.text,Wooden door. It leads south.
 Tokenpick_axe_room.button1,({action}) Open
-Eventaxe_room_reveal.text,After opening the door you see a narrow room. Two oil lamps illuminate large rectangular containers. \n\n At the end of the room, you see a man who is bending over something (Place: {c:Tileaxe_room} as indicated)
+Eventaxe_room_reveal.text,After opening the door you see a narrow room. Two oil lamps illuminate several large rectangular containers. \n\n At the end of the room, you see a man bending over something (Place: {c:Tileaxe_room} as indicated)
 Eventaxe_room_reveal.button1,Continue
 Tokenpick_axe.text,You see three metal containers.
 Tokenpick_axe.button1,({action}) Investigate
@@ -281,7 +281,7 @@ Eventmonster_stairs_menu.button1,Attack him
 Eventmonster_stairs_menu.button2,I'm a detective
 Eventmonster_stairs_menu.button3,I'm a miner
 Eventmonster_stairs_menu.button4,I'm from church
-Eventaxe_take.text,The containers look like coffins. They are empty but you have the impression that it may soon change. Between the containers you see a pickaxe \n\n You recive ({clue}) and {c:QItemaxe}
+Eventaxe_take.text,The containers look like coffins. They are empty but you have the impression that, that may soon change. Between the containers you see a pickaxe \n\n You recive 1 ({clue}) and the {c:QItemaxe} common item
 Eventaxe_take.button1,Continue
 Eventpast_newspaper_end_of_world.button2,Read other one
 Eventpast_newspaper_menu.button4,Cancel
@@ -291,28 +291,28 @@ Spawnspawn_staits_monster.text,"You see a figure in front of you that has change
 Spawnspawn_staits_monster.button1,Continue
 Eventstaris_monster_defeat.text,Monster dies
 Eventstaris_monster_defeat.button1,Continue
-Eventi_detective.text,"<i>""Detective, you say? You probably want to know who I am ""</i> - man answers, slowly raising his right hand."
+Eventi_detective.text,"<i>""Detective, you say? You probably want to know who I am ""</i> - man answers, slowly raising his right hands."
 Eventi_detective.button1,Continue
 Eventi_miner_dynamite.button1,Give him dynamite (if you have it with you)
-Eventi_miner_dynamite.button2,I don`t have
+Eventi_miner_dynamite.button2,I don`t have it
 Eventi_miner_dynamite.text,"<i>""Ah, yeah ... did you bring the dynamite that our pastor asked you for?""</i>"
-Eventgive_dynamite.text,"<i>""Excellently. I'm going to take him to the pastor, and do not move from here""</i>"
+Eventgive_dynamite.text,"<i>""Excellent. I'm going to take this to the pastor... You... do not move from here""</i>"
 Eventgive_dynamite.button1,Continue
 Eventno_dynamite.text,"<i>""You fool. You are useless if you can not do such a simple task. I will have to go there myself ... \n\n ... but before that...""</i>"
 Eventno_dynamite.button1,Continue
 Event_dynamite_quest.button1,Continue
 Event_carl_ask_about_dynamite.button1,Continue
-Tokenminer_body.text,In the corner you see a bending man.
+Tokenminer_body.text,In the corner a man is bending over.
 Tokenminer_body.button1,Talk to him
 Eventminer_body.text,You try to say something to a man but it seems that he can not hear you. You approach him and lightly pat him on the shoulder ...
 Eventminer_body.button1,Continue
-Eventminer_body_1.text,..with horror you see how the body falls to the ground. The man's head is smashed by a stone. You receive 1 facedown horror.
+Eventminer_body_1.text,..with horror you see the body fall to the ground. The man's head has been smashed by a stone. Suffer 1 facedown horror.
 Eventminer_body_1.button1,Continue
-Eventminer_body_2.text,You can guess that the miner was bending something and had to catch a big stone that fell straight onto his head. Near his hand, you find {c:QItemcigarette} with matches.
+Eventminer_body_2.text,You can guess that the miner was bending down for something and a big stone fell straight onto his head. Near his hand, you find a {c:QItemcigarette} and a box of matches.
 Eventminer_body_2.button1,Continue
 Tokenminer_body_empty.text,Body of the miner
 Tokenminer_body_empty.button1,Continue
-Eventchurch_reveal_from_doors.text,Through the keyhole, you see a large room, it seems familiar, like you've been here before. It looks like a newly built church. People sit on the benches, there is a very tall and well-built man at the altar, and on the altar ... you try to look but you can not get away from this distance. \n\n (Place: {c:Tilechurch} as indicated)
+Eventchurch_reveal_from_doors.text,Through the keyhole, you see a large room, it seems familiar, like you've been here before. It looks like a newly built church. People sit on the benches, there is a very tall and well-built man at the altar, and on the altar ... you try to look but you can not see from this distance. \n\n (Place: {c:Tilechurch} as indicated)
 Eventchurch_reveal_from_doors.button1,Open the door
 Tokenchurch_crowd.text,..the people are listening to the sermon carefully
 Tokenchurch_crowd.button1,Continue
@@ -321,13 +321,13 @@ Tokenchurch_crowd_1.button1,Continue
 Eventchurch_reveal_from_doors.button2,Wait
 Eventopen_door_to_church.text,The door opens quietly and you enter. You hear the pastor's speech about the end of the world.
 Eventopen_door_to_church.button1,Attack the pastor
-Eventchurch_reveal_from_secret.text,You go through a dark tunnel that climbs up. At the end, you come to a wooden hatch, open it slightly and through a crack you can see a large room, it seems familiar, as if you've been here before. It looks like a newly built church. People sit on the benches, there is a very tall and well-built man at the altar, and on the altar you try to look ... but you only see your legs. They look like the legs of a little boy ... it looks like these people are dangerous \n\n (Place: {c:Tilechurch} as indicated)
+Eventchurch_reveal_from_secret.text,You go through a dark tunnel that climbs up. At the end, you come to a wooden hatch, opening it slightly you look through the crack and can see a large room, it seems familiar, as if you've been here before. It looks like a newly built church. People sit on the benches, there is a very tall and well-built man at the altar, and on the altar you try to look ... but you only see legs. They look like the legs of a little boy ... it looks like these people are dangerous \n\n (Place: {c:Tilechurch} as indicated)
 Eventchurch_reveal_from_secret.button1,Continue
-Eventset_dynamite.text,That should surprise them ... \n\n You set the sun, throw it through the crack into the capillary and escape through the tunnel.
+Eventset_dynamite.text,That should surprise them ... \n\n You set the fuse, throw it through the crack into the capillary and escape through the tunnel.
 Eventset_dynamite.button1,Continue
-Tokenevan_body.text,The boy's body. He has a burned head.
+Tokenevan_body.text,The boy's body. His head is burnt.
 Tokenevan_body.button1,({action}) Investigate
-Eventchurch_explode.text,Explode!! \n\n All investigators on tile {c:Tilechurch} suffers damage from dynamite.
+Eventchurch_explode.text,Explode!! \n\n All investigators on tile {c:Tilechurch} suffer damage from the dynamite.
 Eventchurch_explode.button1,Continue
 Eventdynamite_from_body.text,You find something next to the body.
 Eventdynamite_from_body.button1,Continue
@@ -337,23 +337,23 @@ Eventdynamite_question.button2,No, go back
 Tokenopen_secret_to_church.button2,Fail
 Eventnothing.text,Nothing interesting here
 Eventnothing.button1,Continue
-Eventgo_back_from_church.text,You go back through tunel
+Eventgo_back_from_church.text,You go back through the tunnel
 Eventgo_back_from_church.button1,Continue
-UI1.uitext,It is October 1, 1920. Your friend invites you to a meeting at a nearby Baptist church. Over the phone, she said it was important, you sensed anxiety in her voice. You guess it's about the disappearance of her son John, the newspapers wrote about it. Apparently he has not found himself yet ...
+UI1.uitext,It is October 1, 1920. Your friend invites you to a meeting at a nearby Baptist church. Over the phone, she said it was important, you sensed anxiety in her voice. You guess it's about the disappearance of her son John, the newspapers wrote about it. Apparently he has not been found yet ...
 UI0.button1,Continue
-Eventstart_event.text,You go to church. It is quite old and damaged, it looks as if a fire broke out in it. \n\n Placeć {c:Tilechurch} as indicated
+Eventstart_event.text,You go to the church. It is quite old and damaged, it looks as if a fire broke out in it. \n\n Placeć {c:Tilechurch} as indicated
 Eventstart_event.button1,Continue
-Eventstart_event_1.text,Your friend is sitting in the bench. She looks very sad. She is praying.
+Eventstart_event_1.text,Your friend is sitting on the bench. She looks very sad. She is praying.
 Eventstart_event_1.button1,Continue
 Eventstart_event_2.text,There is a tablet on the counter.
 Eventstart_event_2.button1,Continue
-Eventstart_event_3.text,There are nice decorated doors at the back.
+Eventstart_event_3.text,There are nice decorated door at the back.
 Eventstart_event_3.button1,Continue
 Tokenfuture_doors_to_corridor.text,Large, nicely decorated door.
 Tokenfuture_doors_to_corridor.button1,({action}) Open
 Tokenfuture_exit.text,Exit
 Tokenfuture_exit.button1,({action} Go to the crime scene
-Eventstart_event_4.text,Place the investigatorss at the entrance.
+Eventstart_event_4.text,Place your Investigators as indicated.
 Eventstart_event_4.button1,Continue
 Eventstart_event_5.text,You hear the door closing behind you.
 Eventstart_event_5.button1,Continue
@@ -361,56 +361,56 @@ Tokenfriend.text,Your friend. Julie Mayer.
 Tokenfriend.button1,({action}) Talk to her
 Tokeninfo_table.text,The inscription on the counter.
 Tokeninfo_table.button1,({action}) Investigate
-Eventinfo_table.text,In memory of the victims of the fire that broke out here on December 12, 1901. You gain ({clue})
+Eventinfo_table.text,In memory of the victims of the fire that broke out here on December 12, 1901. You gain 1 ({clue})
 Eventinfo_table.button1,Continue
-Eventgo_to_crime_scene.text,You leave the church and go to the place where the boy's body was found. It is nearby, in a nearby forest.
+Eventgo_to_crime_scene.text,You leave the church and go to the place where the boy's body was found. It is in a nearby forest.
 Eventgo_to_crime_scene.button1,Continue
 Eventfuture_corridor_reveal.text,You see the old stairs leading down. They are covered with a red dirty carpet. At the end, the corridor is lined with bookshelves. \n\n (Place {c:Tilestairs_up} as indicated})
 Eventfuture_corridor_reveal.button1,Continue
-Eventfuture_books.text,"You see a lot of thick books, each one is signed ""Journal of Works. Copper Mine"". Dates are from 1800 to 1900. Journal missing from 1850-1855. In the middle are tables with names, dates and quantity of extracted ore. \n\n You gain ({clue})"
+Eventfuture_books.text,"You see a lot of thick books, each one is signed ""Journal of Works. Copper Mine"". Dates are from 1800 to 1900. Journals are missing from 1850-1855. In the middle are tables with names, dates and quantities of extracted ore. \n\nGain 1 ({clue})"
 Eventfuture_books.button1,Continue
-Eventjulie_talk.text,I'm glad you came to help me. As you probably know, my son was missing a few days ago. The police are helpless, they have not found any clues. I learned that a boy's body was found in a nearby forest. Fortunately, it was not my son. The police do not connect these two things, but I'm beginning to have a very bad feeling. Please, go to this place. Along the way, read the report of the coroner, whose photo I took at the coroner. \n\n Good luck. \n\n (All investigators gain ({clue})
+Eventjulie_talk.text,I'm glad you came to help me. As you probably know, my son went missing a few days ago. The police are unable to help, they have not found any clues. I learned that a boy's body was found in a nearby forest. Fortunately, it was not my son. The police did not connect these two things, but I'm beginning to have a very bad feeling. Please, go to this place. Along the way, read the report from the coroner, whose photo I took at the coroner. \n\n Good luck. \n\n (All investigators gain ({clue})
 Eventjulie_talk.button1,Continue
 Eventjulie_talk_1.text,The woman gets up. She wipes her eyes with a handkerchief and goes out through the door.
 Eventjulie_talk_1.button1,Continue
 EventSTART_GAME.button1,Continue
 Eventui_open.button1,Continue
 UI2.button1,Przycisk1
-EventSTART_GAME.text,Investigators start without any hints.
-Eventend_game_03_alone.text,You leave the mine. Your friends have never found a place, although you've spent many months searching for them. You also failed to solve the mystery of the boy's disappearance. You did not forgive for the rest of your life that you left them there.
+EventSTART_GAME.text,Investigators start without any clues.
+Eventend_game_03_alone.text,You leave the mine, defeated. Your friends were never found, although you spent many months searching for them. You also failed to solve the mystery of the boy's disappearance. You will never forgive yourself for leaving them there.
 Eventpast_dynamite.button3,Cancel
 Eventopen_door_to_church.button2,Listen to the sermon
-Eventchurch_event_1.text,"... the world is coming. The final judgment is approaching - the pastor is clearly speaking with the confidence and aggression characteristic of the preacher. ""You can see the proof in front of you."" - people stretch their heads to see better, some people sigh loudly, one woman starts to cry .. ""Here is the child, the victim of the world and the demons must bear the sacrifice with us!"" - the pastor screams. ""Amen"" - the faithful answer the choir. """
+Eventchurch_event_1.text,"... the world is coming. The final judgment is approaching - the pastor is clearly speaking with the confidence and aggressive characteristic of a preacher. ""You can see the proof in front of you."" - people stretch their heads to see better, some people sigh loudly, one woman starts to cry .. ""Here is the child, the victim of the world and the demons must bear the sacrifice with us!"" - the pastor screams. ""Amen"" - the faithful answer the choir. "
 Eventchurch_event_1.button1,Continue
 Tokenevan_alive_questionmark.button1,({action}) Investigate
 Tokenevan_alive.text,The boy lies unconscious
-Eventevan_alive_menu.text,"You state with horror that this boy looks the same as the one found by the police officers, with the difference that he is alive and has no head injuries. ""What is going on here?"" - you whisper quietly. \n\n You receive 1 facedown horror."
+Eventevan_alive_menu.text,"You stare in horror, this boy looks the same as the one found by the police officers, with one difference, he is alive and has no head injuries. ""What is going on here?"" - you whisper quietly. \n\nSuffer 1 facedown horror."
 Eventevan_alive_menu.button1,Continue
 Tokenevan_alive_questionmark.text,A child lying on a stone altar.
 Tokenevan_alive.button1,Continue
-Tokencarl.text,The pastor speaks ... He is tall and muscular, he is confident and horrible. It's better not to disturb him.
+Tokencarl.text,The pastor speaks ... He is tall and muscular, he is overly confident, something about him horrifies you. It's better not to disturb him.
 Tokencarl.button1,({action}) Attack
 Eventchurch_event_2.text,"<i>""... the world is broken to the bone! Rape, murder. Our Lord is coming! Amen!""</i> - the pastor screams. \n\n The whole situation is more and more disturbing to you, you are feverishly thinking about how to get out of it. Maybe you can somehow distract them ..."
 Eventchurch_event_2.button1,Continue
 Event_body_raport.button1,Continue
-Event_carl_event.text,A huge explosion knocked all those gathered in the chapel. It is not known if anyone survived ... After a while when the persistent squeak in your ears begins to decrease, you hear that something is moving in the rubble of benches and bodies.
-Event_body_raport.text,From the coroner's report it appears that the boy died due to burning of the occipital part of the time. The boy was dressed in an outfit that resembles those from begining of 1900. The boy's age is about 10 years, same like John. The identity of the dead boy has not been confirmed, no one reported missing another boy in this area
+Event_carl_event.text,A huge explosion blasts all those gathered in the chapel. It is not known if anyone has survived ... After a while when the ringing in your ears subsides, you hear something moving among the rubble of benches and bodies.
+Event_body_raport.text,From the coroner's report it appears that the boy died due to burning of the occipital part of the time. The boy was dressed in an outfit that resembles those from begining of 1900. The boy's age was about 10 years, the same as John. The identity of the dead boy has not been confirmed, no one reported a missing boy in this area
 Event_carl_event.button1,Continue
-Tokendebris.text,Rumble from benches and bodies.
+Tokendebris.text,Rubble from benches and bodies.
 Tokendebris.button1,Continue
-Tokenderbis_1.text,Rumble from benches and bodies.
+Tokenderbis_1.text,Rubble from benches and bodies.
 Tokenderbis_1.button1,Continue
-Tokencarl_body.text,Pastor, it seems barely alive ...
+Tokencarl_body.text,Pastor, he seems barely alive ...
 Tokencarl_body.button1,({action}) Attack
-Event_evan_body.text,You realize with horror that this is the same boy you read in the coroner's report, he has the same clothes and the same injuries. Your mind can not understand it. You recive 2 facedown horror,
+Event_evan_body.text,You realize with horror that this is the same boy as the one you read about in the coroner's report, he has the same clothes and the same injuries. Your mind can not comprehend it. Suffer 2 facedown horror,
 Event_evan_body.button1,Continue
-Event_carl_event_1.text,The pastor, although he has received huge damage, slowly gets up, and his body changes ... you hear the terrifying scream of turning into a monster. All prospectors in the tile {c:Tilechurch} recive 1 facedown horror.
+Event_carl_event_1.text,The pastor, although having received huge damage, slowly gets up, and his body changes ... you hear the terrifying scream of a monster. All Investigators in the {c:Tilechurch} tile suffer 1 facedown horror.
 Event_carl_event_1.button1,Continue
 Spawn_carl_monster.text,you could stay in your times...
 Spawn_carl_monster.button1,Continue
 Token_carl_monster.text,you could stay in your times...
 Token_carl_monster.button1,Continue
-Event_carl_monster_dead.text,The monster dies, or rather melts in the air. His torn clothes and the silver key remain on the ground. You recive {c:QItem_silver_key}
+Event_carl_monster_dead.text,The monster dies, or rather melts into the air. His torn clothing and a silver key remain on the ground. Gain the {c:QItem_silver_key} unique item
 Event_carl_monster_dead.button1,Continue
 Event_silver_key.text,Silver key
 Event_silver_key.button1,Continue
@@ -423,7 +423,7 @@ Event_carl_run_1.button1,Continue
 Event_carl_run_2.text,... takes the boy's body and runs towards the mine ...
 Event_carl_run_2.button1,Continue
 Event_lamp.button1,Continue
-Event_lamp.text,{c:QItemlamp}
+Event_lamp.text,Take the {c:QItemlamp} common item
 Eventchurch_event_3.text,"<i>""Today we will make a great sacrifice to propitiate our master. We must sacrifice what is most important to us, that is why each of you...""</i> the pastor says in a raised voice, looking around the church, suddenly stops the sentence when he sees you."
 Eventchurch_event_3.button1,Continue
 Eventchurch_event_question.text,Who are you?
@@ -433,15 +433,15 @@ Event_church_event_with_dynamite.button1,Give the dynamite
 Event_church_event_with_dynamite.button2,I don`t have
 Eventchurch_event_give_dynamite.text,"<i>""Great, then we can start our sacrifice.""</i> Pastor takes dynamite from you."
 Eventchurch_event_give_dynamite.button1,Continue
-Eventchurch_event_0.text,You enter the chapel. Certainly it is a chapel in which you met with the mother of missing John but it looks different. It is new, pre-made. There are no traces of a fire. But it is impossible, have you started to lose your senses? You slowly walk past people, trying not to pay attention.\n\n You revice 1 facedown horror
+Eventchurch_event_0.text,You enter the chapel. Certainly it is the chapel in which you met with the mother of the missing missing boy John, however it looks different now. It is new, freshly made. There are no hints of a fire. But... it is impossible, have you started to lose your senses? You slowly walk past people, trying not to pay attention.\n\n Suffer 1 facedown horror
 Eventchurch_event_0.button1,Continue
-Token_carl_waiting_for_dynamite.text,Pastor is speaking..
-Event_dynamite_quest.text,"<i>""Ah .. from the church. Well.""</i> - the man seems confused. <i>""In that case, go quickly find this miner, whom the pastor sent for dynamite and bring it to us ...""</i> - after a moment of thought, he adds <i>""dynamite, not a miner"".</i> Then he returns where he came from."
+Token_carl_waiting_for_dynamite.text,The Pastor is speaking..
+Event_dynamite_quest.text,"<i>""Ah .. from the church. Well.""</i> - the man seems confused. <i>""In that case, go quickly find the miner, the one the pastor sent for dynamite and bring it to us ...""</i> - after a moment of thought, he adds <i>""the dynamite, not a miner"".</i> Then he returns from where he came."
 Event_carl_ask_about_dynamite.text,"<i>""I was recently admitted to the church""</i> - you quickly make up the answer."
 Token_carl_waiting_for_dynamite.button1,({action}) Give him dynamite
 Event_john_feel.text,"You look in the terrified eyes of the boy... <i>""i d-don`t k-k-know ... where's my mom?""</i>"
 Event_john_feel.button1,Continue
-Event_john_how_get_here.text,"<i>""I was playing in the woods when I saw this man. He was tall, he was dragging something behind him, he left it at the entrance to the mine in the bushes. I was very scared but did not notice me. I went to the mine because I did not want him to find me ... I was shifting in such a hideout in the wall but there was a hole in it, I ran into it ... then I only remember this room. I've been here for a very long time ...""</i> - You see how the boy's eyes are tearful."
+Event_john_how_get_here.text,"<i>""I was playing in the woods when I saw this man. He was tall, he was dragging something behind him, he left it at the entrance to the mine in the bushes. I was very scared but he did not notice me. I went to the mine because I did not want him to find me ... I was searching the wall and founda hole, I climbed into it ... then I only remember this room. I've been here for a very long time ...""</i> - tears glisten in the boy's eyes."
 Event_john_how_get_here.button1,Continue
 Event_attack_carl_human.text,You take a huge metal candle stand and with all your strength you strike the pastor in the head.
 Event_attack_carl_human.button1,Continue
@@ -455,12 +455,103 @@ Token_carl_waiting_for_dynamite.button2,({action}) Attack
 Token_spell_book.button1,({action}) Take
 Event_slivering.button1,Continue
 Event_Machete.text,Looking at the pile of rubble you found {c:QItemMachete}
-Token_spell_book.text,You see a book with strange symbols bound in leather.
-Event_slivering.text,You recive {c:QItemshriveling}
+Token_spell_book.text,You see a leather bound book with strange symbols.
+Event_slivering.text,You recive {c:QItemshriveling} spell
 Event_Machete.button1,Continue
-Tokenend_of_tunel_1.text,There is no transition
+Tokenend_of_tunel_1.text,There is no was through.
 Tokenend_of_tunel_1.button1,Continue
-Spawncultist.text,The door is open. A moment ago someone knocked one out of you. The hooded figure enters the room
-EventEvent_watch_from_past.text,"You watch the watch, it looks exactly like the one you found earlier in front of the mine, but it is much older and destroyed. It has exactly the same engraving on the back with the inscription: ""for Evan 1881"""
+Spawncultist.text,The door is open. A moment ago someone knocked you out. The hooded figure enters the room
+EventEvent_watch_from_past.text,"You inspect the watch, it looks exactly like the one you found earlier in front of the mine, but it is much older and destroyed. It has exactly the same engraving on the back with the inscription: ""for Evan 1881"""
 EventEvent_watch_from_past.button1,Continue
 Tokendynamite_after_fail.button3,Cancel
+Tokenend_of_tunel.button2,Defeat
+Eventend_of_tunel_fail.text,You inspect the rubble, looking for a slit that would allow you to see what is on the other side. Carefully you pull out a loose stone, unfortunately it causes a small avalanche that cascades in your direction. At the last moment you jump back but one of the stones is falling straight for your head.\n\nSuffer 2 facedown damage cards ({agility} prevents)
+Eventend_of_tunel_fail.button1,Continue
+Tokenpast_doors1_blocked.text,\nThe door is of a solid build, you can not open it in any way.
+Tokenpast_doors1_blocked.button1,Continue
+Eventpast_doors1_blocked.text,\nThe door is a solid construction, you can not open it in any way.
+Eventpast_doors1_blocked.button1,Continue
+Token_time_respawn.text,You have to use the watch to reopen the passage.
+Token_time_respawn.button1,Continue
+Eventtime_test_watch_trigger.text,You are surprised to discover that by turning the watch base you influence the symbol layout on the manhole cover. You have no idea how it works, but you can try different combinations.\n
+Eventtime_test_watch_trigger.button1,{action} Solve the Puzzle
+Eventtime_test_watch_trigger.button2,Cancel
+Tokenend_of_tunel_destroyable.button2,Defeat
+Tokenend_of_tunel_destroyable.button1,{action} Continue
+Tokenend_of_tunel_destroyable.text,With the help of a pickaxe, you can try to dig out the passage.
+Eventtorture_bed1.text,A bed with leather belts attached. It looks like someone has been tied up here recently, judging from the blood trail it was a few hours ago\n\nGain 1 {clue}
+Eventtorture_bed1.button1,Continue
+Eventfriendfound.text,You are relieved to discover that your missing companion has also been found.
+Eventfriendfound.button1,Continue
+Token_church_doors_to_mine_static.text,Massive doors, they are closed
+Token_church_doors_to_mine_static.button1,Continue
+Token_church_doors_to_mine.text,Massive doors, they are weathered from age.
+Token_church_doors_to_mine.button1,{action} Investigate
+Event_church_doors_to_mine_explore.text,\nhe doors are wooden, solidly made, fastened with thick metal straps. The handle on the door is large and old-fashioned. You press on the handle but the door is closed. You try to see something through the keyhole but there is only darkness, and the musty smell of decaying wood.\n\nGain 1 {clue}\n
+Event_church_doors_to_mine_explore.button1,Continue
+Event_church_doors_to_mine_knife.text,Going back upstairs, you see something metal sticking out from under the rug.\n\nGain the {c: QItem_church_doors_to_mine_knife} common item
+Event_church_doors_to_mine_knife.button1,Continue
+Tokenfuture_books_doors_reveal.text,You decide to take a look once again, you have a feeling that something is wrong with them ...
+Tokenfuture_books_doors_reveal.button1,{action} Investigate
+Eventfuture_books_doors_reveal_test.text,\nYou pull out books at random, hoping you will find something interesting.\nTest {lore}
+Eventfuture_books_doors_reveal_test.button1,Continue
+Eventfuture_books_doors_reveal_test.button3,Cancel
+Eventfuture_books_doors_reveal_test.button2,Continue
+Eventfuture_books_doors_reveal_success.text,You try to pull out another book, pulling it down, you hear a quiet click and feel that the shelf has moved slightly. After a closer examination, you see runners on the floor that allow you to easily move the shelf to one side. You stare with astonishment at how the shelf moves to reveal a nicely decorated door.
+Eventfuture_books_doors_reveal_success.button1,Continue
+Eventfuture_books_doors_reveal_fail.text,\nAfter a short while, you find that there is nothing interesting here.
+Eventfuture_books_doors_reveal_fail.button1,Continue
+Tokenfurue_book_shelf_interaction.text,Bookshelf.
+Tokenfurue_book_shelf_interaction.button1,{action} Investigate
+EventToken_go_to_future.text,\nBehind you is the passage from which you fell.
+EventToken_go_to_future.button1,Continue
+EventToken_torture_bed.text,In the middle of the room there is a bed with leather straps attached.
+EventToken_torture_bed.button1,Continue
+EventTokenPastDoors1.text,\nIn the second, slightly larger room there is a door.
+EventTokenPastDoors1.button1,Continue
+Eventpast_shelf_in_shelter0.text,\nAt the end of the room is a bunk bed.
+Eventpast_shelf_in_shelter0.button1,Continue
+Event_wakeup_in_john_room.text,You wake up in a stinking room. You recall the voices of the people who took you away. You can guess they moved you here. Slowly you open your eyes and look around the room.\n\nPlace: {c: Tilepast_boy_room}\n\nPlace the Investigator who came through the passage on the board
+Event_wakeup_in_john_room.button1,Continue
+Event_wakeup_in_john_room_john_spawn.text,In the other part of the room you see a wooden bed on which lies a young boy, approximatly 10 years old.
+Event_wakeup_in_john_room_john_spawn.button1,Continue
+Event_wakeup_in_john_room_doors.text,A solid metal door leads into the room.\n
+Event_wakeup_in_john_room_doors.button1,Continue
+Eventpast_end_game_alone0_place_invest.text,After a few minutes the remaining Investigators concerned about their missing companion gather in the room where they last saw him.\n\nPlace the remaining Investigators on the board\n(Investigators regain control over their characters)
+Eventpast_end_game_alone0_place_invest.button1,Continue
+EventMythos_minior_trigger.text,\nThe room suddenly gets cold and the walls vibrate slightly. The feeling passes across your back and you a strange aura around you. All Investigaotrs suffer 1 facedown horror ({will} negates)
+EventMythos_minior_trigger.button1,Continue
+Eventgo_to_future_disapear.button1,Continue
+Eventtime_test_no_watch.text,You find a manhole made of rusty metal under the garbage. It is covered with strange symbols. You have no idea what they mean, maybe you have missed a clue.
+Eventtime_test_no_watch.button1,Continue
+EventEndgame_all_one_missing.text,You are leaving the mine. Despite many months of investigation, you fail to explain the death of the boy found or find John. What's worse, the lost Investigator was never found. For the rest of your life, you all wonder what actually happened on that rainy day, when you started the investigation. Did this really happening at all?
+EventEndgame_all_one_missing.button1,Continue
+EventEND_GAME.text,The End.\n\nThis is one of several possible endings.
+Eventpast_end_game_alone_pickaxe_take.text,Gain the {c:QItemaxe} common item
+Eventpast_end_game_alone_pickaxe_take.button1,Continue
+Eventend_of_tunel_destroyable_success.text,With a great effort you managed to make a small passage to the other side. Through the hole you see a tunnel fading into the darkness.\n\nPlace {c: Tilepast_mine_tuner_right}
+Eventend_of_tunel_destroyable_success.button1,Continue
+Eventend_of_tunel_destroyable_door_reveal.text,On the right you can see a solid looking metal door.
+Event_watch_ready_to_drop.text,"You inspect the watch very carefully, the glossy metal is thoroughly polished. There is an engraving on the back with the inscription: ""for Evan 1881"" It's in pretty good condition for a 40 year old watch. Mounted inside the watch is a mobile bazel, which is covered with strange symbols.\n\nYou are suddenly struck with the answer, this is the only chance for rescue. You hope that your companions will not be disappointed.\nGone 1 {clue}"
+Event_watch_ready_to_drop.button1,{action} \nSlide the watch under the door
+Event_watch_ready_to_drop.button2,Cancel
+Event_drop_watch.text,You slide the watch carefully under the door.\n\nPlace the  {c: QItem_watch_ready_to_drop} item in the indicated space.
+Event_drop_watch.button1,Continue
+Event_go_past_with_old_watch.text,This time you are not going to risk it and wait for your companions.
+Event_go_past_with_old_watch.button1,\n{action} Come to the passage together\nCome to the passage together
+Event_go_past_with_old_watch.button2,Cancel
+Event_go_past_with_old_watch1.text,\nYou fly through the darkness, feeling the cold wind on your face ...
+Event_go_past_with_old_watch1.button1,Continue
+Eventend_of_tunel_destroyable_door_reveal.button1,Continue
+Eventend_of_tunel_destroyable_fail0.text,Despite your constant attempts, you fail to make a passage. The stones are large and stuck together
+Eventend_of_tunel_destroyable_fail0.button1,Continue
+Eventend_of_tunel_destroyable_fail1.text,You hit the rock with all your strength, the pickaxe unfortunately bounces from the big stone and recoils back, glancing the side of your head. Suffer 1 facedown damage ({agility} negates)
+Eventend_of_tunel_destroyable_fail1.button1,Continue
+Eventend_of_tunel_destroyable_fail2.text,Frustrated with the last of your strength, you hit the stones blindly. The entire structure unexpectedly crashes down directly onto you.\nSuffer 2 facedown damage ({agility} negates)\nThen flip one damage faceup as the pile of stones knocks you down to the ground.
+Eventend_of_tunel_destroyable_fail2.button1,Continue
+Event_john_watch_help.text,"John looks at you with a puzzled expression and finally says:\n<i> ""there in front of the mine near this .. that.. c-boy I saw the watch .. the same as yours ... is it the same watch? </i>\n- the boy asks a bit embarrassed."
+Event_john_watch_help.button1,Continue
+Tokenfurue_book_shelf_open.text,Shelf with several books.
+Tokenfurue_book_shelf_open.button1,Continue
+Tokenpast_end_game_alone_pickaxe.text,\nYou see a rusty pickaxe leaning against the wall. Rust and dirt make it barely visible in the dim light of the tunnel.
+Tokenpast_end_game_alone_pickaxe.button1,{action} Take
