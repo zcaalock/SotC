@@ -92,15 +92,15 @@ Eventgo_to_future_all.text,Wskakujesz do przejścia i znowu mkniesz przez pustk�
 Eventgo_to_future_all.button1,Kontynuuj
 Eventback_in_future.text,Wypadasz na stertę śmieci. Po chwili udaje ci się wygrzebać i stanąć na nogach. Rozglądasz się i widzisz to samo pomieszczenie w kopalni, z którego na początku przyszedłeś. Patrzysz za siebie i widzisz, że przejście zniknęło. Dotykasz desperacko każdego kawałka podłogi i ściany, wołasz swoich przyjaciół ale nie ma żadnego odzewu. Po kilkunastu minutach zrezygnowany wychodzisz na zewnątrz szukać pomocy.
 Eventback_in_future.button1,Kontynuuj
-Tokenwatch_from_past.text,Coś błyszczącego leży na podłodze. 
+Tokenwatch_from_past.text,Na podłodze widzisz jakiś zasniedziały, wyglądający na stary kawałek okrągłego metalu.
 Tokenwatch_from_past.button1,{action} Zbadaj
 Eventwatch_from_past.text,"To stary zegarek kieszonkowy. Wygląda identycznie jak ten, który znaleźliście w miejscu gdzie było ciało chłopca. Tylko, że ten zegarek jest dużo starszy, cały jest zardzewiały i ma zbitą szybkę... Zaraz, zaraz, przecież to ten sam zegarek, ma z tyłu grawer z napisem ""dla Evana 1881"". To niemożliwe..."
 Eventwatch_from_past.button1,Kontynuuj
-Tokenmessage_from_past.text,Stare łóżko. Wydaje ci się, że wygląda trochę inaczej.
+Tokenmessage_from_past.text,Stare łóżko.
 Tokenmessage_from_past.button1,{action} Zbadaj
-Eventmessage_from_past.text,Kreski na łóżku zniknęły. To bardzo cię zdziwiło i zaniepokoiło. Zaczynasz się zastanawiać czy zwariowałeś. Otrzymujesz 2 zakryte karty przerażenia. Po bliższym przyjrzeniu się drewnianej konstrukcji dostrzegasz napis wyryty na jednej z desek. Napis jest stary ale udaje ci się go odczytać.
+Eventmessage_from_past.text,Widzisz łóżko pokryte kreskami tak jak wcześniej. Jednak w tym momencie dostrzegasz coś jeszcze. Po bliższym przyjrzeniu się drewnianej konstrukcji widzisz napis wyryty na jednej z desek. Jest stary ale udaje ci się go odczytać.
 Eventmessage_from_past.button1,Kontynuuj
-Eventmessage_from_past_1.text,"Z trudnością odczytujesz wiadomość: ""K****kol**ek to przec***asz, **atuj mni*"". Nie masz pojęcia co to ma znaczyć."
+Eventmessage_from_past_1.text,"Z trudnością odczytujesz wiadomość: ""K****kol**ek to przec***asz, **atuj mni*"". Nie masz pojęcia co to ma znaczyć.\n\nOtrzymujesz {clue}"
 Eventmessage_from_past_1.button1,Kontynuuj
 Tokenend_game_alone.button1,{action} Wyjdź
 Eventend_game_03_alone.button1,Kontynuuj
@@ -116,10 +116,10 @@ Tokenpast_shelf_in_shelter.text,Widzisz łóżko piętrowe. Świeża farba i bru
 Tokenpast_shelf_in_shelter.button1,{action} Przeszukaj
 Eventpast_shelf_in_shelter.button1,Kontynuuj
 Eventpast_shelf_in_shelter_all.text,Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Otrzymujesz stan ogłuszony i tracisz tracisz tę turę.
-Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. W pomieszczeniu jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie łóżka kreski. Po nieokreślonym czasie, może po kilku tygodniach, a może miesiącach postanawiasz wyryć napis: ""Kiedykolwiek to przeczytasz, uratuj mnie"". Zasypiasz wyczerpany.\n\n(Usuń wszystkie elementy z planszy)"
+Eventpast_end_game_alone.text,"Czujesz ogromny ból w okolicach potylicy, a zaraz potem robi ci się ciemno przed oczami... Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane, nie jesteś w stanie ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś. W pomieszczeniu jest zmagazynowane dużo jedzenia i wody. Po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności. Tracisz kompletnie poczucie czasu, próbujesz liczyć dni które tu spędziłeś ryjąc w drewnie łóżka kreski. Po nieokreślonym czasie, może po kilku tygodniach, a może miesiącach postanawiasz wyryć napis: ""Kiedykolwiek to przeczytasz, uratuj mnie"". Zasypiasz wyczerpany.\n\n(Jeśli jakieś żetony pozostały na {c:Tilepast_shelter} usuń je)"
 Eventpast_end_game_alone.button1,Kontynuuj 
 Eventgo_to_future_disapear.text,Ze zdziwieniem stwierdziłeś, że przejście zniknęło. Przed sobą widzisz gołą ścianę wyłożoną płytkami.
-Eventpast_end_game_alone0.text,Chwilę po tym jak poszukiwacz sam wskoczył od przejścia zamyka się ono ukazując sciąnę pokrytą brunymi zniszczonymi płytkami. \n\n(Pozostali gracze odzyskują konrolę nad swoimi postaciami)
+Eventpast_end_game_alone0.text,Chwilę po tym jak poszukiwacz sam wskoczył od przejścia zamyka się ono ukazując sciąnę pokrytą brunymi zniszczonymi płytkami. \n\nUmieść: {c:Tile01_Cave_entrance}, {c:Tile02_cave_01}, {c:Tile03_cave_shelter} na planszy
 Eventpast_end_game_alone0.button1,Kontynuuj
 Eventthe_end.text,Koniec.
 Eventthe_end.button1,Kontynuuj
@@ -157,7 +157,7 @@ Eventpast_boy_room_reveal.button1,Kontynuuj
 Eventpast_boy_found.text,Na łóżku leży jakas postać. Po dokładnym przyjrzeniu się stwierdzasz, że to mały John. Widać, że jest w kiepskim stanie ale przynajmniej żyje.
 Eventpast_boy_found.button1,Kontynuuj
 TokenJohn.text,Widzisz chłopca w wieku około 10 lat.
-TokenJohn.button1,({action}) Rozmawiaj?
+TokenJohn.button1,{action} Rozmawiaj?
 Eventtake_john.text,Bierzesz Johna na ręce. Od tej chwili do momentu, aż zostawisz Johna możesz wykonać tylko jedną akcję na turę.
 Eventtake_john.button1,Kontynuuj
 Eventend_game_alone_with_john.text,Wychodzisz z kopalni. Twoi przyjaciele nigdy się nie znaleźli chociaż poświęciłeś na ich szukanie wiele miesięcy. Nie udało ci się także rozwiązać tajemnicy morderstwa chłopca znalezionego przed kopalnią. Cały czas nie daje ci spokoju to, że wydaje ci się, że to był ten sam chłopiec którego widziałeś tam wśród tej okropnej sekty. Miał na sobie te same ubrania. Ale jak to możliwe, jak on przecież nie żył... Do końca życia sobie nie wybaczysz tego, że zostawiłeś tam swoich przyjaciół. Ale czy to naprawdę się wydarzyło? Jedyne co cię pociesza to to, że John jest bezpieczny. Ostatnio coraz rzadziej cię odwiedza sanatorium... patrzysz zamyślony przez zakratowane okno jak nad Arkham zachodzi słońce.
@@ -339,7 +339,7 @@ Eventnothing.text,Nic tu ciekawego nie ma
 Eventnothing.button1,Kontynuuj
 Eventgo_back_from_church.text,Wracasz przez tunel
 Eventgo_back_from_church.button1,Kontynuuj
-UI1.uitext,Jest 1 października 1920 roku. Twoja znajoma zaprasza cię na spotkanie w pobliskim kościele baptystów. Przez telefon wspomniała, że to ważne a w jej głosie wyczułeś niepokój. Domyślasz się, że chodzi o zaginięcie jej syna Johna, pisały o tym gazety. Wygląda na to, że jeszcze się nie odnalazł...
+UI1.uitext,Jest 1 października 1920 roku. Twoja znajoma zaprasza cię na spotkanie w pobliskim kościele baptystów. Przez telefon wspomniała, że to ważne, a w jej głosie wyczułeś niepokój. Domyślasz się, że chodzi o zaginięcie jej syna Johna, pisały o tym gazety. Wygląda na to, że jeszcze się nie odnalazł...\n\nPo krótkiej podróży ze swojego biura docierasz przed stary drewniany kościół. Jest mały, o prostych kształtach z wąskimi wysokimi oknami. Część kościoła styka się z pobliską skalną górą. Słyszałeś, że kiedyś wydobywano tu miedź. Kilkanaście lat temu część kościoła spłonęła w pożarze. Został on odbudowany jednak nie odzyskał dawnego blasku. Różne dziwne legendy krążą o tym miejscu, podonbno jest nawiedzone odkąd podczas jednego z kazań kontrowersyjnego pastora wybuchł pożar. Wielu mejscowych zginęło, a sam pastor nigdy się nie odnalazł żywy czy martwy
 UI0.button1,Kontynuuj
 Eventstart_event.text,Wchodzisz do kościoła. Jest dość stary i zniszczony, wygląda jakby kiedyś wybuchł w nim pożar. \n\n Umieść {c:Tilechurch} na planszy
 Eventstart_event.button1,Kontynuuj
@@ -501,7 +501,7 @@ Tokenpast_doors1_blocked.text,Drzwi są bardzo solidnie zrobione, nie jesteś ic
 Tokenpast_doors1_blocked.button1,Kontynuuj
 Eventpast_doors1_blocked.text,Drzwi są bardzo solidnie zrobione, nie jesteś ich w żaden sposób otworzyć.
 Eventpast_doors1_blocked.button1,Kontynuuj
-Eventpast_end_game_alone0_place_invest.text,Po kilku minutach pozostali poszukiwacze zaniepokojeni zniknięcim towarzysza zbierają się w pomieszczeniu gdzie ostatnio go widzieli.\n\nUmieść pozostałych poszukiwaczy na planszy
+Eventpast_end_game_alone0_place_invest.text,Po kilku minutach pozostali poszukiwacze zaniepokojeni zniknięcim towarzysza zbierają się w pomieszczeniu gdzie ostatnio go widzieli.\n\nUmieść pozostałych poszukiwaczy na planszy\n(Poszukiwacze odzyskują konrolę nad swoimi postaciami)
 Tokenpast_end_game_alone0_place_invest.button1,Kontynuuj
 Eventtime_test.button2,Anuluj
 Eventtime_test_watch_trigger.text,Ze zdumieniem odkrywasz, że kręcąc bazelem zegarka wpływasz na układ symboli na pokrywie włazu. Nie masz pojęcia jakim cudem to działa ale możesz spróbować róznych kombinacji.
@@ -515,7 +515,7 @@ EventEndgame_all_one_missing.text,Wychodzicie z kopalni. Mimo wielomiesięcznego
 EventEndgame_all_one_missing.button1,Kontynuuj
 EventEND_GAME.text,Koniec Gry.\n\nTo jest jedno z kilku możliwych zakończeń.
 EventEND_GAME.button1,Kontynuuj
-Event_wakeup_in_john_room.text,Budzisz się w cuchnącym pokoju. Jak przez mgłę przypominasz sobie głosy i ludzi, którzy cię zabrali. Domyślasz się, że cię tu przenieśli. Powoli otwierasz oczy i rozglądasz się po pomieszczeniu.\n\n(Umieść poszukiwacza, który wszedł przez przejście na planszy)
+Event_wakeup_in_john_room.text,Budzisz się w cuchnącym pokoju. Jak przez mgłę przypominasz sobie głosy i ludzi, którzy cię zabrali. Domyślasz się, że cię tu przenieśli. Powoli otwierasz oczy i rozglądasz się po pomieszczeniu.\n\nUmieść: {c:Tilepast_boy_room}\n\nUmieść poszukiwacza, który wszedł przez przejście na planszy
 Event_wakeup_in_john_room.button1,Kontynuuj
 Event_wakeup_in_john_room_john_spawn.text,W dalszej części pomieszczenia widzisz drewniane łóżko na którym leży młody chłopak w wieku około 10 lat.
 Event_wakeup_in_john_room_john_spawn.button1,Kontynuuj
@@ -540,7 +540,7 @@ Event_go_past_with_old_watch1.button1,Kontynuuj
 Event_go_past_with_old_watch1.text,Lecisz chwile przez ciemność, czując zimny wiatr na twarzy.. 
 EventMythos_minior_trigger.text,W pomieszczenu nagle robi się zimno, a ściany lekko drgają. Dreszcz przechodzi cię po plecach kiedy wyczuwasz dziwną aurę wokół. Wszyscy poszukiwacze otrzymują 1 zakrytą kartę przerażenia ({will} zapobiega)
 EventMythos_minior_trigger.button1,Kontynuuj
-Event_drop_watch.text,Wsuwasz ostrożnie zegarek pod drzwi.
+Event_drop_watch.text,Wsuwasz ostrożnie zegarek pod drzwi.\n\nPołóż przedmiot {c:QItem_watch_ready_to_drop} we wskazanym miejscu.
 Event_drop_watch.button1,Kontynuuj
 Eventend_of_tunel_destroyable_door_reveal.text,Po prawej stronie widzisz metalowe solidne drzwi. 
 Eventend_of_tunel_destroyable_door_reveal.button1,Kontynuuj
@@ -554,3 +554,7 @@ Eventend_of_tunel_destroyable_fail2.text,Sfrustrowany ostatkiem sił uderzasz na
 Eventend_of_tunel_destroyable_fail2.button1,Kontynuuj
 Eventfriendfound.text,Z ulgą odkrywasz, że zaginiony towarzysz również się odnalazł.
 Eventfriendfound.button1,Kontynuuj
+Event_john_watch_help.text,"John patrzy się na ciebię przez chwię ze zdziwioną miną i mówi w końcu: \n<i>""tam przed kopalnią koło tego.. tego..c-chłopca widziałem zegarek.. taki sam jak twój.. czy to ten sam zegarek?</i>\n- chłopiec pyta trochę zawstydzony."
+Event_john_watch_help.button1,Kontynuuj
+Eventtorture_bed1.text,Skórzane łożko z pasami. Wygląda jakby niedawno ktoś był tu przywiązany, sądząc po śladach krwi było to kilka godzin temu\n\n Otrzymujesz {clue}
+Eventtorture_bed1.button1,Kontynuuj
