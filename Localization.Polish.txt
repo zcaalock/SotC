@@ -564,5 +564,9 @@ Event_guard_talk.text,Jak się tu dostałeś? Wejście do kopalni jest zamknięt
 Event_guard_talk.button1,Użyj {strength}
 Event_guard_talk.button2,Użyj {influence}
 Event_guard_talk.button3,Użyj {agility}
-Event_guard_talk_strength.text,Dokładnie w ten sposób..\n\n(bierzesz zamach nogą i z calej siły kopiesz mężczyzne w krocze)\n\nMęzczyzna zgina się w pół przy okazji strzelając w twoją stronę. \n(Test: {strength}) Jeśłi zdałeś cios okazał się na tyle silny, że męzczyzna zatoczył się i zjechał na plecach ze schodów wypalając bronią wprost w swoją nogę. Przeciwnik otrzymuje 4 obrażenia i nie może się przesuwać o własnych siłach.\n\nJeśli nie zdałeś mężczyzna krzyczy z bólu, jednak nie był on na tyle silny aby uniemożiwić oddanie celnego strzału. Otrzymujesz 2 zakryte karty obrażeń po tym jak śrut dzurawi ci ramię.\n\nUsuń żeton Osoba z planszy,\nUmieść \n
+Event_guard_talk_strength.text,Dokładnie w ten sposób..\n\n(bierzesz zamach nogą i z calej siły kopiesz mężczyzne w krocze)\n\nMęzczyzna zgina się w pół przy okazji strzelając w twoją stronę. \n(Test: {strength}) Jeśłi zdałeś cios okazał się na tyle silny, że męzczyzna zatoczył się i zjechał na plecach ze schodów wypalając bronią wprost w swoją nogę. Przeciwnik otrzymuje 4 obrażenia i nie może się przesuwać o własnych siłach.\n\nJeśli nie zdałeś mężczyzna krzyczy z bólu, jednak nie był on na tyle silny aby uniemożiwić oddanie celnego strzału. Otrzymujesz 2 zakryte karty obrażeń po tym jak śrut dzurawi ci ramię.
 Event_guard_talk_strength.button1,Kontynuuj
+Spawn_cultist_guard.text,Usuń żeton Osoba z planszy,\nUmieść Kultysta na planszy.
+Spawn_cultist_guard.button1,Kontynuuj
+Event_guard_cultist_die.button1,Kontynuuj
+Event_guard_cultist_die.text,Mężczyzna pada martwy na ziemię. Przy jego ciele znajdujesz srebrny klucz.
