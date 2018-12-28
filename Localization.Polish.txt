@@ -1,4 +1,4 @@
-﻿.,Polish
+.,Polish
 quest.name,Pieśń wybrzeża v 0.2
 quest.description,<i>Rozwiąż zagadkę zaginięcia Johna, syna twojej dobrej przyjaciółki i zbadaj tajemnice starego kościoła baptystów z przełomu wieków</i>\n\nScenariusz jest przeznaczony dla 2-5 osób, wymaga kafelków z pierwszej edycji Posiadłości Szaleństwa. W tym scenariuszu w większości przypadków zrezygnowano z opisu tego jak należy ustawiać znaczniki, jest to celowy zabieg zachęcający graczy do uważnego śledzenia zmian w aplikacji jak również element mechaniki. Jeśli jakiś znacznik zostanie zauważony po czasie należy go umieścić na planszy i traktować jako dopiero co odkryty.\n\n<b>Uwaga: jeśli w trakcie rozgrywki pojawi polecenie usunięcia wszystkich kafelek z planszy, Faza Badaczy zaczyna się od nowa.</b>\n\nScenariusz jest nastawiony na fabułę, posiada kilka zakończeń, które wpływają na długość rozgrywki.\n\nWszelkie uwagi można kierować pod adresem:\nhttps://github.com/zcaalock/SotC/issues\n\nScenariusz jest stworzony przy użyciu:\nhttps://github.com/NPBruce/valkyrie\n\n\n
 quest.authors,zcaalock\nchrismaliszewski
@@ -558,9 +558,16 @@ Event_guard_talk.text,Jak się tu dostałeś? Wejście do kopalni jest zamknięt
 Event_guard_talk.button1,Użyj {strength}
 Event_guard_talk.button2,Użyj {influence}
 Event_guard_talk.button3,Użyj {agility}
-Event_guard_talk_strength.text,Dokładnie w ten sposób..\n\n(bierzesz zamach nogą i z calej siły kopiesz mężczyzne w krocze)\n\nMęzczyzna zgina się w pół przy okazji strzelając w twoją stronę. \n(Test: {strength}) Jeśłi zdałeś cios okazał się na tyle silny, że męzczyzna zatoczył się i zjechał na plecach ze schodów wypalając bronią wprost w swoją nogę. Przeciwnik otrzymuje 4 obrażenia i nie może się przesuwać o własnych siłach.\n\nJeśli nie zdałeś mężczyzna krzyczy z bólu, jednak nie był on na tyle silny aby uniemożiwić oddanie celnego strzału. Otrzymujesz 2 zakryte karty obrażeń po tym jak śrut dzurawi ci ramię.
+Event_guard_talk_strength.text,Dokładnie w ten sposób..\n\n(bierzesz zamach nogą i z calej siły kopiesz mężczyzne w krocze)\n\nMęzczyzna zgina się w pół przy okazji strzelając w twoją stronę. \n(Test: {strength}) 
 Event_guard_talk_strength.button1,Kontynuuj
-Spawn_cultist_guard.text,Usuń żeton Osoba z planszy,\nUmieść Kultysta na planszy.
+Spawn_cultist_guard.text,Mężczyzna krzyczy z bólu, jednak uderzenie nie było na tyle silne aby uniemożiwić oddanie celnego strzału. Otrzymujesz 2 zakryte karty obrażeń po tym jak śrut dzurawi ci ramię.\n\nUsuń żeton Osoba z planszy,\nUmieść Kultysta na planszy.
 Spawn_cultist_guard.button1,Kontynuuj
 Event_guard_cultist_die.button1,Kontynuuj
 Event_guard_cultist_die.text,Mężczyzna pada martwy na ziemię. Przy jego ciele znajdujesz srebrny klucz.
+Event_guard_talk_strength.button2,Poraża
+Event_guard_strength_success.text,Cios okazał się na tyle silny, że męzczyzna zatoczył się i zjechał na plecach ze schodów wypalając bronią wprost w swoją nogę. Przeciwnik pada na ziemię nieprzytomny.
+Event_guard_strength_success.button1,Kontynuuj
+Tokenkey_guard_floor.text,Widzisz mężczyznę leżącego na podłodzę w powiększającej się plamie krwi. 
+Tokenkey_guard_floor.button1,{action} Przeszukaj
+Event_guard_search.text,W kieszeni marynarki znajdujesz {c:QItem_silver_key}
+Event_guard_search.button1,Kontynuuj
