@@ -215,16 +215,12 @@ Eventend_game_question_john.button1,Tak
 Eventend_game_all_without_john.text,Wychodzicie z kopalni. Nie udało wam się rozwiązać tajemnicy morderstwa chłopca. \n\n Często o nim myślisz leżąc i patrząc przez zakratowane okno sanatorium w Arkham.
 Tokenpast_papers.text,Stos gazet.
 Tokenpast_papers.button1,{action} Przeczytaj
-Eventpast_newspaper_president.button1,Czytaj gazetę.
+Eventpast_newspaper_president.button1,{action} Czytaj dalej
 Eventpast_newspaper_boy.text,26 Września 1901 (czwartek). To już siódme zaginięcie dziecka w przeciągu ostatnich 3 miesięcy.\nPoszukiwany chłopiec to Evan McCormic, lat 10, syn farmera. Nie wrócił do domu po pracy przy zbieraniu kukurydzy.\nWładze miasta są zaniepokojone ostatnimi zniknięciami. Szeryf Ratman wyznaczył nagrodę w wysokości $500 za znalezienie chłopca.\nLokalna grupa baptystów organizuje wieczorem 20 września spotkanie, podczas którego będzie można wesprzeć rodzinę zaginionego chłopca.\n\n(Otrzymujesz 2 {clue})
-Eventpast_newspaper_president.text,29 Października 1901r (środa). Prezydent William McKinley's postrzelony.\nPodczas spotkania został postrzelony przez Leona Czołgosza, Amerykanina polskiego pochodzenia, który uważał, że McKinley jest winny powszechnej niesprawiedliwości społecznej.\nPrezydent otrzymał dwa strzały w brzuch i pierś i został szybko przeniesiony do pobliskiego szpitala. Po opatrzeniu rany brzucha, lekarze mają nadzieję, że McKinley wyzdrowieje..
-Eventpast_newspaper_boy.button1,Czytaj gazetę
-Eventpast_newspaper_menu.text,Wybierz
-Eventpast_newspaper_menu.button1,Prezydent postrzelony...
-Eventpast_newspaper_menu.button2,Zaginione dziecko...
-Eventpast_newspaper_menu.button3,Koniec świata...
-Eventpast_newspaper_end_of_world.text,Rosną napięcia społeczne w związku z przełomem stuleci. \nPastor tutejszego kościoła baptystów namawia wszystkich, aby porzucili swoje grzechy i oddali to co dla nich najważniejsze bogu. <i>Zbliża się dzień sądu ostatecznego! Kto tego nie rozumie, zginie w ogniu piekielnym...</i> - powiedział pastor Carl Panzram.
-Eventpast_newspaper_end_of_world.button1,Czytaj dalej
+Eventpast_newspaper_president.text,29 Października 1901r (środa). Prezydent William McKinley's postrzelony.\nPodczas spotkania został postrzelony przez Leona Czołgosza, Amerykanina polskiego pochodzenia, który uważał, że McKinley jest winny powszechnej niesprawiedliwości społecznej.\nPrezydent otrzymał dwa strzały w brzuch i pierś, został szybko przeniesiony do pobliskiego szpitala. Po opatrzeniu rany brzucha, lekarze mają nadzieję, że McKinley wyzdrowieje..\n\n(Otrzymujesz 1 {clue})
+Eventpast_newspaper_boy.button1,{action} Czytaj dalej
+Eventpast_newspaper_end_of_world.text,Rosną napięcia społeczne w związku z przełomem stuleci. \nPastor tutejszego kościoła baptystów namawia wszystkich, aby porzucili swoje grzechy i oddali to co dla nich najważniejsze bogu. <i>Zbliża się dzień sądu ostatecznego! Kto tego nie rozumie, zginie w ogniu piekielnym...</i> - powiedział pastor Carl Panzram.\n\n(Otrzymujesz 1 {clue})
+Eventpast_newspaper_end_of_world.button1,Kontynuuj
 Tokenopen_secret_to_church.text,Widzisz świeżo usypaną ziemię i ślady butów dookoła.\n\nTest obserwacji {observation}.
 Tokenopen_secret_to_church.button1,Kontynuuj
 Eventsecret_to_church_reveal.text,Ze zdumieniem odkrywasz klapę, która prowadzi do ciemnego tunelu.
@@ -242,7 +238,7 @@ Eventreveal_blocked_room.text,Ściana zrobiona z desek i kamieni zawala się uka
 Eventreveal_blocked_room.button1,Kontynuuj
 Tokenshotgun_chest.text,Widzisz dużą, solidnie zbudowaną metalową skrzynię. Jest zamknięta na zamek szyfrowy.
 Tokenshotgun_chest.button1,{action} Spróbuj otworzyć.
-Eventspawn_monster_stairs.text,Czytanie gazety przerywają kroki. Przez drzwi z kierunku wschodniego wchodzi zakapturzona postać. Wygląda na bardzo zaskoczoną.
+Eventspawn_monster_stairs.text,Przez drzwi z kierunku wschodniego wchodzi zakapturzona postać. Wygląda na bardzo zaskoczoną.
 Eventtake_shotgun.text,Skrzynia się otwiera i w środku widzisz strzelbę.  \n\n (Otrzymujesz {c:QItemshot_gun} Przedmiot powszechny)
 Puzzleopen_chest.button1,Sprawdź
 Eventtake_shotgun.button1,Kontynuuj
@@ -283,8 +279,6 @@ Eventmonster_stairs_menu.button3,Jestem górnikiem.
 Eventmonster_stairs_menu.button4,Jestem z kościoła.
 Eventaxe_take.text,Pojemniki wyglądają jak trumny. Są puste, ale masz wrażenie, że to może się niedługo zmienić. Pomiędzy pojemnikami widzisz kilof. \n\n (Otrzymujesz 1 {clue} oraz {c:QItemaxe} Przedmiot powszechny)
 Eventaxe_take.button1,Kontynuuj
-Eventpast_newspaper_end_of_world.button2,Czytaj inną gazetę.
-Eventpast_newspaper_menu.button4,Anuluj
 Eventpast_newspaper_president.button2,Anuluj
 Eventpast_newspaper_boy.button2,Anuluj
 Spawnspawn_staits_monster.text,Widzisz przed sobą postać, która zmieniła się w okropny sposób. <i>Chyba znalazłem kolejną ofiarę na dzień przebłagania...</i>
@@ -434,7 +428,7 @@ Eventchurch_event_give_dynamite.button1,Kontynuuj
 Eventchurch_event_0.text,Wchodzisz do kaplicy. Z pewnością jest to kaplica, w której spotkaliście się z matką zaginionego Johna, ale wygląda inaczej. Jest nowa, zadbana. Nie ma śladów po pożarze.\n<i>Ale przecież to niemożliwe, czyżbyś zaczął tracić zmysły?</i>, myśli kołaczą wam się w głowie.\n Powoli przechodzisz obok ludzi, próbując nie zwracać na siebie uwagi. \n\n (Otrzymujesz 1 zakrytą kartę Przerażenia)
 Eventchurch_event_0.button1,Kontynuuj
 Token_carl_waiting_for_dynamite.text,Pastor przemawia..
-Event_dynamite_quest.text,<i>Ach.. z kościoła. Dobrze.</i>- mężczyzna wydaje się zmieszany. <i>W takim razie idź szybko znajdź tego górnika, którego pastor wysłał po dynamit i nam go przynieś..</i> - po chwili zastanowienia dodaje <i>dynamit nie górnika</i>. Po czym wraca skąd przyszedł.
+Event_dynamite_quest.text,"<i>""Ach.. z kościoła. Dobrze."" </i>- mężczyzna wydaje się zmieszany. <i>""W takim razie idź szybko znajdź tego górnika, którego pastor wysłał po dynamit i nam go przynieś..""</i> \n- po chwili zastanowienia dodaje: <i>""Dynamit nie górnika</i>."" \n\nPo czym wraca skąd przyszedł."
 Event_carl_ask_about_dynamite.text,<i>Niedawno zostałem przyjęty do kościoła</i> - szybko zmyślasz odpowiedź.
 Token_carl_waiting_for_dynamite.button1,[Posiadasz dynamit] {action} Daj mu dynamit
 Event_john_feel.text,Patrzysz w przerażone oczy chłopca i pytasz jak się czuje.\n<i>Ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?</i> \n\nChłopiec jest wychudzony i blady. Pytasz o jego imię.\n<i>Mam na imię J-john.</i>\n\nA więc to jest John, zaginiony chłopiec, którego szukasz.\n\n (Otrzymujesz 1 {clue})

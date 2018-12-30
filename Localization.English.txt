@@ -219,10 +219,6 @@ Eventpast_newspaper_president.button1,Read another one
 Eventpast_newspaper_boy.text,September 26, 1901 (Thursday). This is the 7th missing child in the last 3 months. The wanted boy is Evan McCormic, 10 years old, the son of a farmer. He did not return home after working on collecting corn. The city authorities are concerned about the latest disappearances. Sheriff Ratman has set a $ 500 reward for finding a boy. A local Baptist group is organizing an evening meeting on September 20, during which you will be able to support the missing boy's family. (You recive ({clue}))
 Eventpast_newspaper_president.text,October 29, 1901 (Wednesday). President William McKinley's shot. During the meeting, he was shot by Leon Czolgosz, an American of Polish origin who believed that McKinley was guilty of widespread social injustice. The president received two shots in the stomach and chest and was quickly transferred to a nearby hospital. After dressing the abdominal wound, the doctors hope that McKinley will recover ...
 Eventpast_newspaper_boy.button1,Read another one
-Eventpast_newspaper_menu.text,Choose
-Eventpast_newspaper_menu.button1,President shot..
-Eventpast_newspaper_menu.button2,Missing child..
-Eventpast_newspaper_menu.button3,The end of the world
 Eventpast_newspaper_end_of_world.text,"Social tensions are growing due to the turn of the century. The pastor of the local Baptist church urges everyone to abandon their sins and give back what is the most valueble for them to god. <i>""The day of final judgment is approaching, who will not understand this will die in the fire of hell ... ""</i> said pastor Carl Panzram."
 Eventpast_newspaper_end_of_world.button1,Read on
 Tokenopen_secret_to_church.text,You see freshly formed soil and footprints all around. ({observation})
@@ -283,8 +279,6 @@ Eventmonster_stairs_menu.button3,I'm a miner
 Eventmonster_stairs_menu.button4,I'm from church
 Eventaxe_take.text,The containers look like coffins. They are empty but you have the impression that it may soon change. Between the containers you see a pickaxe \n\n You recive ({clue}) and {c:QItemaxe}
 Eventaxe_take.button1,Continue
-Eventpast_newspaper_end_of_world.button2,Read other one
-Eventpast_newspaper_menu.button4,Cancel
 Eventpast_newspaper_president.button2,Cancel
 Eventpast_newspaper_boy.button2,Cancel
 Spawnspawn_staits_monster.text,"You see a figure in front of you that has changed terribly. <i>""I think I found another victim on the day of atonement ..""</i>"
