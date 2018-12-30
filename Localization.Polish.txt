@@ -1,6 +1,6 @@
 .,Polish
 quest.name,Pieśń wybrzeża v 0.2
-quest.description,<i>Rozwiąż zagadkę zaginięcia Johna, syna twojej dobrej przyjaciółki i zbadaj tajemnice starego kościoła baptystów z przełomu wieków</i>\n\nScenariusz jest przeznaczony dla 2-5 osób, wymaga kafelków z pierwszej edycji Posiadłości Szaleństwa. W tym scenariuszu w większości przypadków zrezygnowano z opisu tego jak należy ustawiać znaczniki, jest to celowy zabieg zachęcający graczy do uważnego śledzenia zmian w aplikacji jak również element mechaniki. Jeśli jakiś znacznik zostanie zauważony po czasie należy go umieścić na planszy i traktować jako dopiero co odkryty.\n\n<b>Uwaga: jeśli w trakcie rozgrywki pojawi polecenie usunięcia wszystkich kafelek z planszy, Faza Badaczy zaczyna się od nowa.</b>\n\nScenariusz jest nastawiony na fabułę, posiada kilka zakończeń, które wpływają na długość rozgrywki.\n\nWszelkie uwagi można kierować pod adresem:\nhttps://github.com/zcaalock/SotC/issues\n\nScenariusz jest stworzony przy użyciu:\nhttps://github.com/NPBruce/valkyrie\n\n\n
+quest.description,<i>Rozwiąż zagadkę zaginięcia Johna, syna twojej dobrej przyjaciółki i zbadaj tajemnice starego kościoła baptystów z przełomu wieków</i>\n\nScenariusz jest przeznaczony dla 2-5 osób, wymaga kafelków z pierwszej edycji Posiadłości Szaleństwa. W tym scenariuszu w większości przypadków zrezygnowano z opisu tego jak należy ustawiać znaczniki, jest to celowy zabieg zachęcający graczy do uważnego śledzenia zmian w aplikacji jak również element mechaniki. Jeśli jakiś znacznik zostanie zauważony po czasie należy go umieścić na planszy i traktować jako dopiero co odkryty.\n\n<b>Uwaga: jeśli w trakcie rozgrywki pojawi polecenie usunięcia wszystkich kafelek z planszy, Faza Badaczy zaczyna się od nowa.</b>\n\nScenariusz posiada kilka zakończeń.\n\nWszelkie uwagi można kierować pod adresem:\nhttps://github.com/zcaalock/SotC/issues\n\nScenariusz jest stworzony przy użyciu:\nhttps://github.com/NPBruce/valkyrie\n\n\n
 quest.authors,zcaalock\nchrismaliszewski
 Token01_boy_body.button1,{action} Zbadaj
 Event02_show_body_boy.button1,Kontynuuj
@@ -263,8 +263,8 @@ Tokenenter_to_church_corridor.button1,{action} Otwórz
 Eventcorridor_to_church_reveal.text,Drzwi się otwierają. Widzisz ładną klatkę schodową wyłożoną czerwonym dywanem. Strome schody prowadzą w górę. Na końcu widać kolejne drzwi. \n\n (Umieść: {c:Tilestairs_up} na planszy)
 Eventcorridor_to_church_reveal.button1,Kontynuuj
 Tokenpast_church_enter.text,Drewniane, zdobione drzwi.
-Tokenpast_church_enter.button1,{action})Zbadaj
-Tokenpast_church_enter.button2,{action} Wejdź
+Tokenpast_church_enter.button1,{action} Zbadaj
+Eventchurch_revealed.button2,Anuluj
 Tokenpick_axe_room.text,Drewniane drzwi. Prowadzą na południe.
 Tokenpick_axe_room.button1,{action} Otwórz
 Eventaxe_room_reveal.text,Po otwarciu drzwi widzisz wąskie pomieszczenie. Dwie lampy naftowe oświetlają duże prostokątne pojemniki. \n\n Na końcu pokoju widzisz człowieka, który się po coś schyla (Umieść: {c:Tileaxe_room} na planszy)
@@ -277,7 +277,7 @@ Eventmonster_stairs_menu.button1,Zaatakuj
 Eventmonster_stairs_menu.button2,Jestem detektywem.
 Eventmonster_stairs_menu.button3,Jestem górnikiem.
 Eventmonster_stairs_menu.button4,Jestem z kościoła.
-Eventaxe_take.text,Pojemniki wyglądają jak trumny. Są puste, ale masz wrażenie, że to może się niedługo zmienić. Pomiędzy pojemnikami widzisz kilof. \n\n (Otrzymujesz 1 {clue} oraz {c:QItemaxe} Przedmiot powszechny)
+Eventaxe_take.text,{will}Pojemniki wyglądają jak trumny. Są puste, ale masz wrażenie, że to może się niedługo zmienić. Pomiędzy pojemnikami widzisz kilof. \n\n (Otrzymujesz 1 {clue} oraz {c:QItemaxe} Przedmiot powszechny)
 Eventaxe_take.button1,Kontynuuj
 Eventpast_newspaper_president.button2,Anuluj
 Eventpast_newspaper_boy.button2,Anuluj
@@ -285,24 +285,23 @@ Spawnspawn_staits_monster.text,Widzisz przed sobą postać, która zmieniła si�
 Spawnspawn_staits_monster.button1,Kontynuuj
 Eventstaris_monster_defeat.text,Potwór umiera.
 Eventstaris_monster_defeat.button1,Kontynuuj
-Eventi_detective.text,<i>Detektywem powiadasz? Zapewne chcesz wiedzieć kim jestem...</i> - odpowiada człowiek, powoli podnosząc prawą rękę.
+Eventi_detective.text,<i>Detektywem powiadasz? Zapewne chcesz wiedzieć kim ja jestem...</i> - odpowiada człowiek, powoli podnosząc prawą rękę.
 Eventi_detective.button1,Kontynuuj
-Eventi_miner_dynamite.button1,[masz dynamit przy sobie] Daj mu dynamit
-Eventi_miner_dynamite.button2,Nie mam.
-Eventi_miner_dynamite.text,<i>Ach tak.. przyniosłeś dynamit, o który cię nasz pastor poprosił?</i>
-Eventgive_dynamite.text,<i>Świetnie. Idę go zanieść pastorowi, a ty się stąd nie ruszaj.</i>
-Eventgive_dynamite.button1,Kontynuuj
-Eventno_dynamite.text,<i>Głupcze. Jesteś bezużyteczny, jeśli nawet tak prostego zadania nie umiesz wykonać. Będę musiał sam tam iść... \n\n ...ale wcześniej...</i>
-Eventno_dynamite.button1,Kontynuuj
-Event_dynamite_quest.button1,Kontynuuj
+Eventi_miner_blade.button2,Nie mam.
+Eventi_miner_blade.text,<i>Ach tak.. przyniosłeś sztylet, o który cię nasz pastor poprosił?</i>
+Eventgive_blade.text,<i>Świetnie. Idę go zanieść pastorowi, a ty się stąd nie ruszaj.</i>
+Eventgive_blade.button1,Kontynuuj
+Eventno_blade.text,<i>Głupcze. Jesteś bezużyteczny, jeśli nawet tak prostego zadania nie umiesz wykonać. Będę musiał sam tam iść... \n\n ...ale wcześniej...</i>
+Eventno_blade.button1,Kontynuuj
+Event_blade_quest.text,"<i>""Ach.. z kościoła. Dobrze."" </i>- mężczyzna wydaje się zmieszany. <i>""W takim razie idź szybko znajdź tego górnika, którego pastor wysłał po szytlet i nam go przynieś..""</i> \n- po chwili zastanowienia dodaje: <i>""Sztylet nie górnika</i>."" \n\nPo czym wraca skąd przyszedł."
 Event_carl_ask_about_dynamite.button1,Kontynuuj
 Tokenminer_body.text,W rogu widzisz pochylającego się człowieka.
-Tokenminer_body.button1,Zagadaj
+Tokenminer_body.button1,{action} Porozmawiaj
 Eventminer_body.text,Próbujesz coś powiedzieć do człowieka, ale wydaje się, że cię nie słyszy. Podchodzisz do niego i lekko klepiesz go po ramieniu...
 Eventminer_body.button1,Kontynuuj
-Eventminer_body_1.text,...z przerażeniem widzisz jak ciało osuwa się na ziemię. Głowa mężczyzny jest roztrzaskana przez kamień. \n\n (Otrzymujesz 1 kartę Przerażenia)
+Eventminer_body_1.text,...z przerażeniem widzisz jak ciało osuwa się na ziemię. Głowa mężczyzny jest roztrzaskana. \n\n (Otrzymujesz 1 zakrytą kartę Przerażenia)
 Eventminer_body_1.button1,Kontynuuj
-Eventminer_body_2.text,Domyślasz się, że górnik po coś się schylał i musiał zaczepić o wielki kamień, który mu spadł prosto na głowę. Niedaleko jego ręki znajdujesz {c:QItemcigarette} Przedmiot powszechny z zapałkami.
+Eventminer_body_2.text,Domyślasz się, że górnik po coś się schylał i musiał zaczepić o wielki kamień, który mu spadł prosto na głowę. Niedaleko ciała znajdujesz {c:QItemcigarette} Przedmiot powszechny z zapałkami.
 Eventminer_body_2.button1,Kontynuuj
 Tokenminer_body_empty.text,Ciało górnika.
 Tokenminer_body_empty.button1,Kontynuuj
@@ -314,7 +313,7 @@ Eventchurch_reveal_from_doors.button2,Zaczekaj
 Eventopen_door_to_church.text,Drzwi cicho się otwierają i wchodzisz do środka. Słyszysz przemówienie pastora o końcu świata.
 Eventopen_door_to_church.button1,Zaatakuj pastora
 Eventchurch_reveal_from_secret.text,Przechodzisz przez ciemny tunel, który pnie się do góry. Na końcu dochodzisz do drewnianej klapy, uchylasz ją lekko i przez szparę widzisz duże pomieszczenie, wydaje się znajome, jakbyś tu już kiedyś był. Wygląda na nowo wybudowany kościół. Na ławkach siedzą ludzie, przy ołtarzu stoi bardzo wysoki i dobrze zbudowany mężczyzna, a na ołtarzu... Próbujesz się przypatrzeć, ale widzisz tylko nogi. Wyglądają na nogi małego chłopca... Wygląda na to, że ci ludzie są niebezpieczni.\n\n (Umieść: {c:Tilechurch} na planszy i otrzymujesz 1 {clue})
-Eventchurch_reveal_from_secret.button1,Kontynuuj
+Eventchurch_reveal_from_secret.button1,Odwróć uwagę
 Eventset_dynamite.text,To powinno ich zaskoczyć... \n\n Podpalasz lont, wrzucasz przez szparę do kaplicy i uciekasz przez tunel.
 Eventset_dynamite.button1,Kontynuuj
 Tokenevan_body.text,Ciało chłopca. Ma nadpaloną głowę.
@@ -329,7 +328,7 @@ Eventdynamite_question.button2,Nie, zawróć
 Tokenopen_secret_to_church.button2,Porażka
 Eventnothing.text,Nic tu ciekawego nie ma.
 Eventnothing.button1,Kontynuuj
-Eventgo_back_from_church.text,Wracasz przez tunel.
+Eventgo_back_from_church.text,Jednak postanawiasz wrócić.
 Eventgo_back_from_church.button1,Kontynuuj
 UI1.uitext,Jest 1 października 1920 roku.\n\nTwoja znajoma zaprosiła cię na spotkanie w pobliskim kościele baptystów. Przez telefon wspomniała, że to ważne. W jej głosie wyczułeś niepokój. Prawdopodobnie chodzi o zaginięcie jej syna Johna. Niedawno pisały o tym gazety. Wygląda na to, że jeszcze się nie odnalazł...\n\nPo krótkiej podróży ze swojego biura docierasz w okolice pobliskiej góry. Słyszałeś, że kiedyś w okolicy wydobywano miedź. Przyjaciółka chciała spotkać się z tobą w pobliskim małym drewnianym kościele znajdującym się u jej podnóża.\n\nKościół ma swoje lata świetności już za sobą. Kilkanaście lat temu część kościoła spłonęła w pożarze. Został on odbudowany i choć widać, że zadbano o odtworzenie drobnych detali w postaci prostych kształtów z wąskimi wysokimi oknami, to jednak nie odzyskał on swojego dawnego blasku.\n\n Po okolicach krążą różne dziwne legendy krążą o tym miejscu. Podobno jest nawiedzone odkąd podczas jednego z kazań kontrowersyjnego pastora wybuchł pożar. Wielu miejscowych zginęło, ale samego pastora nigdy nie odnaleziono; ani żywego, ani martwego.
 UI0.button1,Kontynuuj
@@ -423,14 +422,14 @@ Eventchurch_event_question.button1,Kontynuuj
 Event_church_event_with_dynamite.text,<i>To jeden z naszych, kazałem mu przynieść dynamit. Przyniosłeś?</i>
 Event_church_event_with_dynamite.button1,[Posiadasz dynami] Daj dynamit
 Event_church_event_with_dynamite.button2,Nie mam
-Eventchurch_event_give_dynamite.text,<i>Świetnie, w takim razie możemy zacząć naszą ofiarę.</i> Pastor bierze od ciebie dynamit.
+Eventchurch_event_give_dynamite.text,<i>Świetnie, w takim razie możemy zacząć naszą ofiarę.</i> Pastor bierze od ciebie sztylet.
 Eventchurch_event_give_dynamite.button1,Kontynuuj
-Eventchurch_event_0.text,Wchodzisz do kaplicy. Z pewnością jest to kaplica, w której spotkaliście się z matką zaginionego Johna, ale wygląda inaczej. Jest nowa, zadbana. Nie ma śladów po pożarze.\n<i>Ale przecież to niemożliwe, czyżbyś zaczął tracić zmysły?</i>, myśli kołaczą wam się w głowie.\n Powoli przechodzisz obok ludzi, próbując nie zwracać na siebie uwagi. \n\n (Otrzymujesz 1 zakrytą kartę Przerażenia)
+Eventchurch_event_0.text,"Wchodzisz do kaplicy. Z pewnością jest to kaplica, w której spotkaliście się z matką zaginionego Johna, ale wygląda inaczej. Jest nowa, zadbana. Nie ma śladów po pożarze.\n<i>""Ale przecież to niemożliwe, czyżbyś zaczął tracić zmysły?</i>"" - myśli kołaczą wam się w głowie.\n Powoli przechodzisz obok ludzi, próbując nie zwracać na siebie uwagi. \n\n (Otrzymujesz 1 zakrytą kartę Przerażenia)"
 Eventchurch_event_0.button1,Kontynuuj
 Token_carl_waiting_for_dynamite.text,Pastor przemawia..
-Event_dynamite_quest.text,"<i>""Ach.. z kościoła. Dobrze."" </i>- mężczyzna wydaje się zmieszany. <i>""W takim razie idź szybko znajdź tego górnika, którego pastor wysłał po dynamit i nam go przynieś..""</i> \n- po chwili zastanowienia dodaje: <i>""Dynamit nie górnika</i>."" \n\nPo czym wraca skąd przyszedł."
+Eventi_miner_blade.button1,[masz sztylet przy sobie] Daj mu sztylet
 Event_carl_ask_about_dynamite.text,<i>Niedawno zostałem przyjęty do kościoła</i> - szybko zmyślasz odpowiedź.
-Token_carl_waiting_for_dynamite.button1,[Posiadasz dynamit] {action} Daj mu dynamit
+Token_carl_waiting_for_dynamite.button1,[Posiadasz sztylet] {action} Daj mu sztylet
 Event_john_feel.text,Patrzysz w przerażone oczy chłopca i pytasz jak się czuje.\n<i>Ja n-n-nie w-w-wiem, ch-chyba dobrze.. gdzie jest mama?</i> \n\nChłopiec jest wychudzony i blady. Pytasz o jego imię.\n<i>Mam na imię J-john.</i>\n\nA więc to jest John, zaginiony chłopiec, którego szukasz.\n\n (Otrzymujesz 1 {clue})
 Event_john_feel.button1,Kontynuuj
 Event_john_how_get_here.text,Ciesząc się, że go odnalazłeś pytasz jak się tu znalazł.\n<i>Ja... ja bawiłem się w lesie, kiedy zobaczyłem tego człowieka. Był wysoki... Ciągnął coś za sobą... Zostawił t-t-to przed wejściem do kopalni w krzakach. Bałem się bardzo, ale mnie nie zauważył. Wszedłem do kopalni, bo nie chciałem, żeby mnie znalazł... Schowałem się w takiej kryjówce w ścianie, ale tam była dziura... Wpadłem w nią... a-aa potem tylko pamiętam ten pokój. Jestem tu już bardzo długo... </i> - widzisz jak oczy chłopca zachodzą łzami.
@@ -564,7 +563,7 @@ Tokenkey_guard_floor.text,Widzisz mężczyznę leżącego na podłodzę w powię
 Tokenkey_guard_floor.button1,{action} Przeszukaj
 Event_guard_search.text,W kieszeni marynarki znajdujesz {c:QItem_silver_key}. \nOtrzymujesz 1 {clue}.
 Event_guard_search.button1,Kontynuuj
-Event_guard_talk_influence_success.text,<i>jaa... eee... Marv, nazywam się Marv. Proszę nie mów mu, ostatnio jest bardzo wybuchowy. TEN dzień się zbliża, nie chcę go teraz denerwować.</i> - Mężczyzna kuli się i odwraca wzrok. \n\nWykorzystując moment szarpiesz za drzwi i uderzasz nimi z całej siły w mężczyznę.
+Event_guard_talk_influence_success.text,<i>jaa... eee... Marv, nazywam się Marv. Proszę nie mów mu, ostatnio jest bardzo wybuchowy. Dzień przebłagania się zbliża, nie chcę go teraz denerwować.</i> - Mężczyzna kuli się i odwraca wzrok. \n\nWykorzystując moment szarpiesz za drzwi i uderzasz nimi z całej siły w mężczyznę.\n\n(Otrzymujesz 1 {clue})
 Event_guard_talk_influence.button1,Kontynuuj
 Event_guard_talk_influence.button2,Porażka
 Spawn_cultist_guard_strength_failed.button1,Kontynuuj
@@ -581,3 +580,10 @@ TokenDEBUG.text,DEBUG TOKEN
 TokenDEBUG.button1,Mine together
 EventDEBUG_EVENT.text,debug\npast_tunel_end
 EventDEBUG_EVENT.button1,Kontynuuj
+Event_blade_quest.button1,Kontynuuj
+Eventchurch_revealed.text,Wiszisz kaplicę wypełnioną wiernymi i pastora, który głosi kazanie.
+Eventchurch_revealed.button1,Wejdź do środka
+Eventchurch_reveal_from_secret.button2,Wróć
+Eventchurch_revealed_from_tunel.button1,Odwróć uwagę
+Eventchurch_revealed_from_tunel.text,Widzisz kaplicę wypełnioną wiernymi i pastora, który głosi kazanie.
+Eventchurch_revealed_from_tunel.button2,Wróć

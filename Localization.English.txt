@@ -264,7 +264,6 @@ Eventcorridor_to_church_reveal.text,The door opens. You see a pretty staircase l
 Eventcorridor_to_church_reveal.button1,Continue
 Tokenpast_church_enter.text,Wooden, decorated door.
 Tokenpast_church_enter.button1,({action}) Investigate
-Tokenpast_church_enter.button2,({action}) Enter
 Tokenpick_axe_room.text,Wooden door. They drive south.
 Tokenpick_axe_room.button1,({action}) Open
 Eventaxe_room_reveal.text,After opening the door you see a narrow room. Two oil lamps illuminate large rectangular containers. \n\n At the end of the room, you see a man who is bending over something (Place: {c:Tileaxe_room} as indicated)
@@ -287,14 +286,13 @@ Eventstaris_monster_defeat.text,Monster dies
 Eventstaris_monster_defeat.button1,Continue
 Eventi_detective.text,"<i>""Detective, you say? You probably want to know who I am ""</i> - man answers, slowly raising his right hand."
 Eventi_detective.button1,Continue
-Eventi_miner_dynamite.button1,Give him dynamite (if you have it with you)
-Eventi_miner_dynamite.button2,I don`t have
-Eventi_miner_dynamite.text,"<i>""Ah, yeah ... did you bring the dynamite that our pastor asked you for?""</i>"
-Eventgive_dynamite.text,"<i>""Excellently. I'm going to take him to the pastor, and do not move from here""</i>"
-Eventgive_dynamite.button1,Continue
-Eventno_dynamite.text,"<i>""You fool. You are useless if you can not do such a simple task. I will have to go there myself ... \n\n ... but before that...""</i>"
-Eventno_dynamite.button1,Continue
-Event_dynamite_quest.button1,Continue
+Eventi_miner_blade.button2,I don`t have
+Eventi_miner_blade.text,"<i>""Ah, yeah ... did you bring the dynamite that our pastor asked you for?""</i>"
+Eventgive_blade.text,"<i>""Excellently. I'm going to take him to the pastor, and do not move from here""</i>"
+Eventgive_blade.button1,Continue
+Eventno_blade.text,"<i>""You fool. You are useless if you can not do such a simple task. I will have to go there myself ... \n\n ... but before that...""</i>"
+Eventno_blade.button1,Continue
+Event_blade_quest.text,"<i>""Ah .. from the church. Well.""</i> - the man seems confused. <i>""In that case, go quickly find this miner, whom the pastor sent for dynamite and bring it to us ...""</i> - after a moment of thought, he adds <i>""dynamite, not a miner"".</i> Then he returns where he came from."
 Event_carl_ask_about_dynamite.button1,Continue
 Tokenminer_body.text,In the corner you see a bending man.
 Tokenminer_body.button1,Talk to him
@@ -430,7 +428,7 @@ Eventchurch_event_give_dynamite.button1,Continue
 Eventchurch_event_0.text,You enter the chapel. Certainly it is a chapel in which you met with the mother of missing John but it looks different. It is new, pre-made. There are no traces of a fire. But it is impossible, have you started to lose your senses? You slowly walk past people, trying not to pay attention.\n\n You revice 1 facedown horror
 Eventchurch_event_0.button1,Continue
 Token_carl_waiting_for_dynamite.text,Pastor is speaking..
-Event_dynamite_quest.text,"<i>""Ah .. from the church. Well.""</i> - the man seems confused. <i>""In that case, go quickly find this miner, whom the pastor sent for dynamite and bring it to us ...""</i> - after a moment of thought, he adds <i>""dynamite, not a miner"".</i> Then he returns where he came from."
+Eventi_miner_blade.button1,Give him dynamite (if you have it with you)
 Event_carl_ask_about_dynamite.text,"<i>""I was recently admitted to the church""</i> - you quickly make up the answer."
 Token_carl_waiting_for_dynamite.button1,({action}) Give him dynamite
 Event_john_feel.text,"You look in the terrified eyes of the boy... <i>""i d-don`t k-k-know ... where's my mom?""</i>"
@@ -458,3 +456,4 @@ Spawncultist.text,The door is open. A moment ago someone knocked one out of you.
 EventEvent_watch_from_past.text,"You watch the watch, it looks exactly like the one you found earlier in front of the mine, but it is much older and destroyed. It has exactly the same engraving on the back with the inscription: ""for Evan 1881"""
 EventEvent_watch_from_past.button1,Continue
 Tokendynamite_after_fail.button3,Cancel
+Event_blade_quest.button1,Continue
