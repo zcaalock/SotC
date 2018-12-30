@@ -554,20 +554,36 @@ Eventtorture_bed1.text,Skórzane łóżko z pasami. Wszystko wskazuje na to, że
 Eventtorture_bed1.button1,Kontynuuj
 Event_guard_spawn.text,Do schodów podbiega zaskoczony i zdenerwowany mężczyzna. Celuje do ciebie z Colta Army
 Event_guard_spawn.button1,Kontynuuj
-Event_guard_talk.text,Jak się tu dostałeś? Wejście do kopalni jest zamknięte. Jak udało ci się je otworzy, gadaj bo ci odstrzelę łapki.
-Event_guard_talk.button1,Użyj {strength}
-Event_guard_talk.button2,Użyj {influence}
-Event_guard_talk.button3,Użyj {agility}
-Event_guard_talk_strength.text,Dokładnie w ten sposób..\n\n(bierzesz zamach nogą i z calej siły kopiesz mężczyzne w krocze)\n\nMęzczyzna zgina się w pół przy okazji strzelając w twoją stronę. \n(Test: {strength}) 
+Event_guard_talk.text,<i>Jak się tu dostałeś? Wejście do kopalni jest zamknięte. Jak udało ci się je otworzy, gadaj bo ci odstrzelę łapki.</i>
+Event_guard_talk.button1,Użyj Siły {strength}
+Event_guard_talk.button2,Użyj Wpływu {influence}
+Event_guard_talk.button3,Użyj Zwinności {agility}
+Event_guard_talk_strength.text,<i>Dokładnie w ten sposób..</i>\n\n(bierzesz zamach nogą i z calej siły kopiesz mężczyzne w krocze)\n\nMęzczyzna zgina się w pół przy okazji strzelając w twoją stronę. \n(Test: Siła {strength}) 
 Event_guard_talk_strength.button1,Kontynuuj
-Spawn_cultist_guard.text,Mężczyzna krzyczy z bólu, jednak uderzenie nie było na tyle silne aby uniemożiwić oddanie celnego strzału. Otrzymujesz 2 zakryte karty obrażeń po tym jak śrut dzurawi ci ramię.\n\nUsuń żeton Osoba z planszy,\nUmieść Kultysta na planszy.
-Spawn_cultist_guard.button1,Kontynuuj
+Spawn_cultist_guard_strength_failed.text,Mężczyzna krzyczy z bólu, jednak uderzenie nie było na tyle silne aby uniemożiwić oddanie celnego strzału. Otrzymujesz 2 zakryte karty obrażeń po tym jak ołów dzurawi ci ramię.\n\nUsuń żeton Osoba z planszy,\nUmieść Kultysta na planszy.
+Event_guard_talk_influence.text,<i>O czym ty mówisz? Jak przechodziłem tędy 5 minut temu to spałeś.. chcesz żeby szef się dowiedział, że śpisz na warcie?</i> - kłamiesz mężczyźnie w nagłym przebłysku błyskotliwości.\n\n<i>Jak się nazywasz, nie kojarzę cię, jesteś tu nowy?</i>\n\n(Test: {influence})
 Event_guard_cultist_die.button1,Kontynuuj
 Event_guard_cultist_die.text,Mężczyzna pada martwy na ziemię. Przy jego ciele znajdujesz srebrny klucz.
 Event_guard_talk_strength.button2,Poraża
-Event_guard_strength_success.text,Cios okazał się na tyle silny, że męzczyzna zatoczył się i zjechał na plecach ze schodów wypalając bronią wprost w swoją nogę. Przeciwnik pada na ziemię nieprzytomny.
-Event_guard_strength_success.button1,Kontynuuj
+Event_guard_test_success.button1,Kontynuuj
 Tokenkey_guard_floor.text,Widzisz mężczyznę leżącego na podłodzę w powiększającej się plamie krwi. 
 Tokenkey_guard_floor.button1,{action} Przeszukaj
-Event_guard_search.text,W kieszeni marynarki znajdujesz {c:QItem_silver_key}
+Event_guard_search.text,W kieszeni marynarki znajdujesz {c:QItem_silver_key}. \nOtrzymujesz 1 {clue}.
 Event_guard_search.button1,Kontynuuj
+Event_guard_talk_influence_success.text,<i>jaa... eee... Marv, nazywam się Marv. Proszę nie mów mu, ostatnio jest bardzo wybuchowy. TEN dzień się zbliża, nie chcę go teraz denerwować.</i> - Mężczyzna kuli się i odwraca wzrok. \n\nWykorzystując moment szarpiesz za drzwi i uderzasz nimi z całej siły w mężczyznę.
+Event_guard_talk_influence.button1,Kontynuuj
+Event_guard_talk_influence.button2,Porażka
+Spawn_cultist_guard_strength_failed.button1,Kontynuuj
+Event_guard_talk_influence_success.button1,Kontynuuj
+Spawn_cultist_guard_influence_failed.text,<i>O czym ty mówisz, stoje tu jak kretyn od godziny i przeglądam gazety... Szef będzie bardzo zadowolony jak pokażę mu, że złapałem intruza</i>. - mężczyzna się uśmiecha i wypala z pistoletu bez ostrzeżenia.\n\nOtrzymujesz 2 zakryte karty obrażeń po tym jak ołów dzurawi ci ramię.\n\nUsuń żeton Osoba z planszy,\nUmieść Kultysta na planszy.
+Event_guard_test_success.text,Cios okazał się na tyle silny, że męzczyzna zatoczył się i zjechał na plecach ze schodów wypalając bronią wprost w swoją nogę. Przeciwnik pada na ziemię nieprzytomny.\n\nUmieść żeton Osoba oraz Przedmiot Powszechny {c:QItempistol} obok na tym samym polu.
+Event_guard_talk_agility.text,Wykorzystując element zaskoczenia i swoją zwinność robisz szybki unik. Wskakujesz do korytarza zamykając za sobą drzwi, następnie już leżąc na ziemi kopiesz je mając nadzieję, że uderzą napastnika.\n\nTest: {agility}
+Spawn_cultist_guard_influence_failed.button1,Kontynuuj
+Event_guard_talk_agility.button1,Kontynuuj
+Event_guard_talk_agility.button2,Porażka
+Spawn_cultist_guard_agility_failed.text,Niestety sekwencja ruchów, które wyonałeś była równie komiczna co nieefektywna. Mężczyzna wypala ze swojego colta zanosząć się śmiechem.\n\nOtrzymujesz 2 zakryte karty obrażeń po tym jak ołów dzurawi ci ramię.\n\nUsuń żeton Osoba z planszy,\nUmieść Kultysta na planszy.
+Spawn_cultist_guard_agility_failed.button1,Kontynuuj
+TokenDEBUG.text,DEBUG TOKEN
+TokenDEBUG.button1,Mine together
+EventDEBUG_EVENT.text,debug\npast_tunel_end
+EventDEBUG_EVENT.button1,Kontynuuj
