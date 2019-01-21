@@ -54,10 +54,10 @@ Eventtime_m.text,A pile of garbage; maybe there is something interesting here.
 Eventtime_m.button1,Continue
 Tokentime.text,The pile of rubbish looks like someone in a hurry tried to hide something here.
 Tokentime.button1,({action}) Investigate
-Eventtime_test.text,Under the garbage you find a hatch made of rusted metal. The hatch is covered with strange symbols. They are very same to the ones on the watch\n\n(Only the Investigator possessing Common Item {c:QItem01_watch} can interact with the puzzle)
+Eventtime_test.text,Under the garbage you find a hatch made of rusted metal. The hatch is covered with strange symbols. They appear to be the same as the ones on the watch.\n\n(Only the Investigator possessing Common Item {c:QItem01_watch} can interact with the puzzle)
 Eventtime_test.button1,[I have the watch] Continue
 Puzzle0.button1,Investigate
-Eventtime_open.text,You can hear a series of tickings. The whole room seems to vibrate slightly. You are amazed to discover that some sort of a passageway has opened.
+Eventtime_open.text,You can hear a series of ticks and as if in response, the room seems to vibrate slightly. You are amazed to discover that some sort of a passageway has opened in front of you.
 Eventtime_open.button1,Continue
 Tokentime_enter.button1,Enter
 Eventgo_in_time.text,You stoop to go inside, when you are overcome with a feeling that you should not go alone.
@@ -243,7 +243,7 @@ Eventreveal_blocked_room.button1,Continue
 Tokenshotgun_chest.text,A large, solidly built metal chest. It is locked up tight. A combination lock hangs from it.
 Tokenshotgun_chest.button1,({action}) Try to open.
 Eventspawn_monster_stairs.text,You are interrupted from reading the rest of the newspaper by footsteps. A hudded figure comes through the door from the outside and she looks very surprised to see you.
-Eventtake_shotgun.text,The chest opens and you can see a shotgun inside. \n\n (You revice: {c:QItemshot_gun})
+Eventtake_shotgun.text,The chest opens and find a shotgun inside. \n\n (You revice: {c:QItemshot_gun})
 Puzzleopen_chest.button1,Check
 Eventtake_shotgun.button1,Continue
 TokenMiddle_room.text,You see a small wooden door at the end of the tunnel.
@@ -441,7 +441,7 @@ Token_carl_waiting_for_dynamite.text,The Pastor is speaking..
 Event_dynamite_quest.text,"<i>""Ah .. from the church. Well.""</i> - the man seems confused. <i>""In that case, go quickly find the miner, the one the pastor sent for dynamite and bring it to us ...""</i> - after a moment of thought, he adds <i>""the dynamite, not the miner"".</i> Then he returns from where he came."
 Event_carl_ask_about_dynamite.text,"<i>""I was recently admitted to the church""</i> - you quickly make up the answer."
 Token_carl_waiting_for_dynamite.button1,[You have a dynamite] ({action}) Give him dynamite
-Event_john_feel.text,"You look in the terrified eyes of the boy. You ask him, how is he feeling.\n<i>""I d-don`t k-k-know... O-ok... Where's my mom?""</i>\n\nThe boy is thin and pale. You ask about his name.\n<i>""My name i-is J-john.""</i>"\n\nSo this is the missing boy who you have been looking for, John.\n\n(You receive 1 {clue})
+Event_john_feel.text,"You look in the terrified eyes of the boy. You ask him, how is he feeling.\n<i>""I d-don`t k-k-know... O-ok... Where's my mom?""</i>\n\nThe boy is thin and pale. You ask about his name.\n<i>""My name i-is J-john.""</i>""\n\nSo this is the missing boy who you have been looking for, John.\n\n(You receive 1 {clue}"
 Event_john_feel.button1,Continue
 Event_john_how_get_here.text,"You feel thrilled that you have found him, so you ask how he has got here.\n<i>""I was playing in the woods when I saw this man. He was tall, he was dragging something behind him, he left it at the entrance to the mine in the bushes. I was very scared but he did not notice me. I went to the mine because I did not want him to find me... I was searching the wall and founda hole, I climbed into it ... then I only remember this room. I've been here for a very long time ...""</i> - tears glisten in the boy's eyes."
 Event_john_how_get_here.button1,Continue
@@ -505,7 +505,7 @@ Eventpast_end_game_alone0_place_invest.text,After a few minutes the remaining In
 Eventpast_end_game_alone0_place_invest.button1,Continue
 Tokenpast_end_game_alone0_place_invest.button1,Continue
 Eventtime_test.button2,Cancel
-Eventtime_test_watch_trigger.text,You are surprised to discover that by turning the watch base you influence the symbol layout on the manhole cover. You have no idea how it works, but you can try different combinations.
+Eventtime_test_watch_trigger.text,You are surprised to discover that by turning the watch base you influence the symbol layout on the manhole cover. You have no idea how it works, but you realise that you can try different combinations.
 Eventtime_test_watch_trigger.button1,({action}) Solve the Puzzle
 Eventtime_test_watch_trigger.button2,Cancel
 Eventtime_test_no_watch.button1,Continue
@@ -538,23 +538,23 @@ Event_go_past_with_old_watch.button1,({action}) Come to the passage together.
 Event_go_past_with_old_watch.button2,Cancel
 Event_go_past_with_old_watch1.text,You fly through the darkness, feeling the cold wind on your face...
 Event_go_past_with_old_watch1.button1,Continue
-EventMythos_minior_trigger.text,The room suddenly gets cold and the walls vibrate slightly. The feeling passes across your back and you a strange aura around you. \n\n(All Investigaotrs suffer 1 facedown horror ({will} negates))
+EventMythos_minior_trigger.text,The room suddenly gets cold and the walls vibrate slightly. A shiver runs down the back of your spine and you feel a strange aura surrounding you. \n\n(All Investigaotrs suffer 1 facedown horror ({will} negates))
 EventMythos_minior_trigger.button1,Continue
 Event_drop_watch.text,You slide the watch carefully under the door.\n\nPlace the  {c: QItem_watch_ready_to_drop} item in the indicated space.
 Event_drop_watch.button1,Continue
 Eventend_of_tunel_destroyable_door_reveal.text,On the right, you can see a solid looking metal door.
 Eventend_of_tunel_destroyable_door_reveal.button1,Continue
-Token_time_respawn.text,You suppose, you have to use the watch to reopen the passage.
+Token_time_respawn.text,You assume, that you have to use the watch to reopen the passage.
 Token_time_respawn.button1,Continue
-Eventend_of_tunel_destroyable_fail0.text,Despite your constant attempts, you fail to make a passage. The stones are large and stuck together.
+Eventend_of_tunel_destroyable_fail0.text,Despite your constant attempts, you fail to make a passage. The stones are large and appear to be held together very firmly.
 Eventend_of_tunel_destroyable_fail0.button1,Continue
-Eventend_of_tunel_destroyable_fail1.text,You hit the rock with all your strength. Unfortunately, the pickaxe  bounces from the big stone and recoils back, glancing the side of your head.\n\n(Suffer 1 facedown damage ({agility} negates))
+Eventend_of_tunel_destroyable_fail1.text,You hit the rock with all your strength. Unfortunately, the pickaxe bounces from the big stone and recoils back, glancing the side of your head.\n\n(Suffer 1 facedown damage ({agility} negates))
 Eventend_of_tunel_destroyable_fail1.button1,Continue
-Eventend_of_tunel_destroyable_fail2.text,Frustrated with the last of your strength, you hit the stones blindly. The entire structure unexpectedly crashes down directly onto you.\n\n(Suffer 2 facedown damage ({agility} negates). Then flip one damage faceup as the pile of stones knocks you down to the ground)
+Eventend_of_tunel_destroyable_fail2.text,Frustrated, with the last of your strength, you strike out at the stones blindly. The entire structure unexpectedly comes crashes down on top of you.\n\n(Suffer 2 facedown damage ({agility} negates). Then flip one damage faceup as the stones drive you to the ground)
 Eventend_of_tunel_destroyable_fail2.button1,Continue
 Eventfriendfound.text,You are relieved to discover that your missing companion has also been found.
 Eventfriendfound.button1,Continue
-Event_john_watch_help.text,"John looks at you with a puzzled expression and finally says:\n<i> ""there in front of the mine near this .. that.. c-boy I saw the watch .. the same as yours ... is it the same watch? </i> - the boy asks a bit embarrassed."
+Event_john_watch_help.text,"John looks at you with a puzzled expression and finally says:\n<i> ""There in front of the mine near this .. that.. c-boy I saw the watch .. the same as yours ... is it the same watch? </i> - the boy asks a bit embarrassed."
 Event_john_watch_help.button1,Continue
 Eventtorture_bed1.text,A bed with leather belts attached. It looks like someone has been tied up here recently, judging from the blood trail it was a few hours ago\n\n(You receive 1 {clue})
 Eventtorture_bed1.button1,Continue
@@ -564,14 +564,14 @@ Event_guard_talk.text,"<i>""How did you get here? The entrance to the mine is cl
 Event_guard_talk.button1,Use {strength}
 Event_guard_talk.button2,Use {influence}
 Event_guard_talk.button3,Use {agility}
-Event_guard_talk_strength.text,"<i>""Precisely like that...""</i>"\n\nYou take the swing with your foot and kick the man into the crotch with all your strength.\n\nThe man is bending in half and, at the same time, shooting in your direction. \n(Test strength {strength}) 
+Event_guard_talk_strength.text,"<i>""Precisely like that...""</i>""\n\nYou swiftly strike, kicking the man in the crotch with all your strength.\n\nThe man doubles over in pain, however still attempts to take a shoot at you. \n(Test strength {strength})"
 Event_guard_talk_strength.button1,Continue
-Spawn_cultist_guard.text,The man shouts out of pain, but the impact was not strong enough to prevent him from shooting accurately.\n\nSuffer 2 facedown Damage after a shot hits your arm.\n\n(Remove the Person token and place a Cultist as incidated).
+Spawn_cultist_guard.text,The man shouts out of pain, however your blow was not strong enough to disrupt his aim and he dicharges his weapon at you.\n\nYou feel an impact in your arm, the force causing you to stumble back in pain, suffer 2 facedown Damage.\n\n(Remove the Person token and place a Cultist as incidated).
 Spawn_cultist_guard.button1,Continue
 Event_guard_cultist_die.button1,Continue
 Event_guard_cultist_die.text,The man falls dead on the ground. You will find a silver key next to his body.\n\n(You receive the {c:QItem_silver_key} Unique Item)
 Event_guard_talk_strength.button2,Failure
-Event_guard_strength_success.text,The blow turned out to be so strong that the man rolled down and fall down from the stairs on his back, firing his own weapon directly into his leg. The opponent falls to the ground unconscious.
+Event_guard_strength_success.text,Your blow turned out to be so strong that the man tumbles down from the stairs, landing on his back. Off balance his gun goes off and catches him in his own leg. Your opponent falls to the ground unconscious.
 Event_guard_strength_success.button1,Continue
 Tokenkey_guard_floor.text,You see a man lying on the floor with a growing blood stain. 
 Tokenkey_guard_floor.button1,({action}) Przeszukaj

@@ -276,7 +276,7 @@ Eventaxe_room_reveal.button1,Kontynuuj
 Tokenpick_axe.text,Widzisz trzy metalowe pojemniki.
 Tokenpick_axe.button1,({action}) Przeszukaj
 Eventspawn_monster_stairs.button1,Kontynuuj
-Eventmonster_stairs_menu.text,"<i>Co się tu dzieje, jak się tu dostałeś, kim jesteś?</i> - mężczyzna zarzuca cię gradem pytań."
+Eventmonster_stairs_menu.text,<i>Co się tu dzieje, jak się tu dostałeś, kim jesteś?</i> - mężczyzna zarzuca cię gradem pytań.
 Eventmonster_stairs_menu.button1,Zaatakuj
 Eventmonster_stairs_menu.button2,Jestem detektywem.
 Eventmonster_stairs_menu.button3,Jestem górnikiem.
@@ -493,7 +493,6 @@ Eventfuture_books_doors_reveal_fail.text,Po krótkiej chwili, stwierdzasz że ni
 Eventfuture_books_doors_reveal_fail.button1,Kontynuuj
 Event_church_doors_to_mine_knife.text,Kierując się z powrotem na górę dostrzegasz coś metalowego wystającego spod dywanu. \n\n(Otrzymujesz {c:QItem_church_doors_to_mine_knife})
 Event_church_doors_to_mine_knife.button1,Kontynuuj
-Tokenend_of_tunel.button2,Porażka
 Eventend_of_tunel_fail.text,Oglądasz dokładnie rumowisko szukając szczeliny, która umożliwiała by ci zobaczenie co jest po drugiej stronie. Ostrożnie wyciągasz luźny kamień, niestety powoduje to małą lawinę, która spada w twoim kierunku. W ostatniej chwili się cofasz, ale jeden z kamieni leci prosto na twoją głowę. \n\n (Otrzymujesz 2 zakryte karty Obrażeń ({agility} zapobiega). 
 Eventend_of_tunel_fail.button1,Kontynuuj
 Tokenpast_doors1_blocked.text,Drzwi są bardzo solidnie zrobione. Nie jesteś ich w żaden sposób otworzyć.
@@ -510,7 +509,6 @@ Eventtime_test_watch_trigger.button2,Anuluj
 Eventtime_test_no_watch.button1,Kontynuuj
 Eventtime_test_no_watch.text,Pod śmieciami znajdujesz jakiś właz zrobiony ze zaśniedziałego metalu. Cały jest pokryty dziwnymi symbolami. Nie masz pojęcia co one znaczą. Być może przeoczyłeś jakąś wskazówkę.
 Eventgo_to_future_disapear.button1,Kontynuuj
-Eventpast_end_game_alone0_place_invest.button1,Kontynuuj
 EventEndgame_all_one_missing.text,Wychodzicie z kopalni. Mimo wielomiesięcznego śledztwa nie udaje wam się wyjaśnić śmierci znalezionego chłopca, ani odnaleźć Johna. Co gorsze zaginiony Badacz nigdy się nie odnalazł. Do końca życia każdy z was się zastanawia, co właściwie się stało tego deszczowego dnia, kiedy zaczęliście śledztwo. Czy to w ogóle się wydarzyło naprawdę?
 EventEndgame_all_one_missing.button1,Kontynuuj
 EventEND_GAME.text,Koniec Gry.\n\nTo jest jedno z kilku możliwych zakończeń.
@@ -564,7 +562,7 @@ Event_guard_talk.text,"<i>""Jak się tu dostałeś? Wejście do kopalni jest zam
 Event_guard_talk.button1,Użyj {strength}
 Event_guard_talk.button2,Użyj {influence}
 Event_guard_talk.button3,Użyj {agility}
-Event_guard_talk_strength.text,"<i>""Dokładnie w ten sposób...""</i>"\n\n(bierzesz zamach nogą i z całej siły kopiesz mężczyznę w krocze)\n\nMężczyzna zgina się w pół, przy okazji strzelając w twoją stronę. \n(Test siły {strength}) 
+Event_guard_talk_strength.text,"<i>""Dokładnie w ten sposób...""</i>""\n\n(bierzesz zamach nogą i z całej siły kopiesz mężczyznę w krocze)\n\nMężczyzna zgina się w pół, przy okazji strzelając w twoją stronę. \n(Test siły {strength})"
 Event_guard_talk_strength.button1,Kontynuuj
 Spawn_cultist_guard.text,Mężczyzna krzyczy z bólu, jednak uderzenie nie było na tyle silne, aby uniemożliwić oddanie celnego strzału.\n\nOtrzymujesz 2 zakryte karty Obrażeń po tym jak śrut dziurawi ci ramię.\n\n(Usuń żeton Osoba i umieść Kultysta na planszy).
 Spawn_cultist_guard.button1,Kontynuuj
