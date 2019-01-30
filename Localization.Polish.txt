@@ -561,7 +561,7 @@ Event_guard_talk_strength.button2,Poraża
 Event_guard_test_success.button1,Kontynuuj
 Tokenkey_guard_floor.text,Widzisz mężczyznę leżącego na podłodzę w powiększającej się plamie krwi. 
 Tokenkey_guard_floor.button1,{action} Przeszukaj
-Event_guard_search.text,W kieszeni marynarki znajdujesz {c:QItem_silver_key}. \nOtrzymujesz 1 {clue}.
+Event_guard_search.text,W kieszeni marynarki znajdujesz {c:QItem_silver_key}. \nOtrzymujesz 1 {clue}.\n\nNa wszelki wypadek przykrywasz ciało skrzyniami.
 Event_guard_search.button1,Kontynuuj
 Event_guard_talk_influence_success.text,<i>jaa... eee... Marv, nazywam się Marv. Proszę nie mów mu, ostatnio jest bardzo wybuchowy. Dzień przebłagania się zbliża, nie chcę go teraz denerwować.</i> - Mężczyzna kuli się i odwraca wzrok. \n\nWykorzystując moment szarpiesz za drzwi i uderzasz nimi z całej siły w mężczyznę.\n\n(Otrzymujesz 1 {clue})
 Event_guard_talk_influence.button1,Kontynuuj
@@ -587,3 +587,4 @@ Eventchurch_reveal_from_secret.button2,Wróć
 Eventchurch_revealed_from_tunel.button1,Odwróć uwagę
 Eventchurch_revealed_from_tunel.text,Widzisz kaplicę wypełnioną wiernymi i pastora, który głosi kazanie.
 Eventchurch_revealed_from_tunel.button2,Wróć
+Eventmonster_stairs_menu_body_found.button1,Przycisk1
