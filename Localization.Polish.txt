@@ -6,10 +6,10 @@ Token_glade_boy_body.text,W tym miejscu odnaleziono zwłoki chłopca. Po obejrze
 Event_glade_show_body.button1,Kontynuuj
 Token_glade_Investigators.text,Umieść Badaczy na planszy.
 Event_glade_investigators_place.text,Umieść Badaczy na planszy.
-Event_glade_show_glade_tile.text,Parkujesz samochód przed małym lasem niedaleko kościoła. Po przejściu kilkuset metrów wąską scieżką ukazuje się twoim oczom mała polana. Ziemia jest tu grząska po niedawnej ulewie. Wokół drzew rozwinięta jest lina na której zawieszono kartki z logo policji. To tu znaleziono ciało chłopca.\n\n (Umieść: {c:Tile01_Cave_entrance} na planszy)
+Event_glade_show_glade_tile.text,Parkujesz samochód przed małym lasem niedaleko kościoła. Po przejściu kilkuset metrów wąską scieżką ukazuje się twoim oczom mała polana. Ziemia jest tu grząska po niedawnej ulewie. Wokół drzew rozwinięta jest lina na której zawieszono kartki z logo policji. To tu znaleziono ciało chłopca.\n\n (Umieść: {c:Tile_glade} na planszy)
 Event_glade_show_glade_tile.button1,Kontynuuj
 Event_glade_take_watch.text,Widzisz ładny grawerowany zegarek. Możesz go dokładnie zbadać używając menu inwentarza. \n\n (Otrzymujesz 1 {clue})
-Event_cave_02_show_03_tile.text,Korytarz ciągnie się jeszcze przez 10 metrów. Po prawej stronie dostrzegasz lampę naftową, a za nią drzwi. \n\n (Umieść: {c:Tile03_cave_shelter} na planszy)
+Event_cave_02_show_03_tile.text,Korytarz ciągnie się jeszcze przez 10 metrów. Po prawej stronie dostrzegasz lampę naftową, a za nią drzwi. \n\n (Umieść: {c:Tile_cave_02_shelter_present} na planszy)
 Token_cave_01_shelter_show.button1,Odkryj
 Token_glade_cave_enter.button1,{action} Sprawdź, czy drzwi są otwarte.
 Event_glade_show_cave_enter_token.button1,Kontynuuj
@@ -18,7 +18,7 @@ Event_cave_02_show_mine_end.text,W tym miejscu tunel jest zasypany. Nie masz sza
 Event_cave_02_show_03_tile.button1,Kontynuuj
 Event_glade_show_cave_enter_token.text,W oddali widzisz wejście wykute w litej skale. Wygląda na starą kopalnię.
 Event_john_room_how_get_here_past.text,Ciesząc się, że go odnalazłeś pytasz jak się tu znalazł.\n<i>Ja... ja bawiłem się w lesie, kiedy zobaczyłem tego człowieka. Był wysoki... Ciągnął coś za sobą... Zostawił t-t-to przed wejściem do kopalni w krzakach. Bałem się bardzo, ale mnie nie zauważył. Wszedłem do kopalni, bo nie chciałem, żeby mnie znalazł... Schowałem się w takiej kryjówce w ścianie, ale tam była dziura... Wpadłem w nią... a-aa potem tylko pamiętam ten pokój. Jestem tu już bardzo długo... </i> - widzisz jak oczy chłopca zachodzą łzami.
-Event_glade_show_cave_tile.text,Wchodzisz do starej kopalni. Z tego co słyszałeś, pochodzi ona najprawdopodobniej z okresu wojny secesyjnej. Cuchnie tu stęchlizną, a powietrze zastało się przez lata.\n\n Możesz przesunąć się o jedno pole do środka.\n\n (Umieść: {c:Tile02_cave_01} na planszy)
+Event_glade_show_cave_tile.text,Wchodzisz do starej kopalni. Z tego co słyszałeś, pochodzi ona najprawdopodobniej z okresu wojny secesyjnej. Cuchnie tu stęchlizną, a powietrze zastało się przez lata.\n\n Możesz przesunąć się o jedno pole do środka.\n\n (Umieść: {c:Tile_cave_01} na planszy)
 Event_glade_show_body.text,Rozwieszona lina ogradza miejsce, gdzie znaleziono zwłoki chłopca. Może policjanci coś przeoczyli.
 Token_glade_cave_enter.text,Wejście do starej kopalni. Drzwi są drewniane i bardzo masywne. Wyglądają na otwarte.
 Event_shelter_doors1_blocked.button1,Kontynuuj
@@ -69,7 +69,7 @@ Event_shelter_all_timetravel_present.button1,Kontynuuj
 Event_shelter_past_show_tile.text,...wpadasz z impetem do małego jasnego pomieszczenia na twarde płytki.\n\n(Każdy Badacz, który teraz przeszedł przez przejście otrzymuje 2 zakryte karty Obrażeń ({agility} zapobiega))
 Event_shelter_all_timetravel_present.text,Lecisz chwile przez ciemność, czując zimny wiatr na twarzy.. \n\n (Usuń wszystkie kafelki z planszy)
 Event_shelter_past_show_tile.button1,Kontynuuj
-Event_shelter_show_tile.text,Próbując się podnieść obrzucasz spojrzeniem całe pomieszczenie. Z jednej strony widzisz przejście, przez które przed momentem wpadłeś. Znalazłeś się w małym pokoju wyłożonymi białymi płytkami. Jest tu czysto i jasno. Ze zdziwieniem zauważasz stojące na środku łóżko ze skórzanymi pasami.\n\n (Umieść: {c:Tilepast_shelter} na planszy)
+Event_shelter_show_tile.text,Próbując się podnieść obrzucasz spojrzeniem całe pomieszczenie. Z jednej strony widzisz przejście, przez które przed momentem wpadłeś. Znalazłeś się w małym pokoju wyłożonymi białymi płytkami. Jest tu czysto i jasno. Ze zdziwieniem zauważasz stojące na środku łóżko ze skórzanymi pasami.\n\n (Umieść: {c:Tile_past_shelter} na planszy)
 Event_shelter_show_tile.button1,Kontynuuj
 Token_trap_door_past.button1,Wejdź przez przejście
 Token_shelter_door_closed.button1,Zbadaj
@@ -117,7 +117,7 @@ Event_the_end.text,Koniec.
 Event_the_end.button1,Kontynuuj
 Event_shelter_spawn_culist_past.text,Czujesz ogromny ból z tyłu głowuy, a zaraz potem robi ci się ciemno przed oczami... \n\n (Otrzymujesz stan ogłuszony i tracisz resztę akcji w tej turze)
 Event_end_game_alone_past.text,Czujesz ogromny ból z tyłu głowy, a zaraz potem robi ci się ciemno przed oczami...\n\n Budzisz się po jakimś czasie w tym samym miejscu. Drzwi wejściowe są zabarykadowane i nie jesteś w stanie w żaden sposób ich otworzyć. Przeczesujesz całe pomieszczenie w poszukiwaniu jakiegoś wyjścia. Niestety wygląda na to, że tu utknąłeś.\n W pomieszczeniu jest zmagazynowane dużo jedzenia i wody. Niestety po kilku godzinach lampa naftowa się wypada i zostajesz w całkowitej ciemności.\nTracisz kompletnie poczucie czasu. Próbujesz liczyć dni, które tu spędziłeś ryjąc w drewnie łóżka kreski. Po bliżej nieokreślonym czasie, może po kilku tygodniach, a może miesiącach, postanawiasz wyryć napis: Kiedykolwiek to przeczytasz, uratuj mnie. \nZasypiasz wyczerpany.\n\n(Jeśli jakieś żetony pozostały na {c:Tilepast_shelter}, usuń je z planszy)
-Event_shelter_cave_02_reveal_past.text,Za przeciwnikiem widać słabo oświetlone pomieszczenie. Wygląda na jaskinię albo kopalnię. \n\n (Umieść: {c:Tile03_cave_shelter} na planszy)
+Event_shelter_cave_02_reveal_past.text,Za przeciwnikiem widać słabo oświetlone pomieszczenie. Wygląda na jaskinię albo kopalnię. \n\n (Umieść: {c:Tile_cave_02_shelter_present} na planszy)
 Spawncultist.button1,Kontynuuj
 Event_shelter_cave_02_reveal_past.button1,Kontynuuj
 Event_cave_02_show_tile_past.text,Tunel prowadzi prosto, a potem zakręca w lewo. Biorąc pod uwagę zimne powietrze, które płynie z tego kierunku, tam musi być wyjście. \n\n(Umieść: {c:Tile02_cave_01} na planszy)
@@ -222,7 +222,7 @@ Token_secret_room_shotgun_chest.button1,{action} Spróbuj otworzyć.
 Event_big_room_spawn_cultist_stairs.button1,Kontynuuj
 Event_secret_room_take_shotgun.button1,Kontynuuj
 Puzzleopen_chest.button1,Sprawdź
-Event_big_room_tile_show.text,Drzwi się otwierają z głośnym trzaskiem. Widzisz drewniane schody, które prowadzą w dół do dużego pomieszczenia. \n\n (Umieść: {c:Tilemieddle_room} na planszy)
+Event_big_room_tile_show.text,Drzwi się otwierają z głośnym trzaskiem. Widzisz drewniane schody, które prowadzą w dół do dużego pomieszczenia. \n\n (Umieść: {c:Tile_big_room} na planszy)
 Token_cave_04_door_to_big_room.button1,{action} Otwórz
 Token_big_room_door_to_secret_pass.button1,{action} Otwórz
 Event_big_room_tile_show.button1,Kontynuuj
@@ -574,10 +574,10 @@ Event_shelter_footprints_search_present.text,Na podłodze dostrzegasz ślady st�
 Event_shelter_torture_bed_show_past.text,Przyglądając się łóżku dostrzegasz ślady krwi. Dodatkowo okazuje się, że jest nieznacznie przypalone po jednej stronie. Obok łóżka stoi jakieś urządzenie z kablami przyczepionymi do opaski na głowę.\n\n (Otrzymujesz 1 {clue})
 Event_shelter_spell_book_past.button1,Kontynuuj
 Event_glade_show_outside_past.text,Przez szparę w drzwiach widzisz jakąś polanę otoczoną gęstym lasem.\n\n(Otrzymujesz 1 {clue})\n\n (Umieść: {c:Tile01_Cave_entrance} na planszy)
-Event_cave_03_mine_show_cave_04_past.text,Tunel jest słabo oświecony i biegnie stromo w dół. \n\n (Umieść: {c:Tilepast_mine_tuner_right} na planszy)
+Event_cave_03_mine_show_cave_04_past.text,Tunel jest słabo oświecony i biegnie stromo w dół. \n\n (Umieść: {c:Tile_cave_03} na planszy)
 Event_cave_04_items_show_past.text,Na ziemi widzisz ciągnące się wszędzie liny lub coś co je przypomina. Po prawej są ciężkie metalowe drzwi.
 Event_cave_04_dynamite_past.text,Ku swojemu zdziwieniu odkrywasz, że to są laski dynamitu przyczepione do belek trzymających strop. \n\n (Otrzymujesz 1 {clue})\n\n (Możesz wziąć 1 laskę dynamitu ze sobą. Test spostrzegawczości {observation}.)
-Event_cave_03_show_cave_04_past.text,Tunel biegnie jeszcze kilka metrów na wschód. Po lewej stronie widzisz przejście zakryte kamieniami i zabite deskami. Na końcu tunelu są drzwi. \n\n (Umieść: {c:Tilepast_tunel_end} na planszy)
+Event_cave_03_show_cave_04_past.text,Tunel biegnie jeszcze kilka metrów na wschód. Po lewej stronie widzisz przejście zakryte kamieniami i zabite deskami. Na końcu tunelu są drzwi. \n\n (Umieść: {c:Tile_cave_04} na planszy)
 Event_big_room_newspaper_boy.text,26 Września 1901 (czwartek). To już siódme zaginięcie dziecka w przeciągu ostatnich 3 miesięcy.\nPoszukiwany chłopiec to Evan McCormic, lat 10, syn farmera. Nie wrócił do domu po pracy przy zbieraniu kukurydzy.\nWładze miasta są zaniepokojone ostatnimi zniknięciami. Szeryf Ratman wyznaczył nagrodę w wysokości $500 za znalezienie chłopca.\nLokalna grupa baptystów organizuje wieczorem 20 września spotkanie, podczas którego będzie można wesprzeć rodzinę zaginionego chłopca.\n\n(Otrzymujesz 2 {clue})
 Event_cave_04_open_blocked_doors.text,Wygląda na to, że kilofem może udać się otworzyć to przejście!
 Event_secret_room_take_shotgun.text,Skrzynia się otwiera i w środku widzisz strzelbę.  \n\n (Otrzymujesz {c:QItemshot_gun} Przedmiot powszechny)
